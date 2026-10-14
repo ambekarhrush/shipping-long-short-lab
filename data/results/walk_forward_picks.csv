@@ -1,0 +1,10 @@
+,factor,residual,pairs
+2014,,,
+2015,"factor|q=0.50|w=(1, 0, 1)",,
+2016,"factor|q=0.33|w=(1, 0, 1)",residual|entry=0.75|h=20,pairs|entry=2.0|corr=0.6
+2017,"factor|q=0.33|w=(1, 0, 1)",residual|entry=0.75|h=20,pairs|entry=2.0|corr=0.6
+2018,"factor|q=0.33|w=(1, 0, 0)",residual|entry=0.75|h=20,pairs|entry=2.0|corr=0.5
+2019,"factor|q=0.33|w=(1, 0, 0)",residual|entry=0.75|h=20,pairs|entry=2.0|corr=0.5
+2020,"factor|q=0.33|w=(1, 0, 0)",residual|entry=0.75|h=20,pairs|entry=2.0|corr=0.5
+2021,"factor|q=0.33|w=(1, 0, 1)",residual|entry=0.75|h=20,pairs|entry=1.5|corr=0.5
+2022,"factor|q=0.33|w=(1, 0, 1)",residual|entry=0.75|h=10,pairs|entry=2.0|corr=0.5

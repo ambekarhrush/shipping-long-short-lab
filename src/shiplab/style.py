@@ -96,3 +96,13 @@ def shade_regimes(ax, labels: bool = True, alpha: float = 0.07) -> None:
 def new(figsize=(10, 4.2)):
     apply()
     return plt.subplots(figsize=figsize)
+
+
+def log_axis(ax, fmt="{:,.0f}") -> None:
+    """Log y-axis with plain tick labels (mathtext is off so '$' renders literally)."""
+    import matplotlib.ticker as mt
+
+    ax.set_yscale("log")
+    ax.yaxis.set_major_locator(mt.LogLocator(base=10, subs=(1.0, 2.0, 5.0)))
+    ax.yaxis.set_major_formatter(mt.FuncFormatter(lambda v, _: fmt.format(v)))
+    ax.yaxis.set_minor_formatter(mt.NullFormatter())

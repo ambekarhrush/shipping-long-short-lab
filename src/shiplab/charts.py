@@ -162,14 +162,198 @@ def survivorship(total_return: pd.DataFrame, reg: pd.DataFrame):
     fig, ax = plt.subplots(figsize=(10, 3.8))
     ax.plot(all_names.index, all_names.values, color=style.INK, lw=1.8)
     ax.plot(surv.index, surv.values, color=style.MUTED, lw=1.4, ls=(0, (4, 2)))
-    ax.set_yscale("log")
+    style.log_axis(ax, "{:.1f}x")
     for s, lab, col in [(all_names, "Every name, including the dead", style.INK),
                         (surv, "Only today's survivors", style.MUTED)]:
-        ax.text(s.index[-1] + pd.Timedelta(days=40), s.iloc[-1],
-                f"{lab}\n{cagr(s):+.1%} a year", fontsize=8, color=col, va="center")
+        off = 1.06 if col == style.INK else 0.94
+        ax.text(s.index[-1] + pd.Timedelta(days=40), s.iloc[-1] * off,
+                f"{lab}: {cagr(s):+.1%} a year", fontsize=8, color=col, va="center")
     ax.set_xlim(right=ax.get_xlim()[1] + 900)
     gap = cagr(surv) - cagr(all_names)
-    ax.set_title("Survivorship: backtesting on today's tickers flatters shipping")
-    style.subtitle(ax, f"Equal-weight daily-rebalanced total return, USD, log scale. "
-                       f"Survivor-only history overstates the return by {gap:.1%} a year.")
+    if abs(gap) < 0.002:
+        msg = "changes the return by less than 0.2% a year"
+    else:
+        msg = f"{'overstates' if gap > 0 else 'understates'} the return by {abs(gap):.1%} a year"
+    ax.set_title("Survivorship in shipping cuts both ways")
+    style.subtitle(ax, f"Equal-weight total return, USD, log scale. Dropping dead names {msg}: most "
+                       "exits were takeovers at a premium, and the bankruptcies have no free data.")
     return fig, gap
+
+
+# ---------------------------------------------------------------- results charts
+PERIOD_SHADES = [("2015-01-01", "2020-12-31", "Walk-forward"), ("2021-01-01", "2022-12-31", "Validation"),
+                 ("2023-01-01", "2026-12-31", "Sealed holdout")]
+
+
+def equity_curve(strategy: pd.Series, benchmarks: dict, start="2015-01-01"):
+    """Cumulative return on a log scale, with the research periods shaded."""
+    style.apply()
+    fig, (ax, ax2) = plt.subplots(2, 1, figsize=(10.5, 5.6), sharex=True,
+                                  gridspec_kw={"height_ratios": [3, 1.1], "hspace": 0.08})
+    s = strategy.loc[start:].fillna(0)
+    eq = (1 + s).cumprod()
+    for (a, b, lab), alpha in zip(PERIOD_SHADES, (0.0, 0.05, 0.10)):
+        for x in (ax, ax2):
+            x.axvspan(pd.Timestamp(a), min(pd.Timestamp(b), s.index[-1]), color=style.INK, alpha=alpha, lw=0)
+        ax.text(pd.Timestamp(a) + pd.Timedelta(days=30), 0.97, lab, transform=ax.get_xaxis_transform(),
+                fontsize=8, color=style.MUTED, va="top")
+    greys = [style.MUTED, "#9CA3AF", "#C4C8CE"]
+    ends = []
+    for (name, b), col in zip(benchmarks.items(), greys):
+        be = (1 + b.reindex(s.index).fillna(0)).cumprod()
+        ax.plot(be.index, be.values, color=col, lw=1.1)
+        y = be.iloc[-1]
+        for e in ends:                       # keep end labels apart on the log scale
+            if abs(np.log(y / e)) < 0.08:
+                y = e * (0.9 if y <= e else 1.1)
+        ends.append(y)
+        ax.text(be.index[-1] + pd.Timedelta(days=30), y, name, fontsize=8, color=style.MUTED, va="center")
+    ax.plot(eq.index, eq.values, color=style.INK, lw=2.0)
+    ax.text(eq.index[-1] + pd.Timedelta(days=30), eq.iloc[-1], "Strategy", fontsize=8.5,
+            color=style.INK, va="center", fontweight="bold")
+    style.log_axis(ax, "{:.1f}x")
+    ax.set_xlim(right=s.index[-1] + pd.Timedelta(days=500))
+    dd = eq / eq.cummax() - 1
+    ax2.fill_between(dd.index, dd.values * 100, 0, color=style.NEGATIVE, alpha=0.35, lw=0)
+    ax2.set_ylabel("Drawdown %")
+    ax.set_title("Market-neutral shipping long/short vs the market it trades")
+    style.subtitle(ax, "Growth of $1, log scale, net of trading costs, borrow and the SPY hedge; "
+                       "USD 10m reference fund")
+    return fig
+
+
+def capacity(cap: pd.DataFrame):
+    style.apply()
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(10, 3.4))
+    a1.plot(range(len(cap)), cap["sharpe"], marker="o", color=style.INK)
+    a1.set_xticks(range(len(cap)), [f"{x:g}" for x in cap["aum_musd"]])
+    a1.set_xlabel("Fund size, USD m")
+    a1.set_title("Sharpe ratio", fontsize=10)
+    a2.bar(range(len(cap)), cap["alpha_musd_per_year"], color=style.SEGMENT_COLORS["tankers"], width=0.6)
+    a2.set_xticks(range(len(cap)), [f"{x:g}" for x in cap["aum_musd"]])
+    a2.set_xlabel("Fund size, USD m")
+    a2.set_title("Return in USD m per year", fontsize=10)
+    fig.subplots_adjust(top=0.78, wspace=0.3)
+    fig.suptitle("Capacity: the edge is real but small", x=0.01, ha="left", fontweight="bold", y=1.0)
+    fig.text(0.01, 0.91, "Walk-forward 2014-2022. Positions capped at 10% of a stock's daily traded value.",
+             fontsize=9, color=style.MUTED)
+    return fig
+
+
+def lead_lag(ll: pd.DataFrame):
+    style.apply()
+    fig, ax = plt.subplots(figsize=(9, 3.4))
+    for seg in ll.columns:
+        ax.plot(ll.index, ll[seg], marker="o", ms=4, color=style.SEGMENT_COLORS[seg], lw=1.5)
+        ax.text(ll.index[-1] + 0.3, ll[seg].iloc[-1], SEGMENT_LABELS[seg], fontsize=8, va="center")
+    ax.axvline(0, color=style.MUTED, lw=0.8)
+    ax.axhline(0, color=style.MUTED, lw=0.8)
+    ax.set_xlabel("Weeks by which equities lead freight (negative: freight leads equities)")
+    ax.set_ylabel("Correlation of weekly changes")
+    ax.set_xlim(ll.index.min() - 0.5, ll.index.max() + 2.5)
+    ax.set_title("Public freight data is priced within the week")
+    style.subtitle(ax, "Segment equity basket vs its Baltic freight index, weekly, 2011-2022")
+    return fig
+
+
+def attribution_bars(att: pd.DataFrame, years: float):
+    style.apply()
+    a = (att.sum() / years * 100)
+    segs = [s for s in SEGMENTS if f"{s}|long" in a]
+    fig, ax = plt.subplots(figsize=(9, 3.4))
+    x = np.arange(len(segs))
+    ax.bar(x - 0.2, [a[f"{s}|long"] for s in segs], 0.38, color=[style.SEGMENT_COLORS[s] for s in segs])
+    ax.bar(x + 0.2, [a[f"{s}|short"] for s in segs], 0.38, color=[style.SEGMENT_COLORS[s] for s in segs],
+           alpha=0.45, hatch="////", edgecolor="white")
+    ax.set_xticks(x, [SEGMENT_LABELS[s] for s in segs])
+    ax.axhline(0, color=style.INK, lw=0.8)
+    ax.set_ylabel("% per year")
+    from matplotlib.patches import Patch
+    ax.legend(handles=[Patch(color=style.MUTED, label="Long book"),
+                       Patch(facecolor=style.MUTED, alpha=0.45, hatch="////", edgecolor="white", label="Short book")],
+              loc="upper left")
+    ax.set_title("Where the return came from")
+    style.subtitle(ax, "Contribution to annual return by segment and side, 2014 to date")
+    return fig
+
+
+def stress_bars(stress: pd.DataFrame):
+    style.apply()
+    p = stress.pivot(index="window", columns="series", values="total_return") * 100
+    order = ["2016 dry bulk trough", "COVID shock", "2022 Russia sanctions", "Red Sea disruption", "2026 Hormuz crisis"]
+    p = p.reindex([o for o in order if o in p.index])
+    fig, ax = plt.subplots(figsize=(10, 3.6))
+    x = np.arange(len(p))
+    cols = {"Strategy": style.INK, "EW shipping basket": style.SEGMENT_COLORS["tankers"], "SPY": "#C4C8CE"}
+    for k, (name, col) in enumerate(cols.items()):
+        if name in p:
+            ax.bar(x + (k - 1) * 0.26, p[name], 0.24, color=col, label=name)
+    ax.set_xticks(x, p.index, fontsize=8.5)
+    ax.axhline(0, color=style.INK, lw=0.8)
+    ax.set_ylabel("Total return over window, %")
+    ax.legend(loc="upper left", ncol=3)
+    ax.set_title("Stress windows")
+    style.subtitle(ax, "Strategy vs equal-weight shipping basket and S&P 500 over each episode")
+    return fig
+
+
+def trials_histogram(trials: pd.DataFrame, chosen_sharpe: float, dsr: float):
+    style.apply()
+    t = trials[trials.tag == "research"]
+    fig, ax = plt.subplots(figsize=(8, 3.2))
+    ax.hist(t["sharpe"].dropna(), bins=15, color="#C4C8CE", edgecolor="white")
+    ax.axvline(chosen_sharpe, color=style.INK, lw=1.8)
+    ax.text(chosen_sharpe, ax.get_ylim()[1] * 0.92, f"  Holdout Sharpe {chosen_sharpe:.2f}\n  "
+            f"deflated-Sharpe probability {dsr:.2f}", fontsize=8, va="top")
+    ax.set_xlabel("Annualised Sharpe of each research variant")
+    ax.set_ylabel("Variants")
+    ax.set_title(f"Every variant tried ({len(t)}), not just the winner")
+    style.subtitle(ax, "From the automatic trials ledger; the deflated Sharpe corrects for this search")
+    return fig
+
+
+def freight_vs_equity(fr: pd.DataFrame, baskets: pd.DataFrame, start="2011-01-01"):
+    """Fifteen years of context: segment equity baskets against their freight index."""
+    style.apply()
+    pairs = [("dry_bulk", "BDI"), ("tankers", "BDTI"), ("containers", None), ("gas", "BLPG")]
+    fig, axes = plt.subplots(2, 2, figsize=(11, 5.6), sharex=True)
+    for ax, (seg, sym) in zip(axes.ravel(), pairs):
+        b = (1 + baskets[seg].loc[start:].fillna(0)).cumprod()
+        ax.plot(b.index, b / b.iloc[0] * 100, color=style.SEGMENT_COLORS[seg], lw=1.6, label="Equity basket")
+        if sym and sym in fr:
+            f = fr[sym].loc[start:].dropna()
+            ax.plot(f.index, f / f.iloc[0] * 100 * (b.iloc[0] / b.iloc[0]), color=style.MUTED, lw=1.0, label=f"{sym} index")
+        style.log_axis(ax)
+        ax.set_title(SEGMENT_LABELS[seg], fontsize=10)
+        style.shade_regimes(ax, labels=False)
+    axes[0, 0].legend(loc="upper left")
+    fig.suptitle("Fifteen years of shipping: equities and freight, rebased to 100", x=0.01, ha="left",
+                 fontweight="bold", y=1.02)
+    fig.text(0.01, 0.97, "Equal-weight investable basket per segment (total return, USD) vs its Baltic index; "
+             "shaded: 2016 trough, COVID, 2022 sanctions, Red Sea. Containers: no free charter index.",
+             fontsize=8.5, color=style.MUTED)
+    fig.tight_layout()
+    return fig
+
+
+def dispersion(tr: pd.DataFrame, inv: pd.DataFrame, seg: pd.Series):
+    """Within-segment spread of 12-month returns: the raw material of stock selection."""
+    style.apply()
+    r12 = (1 + tr.fillna(0)).rolling(252).apply(np.prod, raw=True) - 1
+    r12 = r12.where(inv).resample("ME").last()
+    fig, ax = plt.subplots(figsize=(10, 3.4))
+    for s in SEGMENTS:
+        cols = [c for c in r12.columns if seg.get(c) == s]
+        q = r12[cols]
+        n = q.notna().sum(axis=1)
+        spread = (q.quantile(0.75, axis=1) - q.quantile(0.25, axis=1)).where(n >= 4) * 100
+        ax.plot(spread.index, spread.values, color=style.SEGMENT_COLORS[s], lw=1.4)
+        last = spread.dropna()
+        if len(last):
+            ax.text(last.index[-1] + pd.Timedelta(days=40), last.iloc[-1], SEGMENT_LABELS[s], fontsize=8, va="center")
+    ax.set_xlim(right=ax.get_xlim()[1] + 500)
+    ax.set_ylabel("Percentage points")
+    ax.set_title("Same freight market, very different outcomes")
+    style.subtitle(ax, "Gap between the 75th and 25th percentile 12-month return within each segment "
+                       "(months with 4+ investable names)")
+    return fig

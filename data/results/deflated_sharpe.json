@@ -1,0 +1,8 @@
+{
+ "n_research_trials": 27,
+ "deflated_sharpe_probability": {
+  "Walk-forward 2014-2020": 0.5248204731372924,
+  "Validation 2021-2022": 0.4654738135376518,
+  "Holdout 2023-": 0.3104509602205391
+ }
+}
