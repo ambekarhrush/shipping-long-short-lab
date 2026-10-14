@@ -2,14 +2,14 @@ id,name,segment,sub_segment,structure,source,symbol,currency,start,end,exit_type
 SBLK,Star Bulk Carriers,dry_bulk,mixed_bulk,corp,yahoo,SBLK,USD,2011-01-01,,active,,1,Absorbed Oceanbulk (2014) and Eagle Bulk (2024)
 GNK,Genco Shipping & Trading (post-2014),dry_bulk,mixed_bulk,corp,yahoo,GNK,USD,2014-08-18,,active,2025-11-24,1,Hostile bid from Diana Shipping from 2025-11-24; frozen thereafter
 GNK_OLD,Genco Shipping & Trading (pre-2014),dry_bulk,mixed_bulk,corp,none,,USD,2011-01-01,2014-04-21,bankruptcy,,0,DATA GAP: pre-bankruptcy equity not available from free sources
-BALT,Baltic Trading,dry_bulk,mixed_bulk,corp,tiingo,BALT,USD,2011-01-01,2015-07-17,merger_stock,2015-04-07,1,Merged into Genco; ticker later reused by an unrelated ETF
-EGLE,Eagle Bulk Shipping,dry_bulk,supramax,corp,tiingo,EGLE,USD,2011-01-01,2024-04-09,merger_stock,2023-12-11,1,Ch.11 Aug 2014 (check splice); merged into Star Bulk; ticker later reused by an ETF
+BALT,Baltic Trading,dry_bulk,mixed_bulk,corp,none,BALT,USD,2011-01-01,2015-07-17,merger_stock,2015-04-07,0,"DATA GAP: ticker later reused by an unrelated security; free vendors (Yahoo, Tiingo) now return the new security only. Merged into Genco; ticker later reused by an unrelated ETF"
+EGLE,Eagle Bulk Shipping,dry_bulk,supramax,corp,none,EGLE,USD,2011-01-01,2024-04-09,merger_stock,2023-12-11,0,"DATA GAP: ticker later reused by an unrelated security; free vendors (Yahoo, Tiingo) now return the new security only. Ch.11 Aug 2014 (check splice); merged into Star Bulk; ticker later reused by an ETF"
 DSX,Diana Shipping,dry_bulk,mixed_bulk,corp,yahoo,DSX,USD,2011-01-01,,active,,1,
 SB,Safe Bulkers,dry_bulk,mixed_bulk,corp,yahoo,SB,USD,2011-01-01,,active,,1,
-GOGL,Golden Ocean Group,dry_bulk,capesize,corp,tiingo,GOGL,USD,2015-04-01,2025-08-20,merger_stock,2025-04-22,1,Nasdaq line pre-Apr 2015 is Knightsbridge Tankers (excluded); merged into CMB.TECH; ticker reused 2026
+GOGL,Golden Ocean Group,dry_bulk,capesize,corp,none,GOGL,USD,2015-04-01,2025-08-20,merger_stock,2025-04-22,0,"DATA GAP: ticker later reused by an unrelated security; free vendors (Yahoo, Tiingo) now return the new security only. Nasdaq line pre-Apr 2015 is Knightsbridge Tankers (excluded); merged into CMB.TECH; ticker reused 2026"
 GOGL_OSL,Golden Ocean Group (Oslo pre-2015),dry_bulk,capesize,corp,none,,NOK,2011-01-01,2015-03-31,merger_stock,,0,DATA GAP: Oslo-only history not available from free sources
 NETI,Scorpio Bulkers,dry_bulk,ultramax_kamsarmax,corp,tiingo,NETI,USD,2013-12-12,2020-09-01,reclassified,,1,Exited dry bulk 2020 (became Eneti / offshore wind); ticker SALT then NETI
-GRIN,Grindrod Shipping,dry_bulk,handy_supra,corp,tiingo,GRIN,USD,2018-06-18,2024-09-09,take_private,2022-10-10,1,Taylor Maritime offer; ticker later reused by an ETF
+GRIN,Grindrod Shipping,dry_bulk,handy_supra,corp,none,GRIN,USD,2018-06-18,2024-09-09,take_private,2022-10-10,0,"DATA GAP: ticker later reused by an unrelated security; free vendors (Yahoo, Tiingo) now return the new security only. Taylor Maritime offer; ticker later reused by an ETF"
 SHIP,Seanergy Maritime,dry_bulk,capesize,corp,yahoo,SHIP,USD,2011-01-01,,active,,1,Serial reverse splits pre-2021; liquidity screen applies
 PANL,Pangaea Logistics,dry_bulk,ice_class_logistics,corp,yahoo,PANL,USD,2014-10-01,,active,,1,SPAC listing 2014
 EDRY,EuroDry,dry_bulk,mixed_bulk,corp,yahoo,EDRY,USD,2018-06-01,,active,,1,Spun off from Euroseas

@@ -45,8 +45,10 @@ def fetch_yahoo(symbol: str) -> pd.DataFrame:
             "adj_close": h["Adj Close"],
             "volume": h["Volume"].astype(float),
             "dividend": h["Dividends"].astype(float),
-            # Yahoo's unadjusted-mode Close is already split-adjusted
+            # Yahoo's unadjusted-mode Close is already split-adjusted; split events kept so
+            # the as-traded price can be rebuilt (raw_t = close_t * prod of later ratios)
             "split": 1.0,
+            "split_event": h["Stock Splits"].astype(float).replace(0.0, 1.0),
             "close_is_split_adjusted": True,
         }
     )
@@ -116,6 +118,15 @@ def usd_per_nok(refresh: bool = False) -> pd.Series:
     official 11.68), which would fabricate a 45% one-day move in every Oslo-listed stock.
     """
     return (1.0 / fred("DEXNOUS", refresh=refresh)).rename("usd_per_nok")
+
+
+def as_traded_close(df: pd.DataFrame) -> pd.Series:
+    """Close as it actually printed on the day (needed for market cap = price x shares)."""
+    if "close_is_split_adjusted" in df and not bool(df["close_is_split_adjusted"].iloc[0]):
+        return df["close"]
+    ev = df["split_event"].fillna(1.0) if "split_event" in df else pd.Series(1.0, index=df.index)
+    later = ev[::-1].cumprod()[::-1].shift(-1).fillna(1.0)   # product of ratios after t
+    return df["close"] * later
 
 
 def total_return(df: pd.DataFrame) -> pd.Series:
