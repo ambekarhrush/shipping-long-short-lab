@@ -61,7 +61,6 @@ def factor_sleeve(z_value, z_strength, z_fmom, investable, seg, vol, dates, p: F
 @dataclass
 class ResidualParams:
     entry: float = 1.0
-    horizon: int = 20
 
 
 def residual_sleeve(rz, investable, seg, vol, dates, p: ResidualParams):

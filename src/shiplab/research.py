@@ -89,7 +89,7 @@ def build_targets(inp: Inputs, start, end, fp=None, rpar=None, pp=None, fmom_loo
         z_v, z_s, z_f = factor_z(inp, fmom_lookback, strength_regime)
         out["factor"] = sleeves.factor_sleeve(z_v, z_s, z_f, inp.inv, inp.seg, inp.vol, dates, fp)
     if "residual" in which:
-        rz = signals.residual_z(inp.resid, horizon=rpar.horizon)
+        rz = signals.residual_z(inp.resid)
         out["residual"] = sleeves.residual_sleeve(rz, inp.inv, inp.seg, inp.vol, dates, rpar)
     if "pairs" in which:
         out["pairs"] = sleeves.pairs_sleeve(inp.logp, inp.tr, inp.inv, inp.seg, inp.strength, idx, pp)
@@ -109,25 +109,3 @@ def evaluate(inp: Inputs, targets: dict, start, end, rp=None, name="portfolio", 
     cfg = dict(config or {}, risk=asdict(rp), sleeves=list(targets))
     log_trial(name, cfg, start, end, res.returns, tag="holdout" if unseal else "research")
     return res
-
-
-def walk_forward(config_returns: dict[str, pd.Series], first_year: int, last_year: int,
-                 min_history_years: int = 3) -> pd.Series:
-    """For each year Y, pick the config with the best Sharpe on all data before Y.
-
-    config_returns must be computed causally (returns at t use information up to t only),
-    which holds for every sleeve in this project. Returns {year: chosen config}.
-    """
-    picks = {}
-    for y in range(first_year, last_year + 1):
-        best, best_s = None, -np.inf
-        for k, r in config_returns.items():
-            h = r.loc[: f"{y - 1}-12-31"].dropna()
-            h = h[h.ne(0).cumsum() > 0]          # from the first active day
-            if len(h) < 252 * min_history_years or h.std() == 0:
-                continue
-            s = h.mean() / h.std()
-            if s > best_s:
-                best, best_s = k, s
-        picks[y] = best
-    return pd.Series(picks)
