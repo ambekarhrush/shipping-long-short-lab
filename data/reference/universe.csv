@@ -1,0 +1,74 @@
+id,name,segment,sub_segment,structure,source,symbol,currency,start,end,exit_type,deal_announced,include,note
+SBLK,Star Bulk Carriers,dry_bulk,mixed_bulk,corp,yahoo,SBLK,USD,2011-01-01,,active,,1,Absorbed Oceanbulk (2014) and Eagle Bulk (2024)
+GNK,Genco Shipping & Trading (post-2014),dry_bulk,mixed_bulk,corp,yahoo,GNK,USD,2014-08-18,,active,2025-11-24,1,Hostile bid from Diana Shipping from 2025-11-24; frozen thereafter
+GNK_OLD,Genco Shipping & Trading (pre-2014),dry_bulk,mixed_bulk,corp,none,,USD,2011-01-01,2014-04-21,bankruptcy,,0,DATA GAP: pre-bankruptcy equity not available from free sources
+BALT,Baltic Trading,dry_bulk,mixed_bulk,corp,tiingo,BALT,USD,2011-01-01,2015-07-17,merger_stock,2015-04-07,1,Merged into Genco; ticker later reused by an unrelated ETF
+EGLE,Eagle Bulk Shipping,dry_bulk,supramax,corp,tiingo,EGLE,USD,2011-01-01,2024-04-09,merger_stock,2023-12-11,1,Ch.11 Aug 2014 (check splice); merged into Star Bulk; ticker later reused by an ETF
+DSX,Diana Shipping,dry_bulk,mixed_bulk,corp,yahoo,DSX,USD,2011-01-01,,active,,1,
+SB,Safe Bulkers,dry_bulk,mixed_bulk,corp,yahoo,SB,USD,2011-01-01,,active,,1,
+GOGL,Golden Ocean Group,dry_bulk,capesize,corp,tiingo,GOGL,USD,2015-04-01,2025-08-20,merger_stock,2025-04-22,1,Nasdaq line pre-Apr 2015 is Knightsbridge Tankers (excluded); merged into CMB.TECH; ticker reused 2026
+GOGL_OSL,Golden Ocean Group (Oslo pre-2015),dry_bulk,capesize,corp,none,,NOK,2011-01-01,2015-03-31,merger_stock,,0,DATA GAP: Oslo-only history not available from free sources
+NETI,Scorpio Bulkers,dry_bulk,ultramax_kamsarmax,corp,tiingo,NETI,USD,2013-12-12,2020-09-01,reclassified,,1,Exited dry bulk 2020 (became Eneti / offshore wind); ticker SALT then NETI
+GRIN,Grindrod Shipping,dry_bulk,handy_supra,corp,tiingo,GRIN,USD,2018-06-18,2024-09-09,take_private,2022-10-10,1,Taylor Maritime offer; ticker later reused by an ETF
+SHIP,Seanergy Maritime,dry_bulk,capesize,corp,yahoo,SHIP,USD,2011-01-01,,active,,1,Serial reverse splits pre-2021; liquidity screen applies
+PANL,Pangaea Logistics,dry_bulk,ice_class_logistics,corp,yahoo,PANL,USD,2014-10-01,,active,,1,SPAC listing 2014
+EDRY,EuroDry,dry_bulk,mixed_bulk,corp,yahoo,EDRY,USD,2018-06-01,,active,,1,Spun off from Euroseas
+CTRM,Castor Maritime,dry_bulk,mixed_bulk,corp,tiingo,CTRM,USD,2019-02-11,,active,,1,Heavy dilution; liquidity/price screens apply
+CMDB,Costamare Bulkers,dry_bulk,mixed_bulk,corp,yahoo,CMDB,USD,2025-05-01,,active,,1,Spun off from Costamare 2025; short history
+JIN,Jinhui Shipping,dry_bulk,supramax,corp,yahoo,JIN.OL,NOK,2011-01-01,,active,,1,Oslo-listed
+TWENTY,2020 Bulkers,dry_bulk,newcastlemax,corp,yahoo,2020.OL,NOK,2019-07-12,2026-04-29,reclassified,,1,Oslo-listed; sold fleet and paid NOK 131 distribution Apr 2026 then pivoted to offshore vessels
+BELCO,Belships,dry_bulk,supramax_ultramax,corp,none,,NOK,2019-01-01,2025-06-30,take_private,,0,DATA GAP: Oslo-only; delisted after cash offer
+EXM,Excel Maritime,dry_bulk,mixed_bulk,corp,none,,USD,2011-01-01,2013-07-01,bankruptcy,,0,DATA GAP: bankrupt 2013; not available from free sources
+PRGN,Paragon Shipping,dry_bulk,mixed_bulk,corp,none,,USD,2011-01-01,2015-12-31,bankruptcy,,0,DATA GAP: Nasdaq history pre-2016 not available; OTC line PRGNF unusable
+FRO,Frontline,tankers,crude_vlcc_suezmax,corp,yahoo,FRO,USD,2011-01-01,,active,,1,
+DHT,DHT Holdings,tankers,crude_vlcc,corp,yahoo,DHT,USD,2011-01-01,,active,,1,
+NAT,Nordic American Tankers,tankers,crude_suezmax,corp,yahoo,NAT,USD,2011-01-01,,active,,1,
+TNK,Teekay Tankers,tankers,crude_mid,corp,yahoo,TNK,USD,2011-01-01,,active,,1,
+INSW,International Seaways,tankers,crude_product,corp,yahoo,INSW,USD,2016-12-01,,active,,1,Spun off from OSG
+EURN,Euronav (NYSE line),tankers,crude_vlcc_suezmax,corp,yahoo,CMBT,USD,2015-01-26,2023-12-22,reclassified,,1,Became CMB.TECH (diversified) after Dec 2023 deal; history under CMBT
+GNRT,Gener8 Maritime,tankers,crude_vlcc,corp,tiingo,GNRT,USD,2015-06-25,2018-06-12,merger_stock,2017-12-21,1,Merged into Euronav
+DSSI,Diamond S Shipping,tankers,crude_product,corp,tiingo,DSSI,USD,2019-03-28,2021-07-19,merger_stock,2021-03-31,1,Merged into International Seaways
+TEN,Tsakos Energy Navigation,tankers,crude_product,corp,yahoo,TEN,USD,2011-01-01,,active,,1,Ticker TNP until 2022
+OET,Okeanis Eco Tankers,tankers,crude_vlcc_suezmax,corp,yahoo,OET.OL,NOK,2018-07-04,,active,,1,Oslo line used throughout (NYSE ECO from 2023)
+PSHG_T,Performance Shipping (tankers),tankers,crude_aframax,corp,tiingo,PSHG,USD,2020-01-01,,active,,1,Formerly Diana Containerships; tankers from 2020
+STNG,Scorpio Tankers,tankers,product_mr_lr2,corp,yahoo,STNG,USD,2011-01-01,,active,,1,
+ASC,Ardmore Shipping,tankers,product_mr,corp,yahoo,ASC,USD,2013-08-01,,active,,1,
+TRMD,TORM,tankers,product_mr_lr,corp,yahoo,TRMD,USD,2020-04-22,,active,,1,Nasdaq line listed 2018 but near-zero volume until Apr 2020 (Copenhagen line not used)
+HAFNI,Hafnia,tankers,product_lr_mr,corp,yahoo,HAFNI.OL,NOK,2019-11-08,,active,,1,Oslo line used throughout
+NNA,Navios Maritime Acquisition,tankers,crude_product,corp,tiingo,NNA,USD,2011-01-01,2021-10-18,merger_stock,2021-08-26,1,Merged into Navios Partners
+ODF,Odfjell,tankers,chemical,corp,yahoo,ODF.OL,NOK,2011-01-01,,active,,1,Chemical tankers
+CAPT,Capital Tankers,tankers,crude_vlcc,corp,yahoo,CAPT.OL,NOK,2026-04-20,,active,,0,Listed 2026; too little history
+VLCC,Volare Shipping,tankers,crude_vlcc,corp,yahoo,VLCC.OL,NOK,2026-10-01,,active,,0,Listed Oct 2026; too little history
+DAC,Danaos,containers,tonnage_provider,corp,yahoo,DAC,USD,2011-01-01,,active,,1,
+CMRE,Costamare,containers,tonnage_provider,corp,yahoo,CMRE,USD,2011-01-01,,active,,1,Large dry bulk side 2022-25 (spun off as CMDB)
+GSL,Global Ship Lease,containers,tonnage_provider,corp,yahoo,GSL,USD,2011-01-01,,active,,1,
+ESEA,Euroseas,containers,feeder,corp,yahoo,ESEA,USD,2018-06-01,,active,,1,Mixed dry bulk/containers before the 2018 EuroDry spin
+SSW,Seaspan / Atlas Corp,containers,tonnage_provider,corp,tiingo,SSW,USD,2011-01-01,2020-02-27,renamed,,1,Continues as ATCO
+ATCO,Atlas Corp,containers,tonnage_provider,corp,tiingo,ATCO,USD,2020-02-28,2023-03-28,take_private,2022-11-01,1,Taken private by Poseidon consortium
+MPCC,MPC Container Ships,containers,feeder,corp,yahoo,MPCC.OL,NOK,2017-05-31,,active,,1,Oslo-listed
+ZIM,ZIM Integrated Shipping,containers,liner,corp,yahoo,ZIM,USD,2021-01-28,,active,2026-02-17,1,Hapag-Lloyd cash offer $35 from 2026-02-17; frozen thereafter
+TEU,Box Ships,containers,tonnage_provider,corp,tiingo,TEU,USD,2011-04-14,2015-11-17,distress,,1,Delisted to OTC
+NMCI,Navios Maritime Containers,containers,tonnage_provider,corp,tiingo,NMCI,USD,2018-12-10,2021-03-31,merger_stock,2020-12-31,1,Merged into Navios Partners
+PSHG_C,Diana Containerships,containers,tonnage_provider,corp,tiingo,PSHG,USD,2011-01-03,2019-12-31,reclassified,,1,Became Performance Shipping (tankers)
+GLNG,Golar LNG,gas,lng,corp,yahoo,GLNG,USD,2011-01-01,2021-12-31,reclassified,,1,Became FLNG infrastructure after CoolCo carve-out
+GLOG,GasLog,gas,lng,corp,tiingo,GLOG,USD,2012-03-30,2021-06-14,take_private,2021-02-22,1,Taken private by BlackRock GIP
+GLOP,GasLog Partners,gas,lng,mlp,tiingo,GLOP,USD,2014-05-07,2023-07-12,take_private,2023-01-25,1,Acquired by GasLog
+GMLP,Golar LNG Partners,gas,lng,mlp,tiingo,GMLP,USD,2011-04-08,2021-04-15,take_private,2021-01-13,1,Acquired by New Fortress Energy
+DLNG,Dynagas LNG Partners,gas,lng,mlp,yahoo,DLNG,USD,2013-11-13,,active,,1,
+TGP,Teekay LNG Partners,gas,lng,mlp,tiingo,TGP,USD,2011-01-01,2022-01-12,take_private,2021-10-04,1,Acquired by Stonepeak (Seapeak)
+HMLP,Hoegh LNG Partners,gas,lng_fsru,mlp,tiingo,HMLP,USD,2014-08-07,2023-01-30,take_private,2022-05-25,1,Acquired by Hoegh LNG
+HLNG,Hoegh LNG Holdings,gas,lng_fsru,corp,none,,NOK,2011-01-01,2021-12-31,take_private,,0,DATA GAP: Oslo-only
+FLNG,Flex LNG,gas,lng,corp,yahoo,FLNG,USD,2019-06-17,,active,,1,NYSE line from 2019 (newbuild shell before 2018)
+CLCO,Cool Company,gas,lng,corp,tiingo,CLCO,USD,2023-03-17,2026-01-12,take_private,2025-09-23,1,Taken over by EPS Ventures
+LPG,Dorian LPG,gas,vlgc,corp,yahoo,LPG,USD,2014-05-08,,active,,1,
+NVGS,Navigator Holdings,gas,handysize_lpg,corp,yahoo,NVGS,USD,2013-11-21,,active,,1,
+GASS,StealthGas,gas,small_lpg,corp,yahoo,GASS,USD,2011-01-01,,active,,1,
+BWLPG,BW LPG,gas,vlgc,corp,yahoo,BWLPG.OL,NOK,2013-11-21,,active,,1,Oslo line used throughout
+AGAS,Avance Gas,gas,vlgc,corp,tiingo,AVACF,USD,2014-04-01,2024-08-15,asset_sale,2024-08-15,1,OTC USD line (Oslo line unavailable); stale-price check required
+DRYS,DryShips,excluded,drilling_dominated,corp,tiingo,DRYS,USD,,,excluded,,0,Consolidated Ocean Rig drilling to 2016; extreme corporate-action history
+NM,Navios Maritime Holdings,excluded,diversified,corp,tiingo,NM,USD,,,excluded,,0,Diversified (logistics + holdings)
+NMM,Navios Maritime Partners,excluded,diversified,mlp,yahoo,NMM,USD,,,excluded,,0,Diversified across dry bulk/containers/tankers
+TK,Teekay Corp,excluded,holding,corp,yahoo,TK,USD,,,excluded,,0,Holding company of TNK/TGP
+CPLP,Capital Product Partners,excluded,diversified,mlp,tiingo,CPLP,USD,,,excluded,,0,Changed segment repeatedly
+OSG,Overseas Shipholding Group,excluded,jones_act,corp,tiingo,OSG,USD,,,excluded,,0,Protected US domestic trade
+MATX,Matson,excluded,jones_act,corp,yahoo,MATX,USD,,,excluded,,0,Protected US domestic trade

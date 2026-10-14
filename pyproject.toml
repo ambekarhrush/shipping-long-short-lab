@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "shiplab"
+version = "0.1.0"
+description = "Shipping long/short equity research lab: market-neutral stock selection in listed shipping"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2,<3",
+  "pandas>=2.2,<3",
+  "matplotlib>=3.9,<4",
+  "scipy>=1.13",
+  "statsmodels>=0.14",
+  "yfinance>=0.2.50",
+  "requests>=2.32",
+  "python-dotenv>=1.0",
+  "pyarrow>=16",
+  "nbformat>=5.10,<6",
+  "nbclient>=0.10,<1",
+  "ipykernel>=6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "jupyterlab>=4"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/shiplab"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
