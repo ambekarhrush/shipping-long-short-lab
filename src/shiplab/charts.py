@@ -360,3 +360,43 @@ def dispersion(tr: pd.DataFrame, inv: pd.DataFrame, seg: pd.Series):
     style.subtitle(ax, "Gap between the 75th and 25th percentile 12-month return within each segment "
                        "(months with 4+ investable names)")
     return fig
+
+
+def portwatch_vs_freight(pwf: pd.DataFrame):
+    """Aggregate AIS (PortWatch chokepoints) vs freight: same month and next month."""
+    style.apply()
+    fig, ax = plt.subplots(figsize=(9, 3.2))
+    y = np.arange(len(pwf))
+    ax.barh(y + 0.18, pwf["corr_same_4w"], 0.34, color="#C4C8CE", label="Same four weeks")
+    ax.barh(y - 0.18, pwf["corr_next_4w"], 0.34, color=style.INK, label="Next four weeks")
+    ax.set_yticks(y, [f"{s} vs {f}" for s, f in zip(pwf["signal"], pwf["freight"])], fontsize=8.5)
+    ax.axvline(0, color=style.INK, lw=0.8)
+    ax.set_xlim(-0.3, 0.3)
+    ax.grid(axis="x", color=style.GRID); ax.grid(axis="y", visible=False)
+    ax.legend(loc="lower right")
+    ax.set_xlabel("Correlation with change in freight index")
+    ax.set_title("Aggregate ship-tracking data does not predict freight either")
+    style.subtitle(ax, "IMF PortWatch chokepoint transits (2019-2026), four-week changes vs Baltic index")
+    return fig
+
+
+def fleet_register(reg: pd.DataFrame):
+    """Ships and deadweight per listed owner in the FleetWatch register."""
+    style.apply()
+    op = reg[~reg["newbuild"]]
+    g = op.groupby(["segment", "universe_id"]).agg(ships=("vessel", "size"), dwt=("dwt", "sum")).reset_index()
+    g = g.sort_values(["segment", "dwt"])
+    fig, ax = plt.subplots(figsize=(10, 5.2))
+    y = np.arange(len(g))
+    ax.barh(y, g["dwt"] / 1e6, color=[style.SEGMENT_COLORS[s] for s in g["segment"]], height=0.7)
+    for yy, (n, d) in enumerate(zip(g["ships"], g["dwt"] / 1e6)):
+        ax.text(d + 0.2, yy, f"{n} ships", va="center", fontsize=7.5, color=style.MUTED)
+    ax.set_yticks(y, g["universe_id"], fontsize=8.5)
+    ax.grid(axis="x", color=style.GRID); ax.grid(axis="y", visible=False)
+    ax.set_xlabel("Fleet deadweight, million tonnes")
+    from matplotlib.patches import Patch
+    ax.legend(handles=[Patch(color=style.SEGMENT_COLORS[s], label=SEGMENT_LABELS[s]) for s in ("dry_bulk", "tankers")],
+              loc="lower right")
+    ax.set_title(f"FleetWatch register: {len(op):,} ships of {g['universe_id'].nunique()} listed owners")
+    style.subtitle(ax, "Operating fleets extracted from each company's latest SEC annual report or fleet employment table")
+    return fig

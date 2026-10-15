@@ -137,7 +137,7 @@ display(Markdown(
 def nb00():
     return [
         md("""
-# Shipping long/short: executive summary
+# 03 · Market-neutral long/short: summary
 
 *Independent research project. Not affiliated with, endorsed by or produced for any current,
 previous or future employer of the author. Public data only. Not investment advice.*
@@ -157,36 +157,35 @@ plt.show()
 
 1. **Public freight data is priced within the week.** Segment equity baskets and their Baltic
    index move together contemporaneously; neither predicts the other a month out in dry bulk,
-   with only a modest lag in tankers (notebook 02).
+   with only a modest lag in tankers (project 02).
 2. **Cheapness within a segment works; balance-sheet quality and freight timing do not, on their
    own.** Book-to-market inside each segment, and fading moves that are out of line with a
-   stock's freight sensitivity, are the two signals that survive walk-forward testing (03-06).
+   stock's freight sensitivity, are the two signals that survive walk-forward testing (notebooks 01-04).
    A pre-registered hypothesis that balance-sheet strength pays only in falling freight markets
    was rejected and left rejected.
 3. **The return is genuinely market-neutral** (beta near zero, low correlation to the shipping
    basket) and positive in the 2016 trough and the Red Sea disruption, but it gave back about 5%
-   in the 2026 Hormuz crisis (07, 09).
+   in the 2026 Hormuz crisis (notebooks 05, 07).
 4. **Capacity is the binding constraint.** These stocks trade a few million dollars a day.
-   Sharpe is roughly 0.6-0.8 up to USD 25m and dollar alpha plateaus below USD 1m a year (08).
+   Sharpe is roughly 0.6-0.8 up to USD 25m and dollar alpha plateaus below USD 1m a year (notebook 06).
 5. **After correcting for the search, the public-data edge is not statistically distinguishable
    from luck.** That points to where an edge must come from: company-specific operating
-   information that reaches the market late. FleetWatch (notebook 10) tracks ~1,000 named ships
+   information that reaches the market late. FleetWatch (project 04) tracks ~1,000 named ships
    of 21 listed owners for exactly that, with every estimate committed to git before the
    companies report.
 """),
         md("""
-## How to read the rest
+## The four projects
 
-| Notebook | Content |
+| Project | Question |
 |---|---|
-| 01 | Universe, survivorship, data errors found and fixed |
-| 02 | Fifteen years of shipping: freight, equities, dispersion, lead-lag |
-| 03 | Signals |
-| 04-06 | The three sleeves: pairs, factor ranks, equity-vs-freight |
-| 07 | Portfolio construction, exposures, attribution |
-| 08 | Robustness: walk-forward picks, every trial, deflated Sharpe, capacity |
-| 09 | Stress windows: 2016, COVID, 2022, Red Sea, 2026 Hormuz |
-| 10 | FleetWatch: ship-level tracking of the listed fleets (live) |
+| [01 Data foundation](../../01-data-foundation) | Can you trust free shipping-equity data? |
+| [02 Freight priced by Friday](../../02-freight-priced-by-friday) | Does public freight data predict shipping stocks? |
+| [03 Market-neutral long/short](../../03-market-neutral-long-short) | Is there stock-selection alpha from public data? (this project) |
+| [04 FleetWatch](../../04-fleetwatch) | Can ship-level tracking of each owner's fleet give an edge? |
+
+Detail notebooks in this project: 01 signals, 02-04 the three sleeves, 05 portfolio and risk,
+06 robustness, 07 stress windows.
 """),
     ]
 
@@ -227,7 +226,18 @@ ll.round(3).T
 The peak is at lag zero: the equity market and the Baltic indices move in the same week. There
 is no exploitable lead from public freight indices to dry bulk equities, and only a small one in
 tankers. **Any edge from freight information therefore has to come before it is public** - the
-premise of FleetWatch (notebook 10).
+premise of FleetWatch (project 04).
+"""),
+        md("## Does aggregate ship-tracking data do better?"),
+        code("""
+pwf = pd.read_csv(DATA / "results" / "portwatch_vs_freight.csv")
+fig = charts.portwatch_vs_freight(pwf); charts.save(fig, "02_portwatch"); plt.show()
+pwf.round(3)
+"""),
+        md("""
+No. Chokepoint transit data from the IMF's PortWatch (built from satellite AIS) moves with
+freight in the same month at most, and predicts nothing a month ahead. Aggregate AIS describes
+the market everyone already sees; its value, if any, lies in attributing ships to companies.
 """),
     ]
 
@@ -428,6 +438,8 @@ from shiplab import style
 from shiplab.config import DATA, REFERENCE
 reg = pd.read_csv(REFERENCE / "fleet_register.csv")
 op = reg[~reg.newbuild]
+from shiplab import charts
+fig = charts.fleet_register(reg); charts.save(fig, "04_fleet_register"); plt.show()
 op.groupby(["segment", "universe_id"]).agg(ships=("vessel", "size"), dwt_m=("dwt", lambda x: x.sum() / 1e6),
                                            median_age=("built", lambda b: 2026 - b.median())).round(1)
 """),
@@ -481,6 +493,21 @@ BUILDERS.update({
 })
 
 
+# notebook -> (project folder, file name)
+LAYOUT = {
+    "01_universe_and_data": ("01-data-foundation", "universe_and_data_audit"),
+    "02_fifteen_years_of_shipping": ("02-freight-priced-by-friday", "freight_vs_equities"),
+    "00_executive_summary": ("03-market-neutral-long-short", "00_summary"),
+    "03_signals": ("03-market-neutral-long-short", "01_signals"),
+    "04_sleeve_pairs": ("03-market-neutral-long-short", "02_sleeve_pairs"),
+    "05_sleeve_factor": ("03-market-neutral-long-short", "03_sleeve_factor"),
+    "06_sleeve_equity_vs_freight": ("03-market-neutral-long-short", "04_sleeve_equity_vs_freight"),
+    "07_portfolio_and_risk": ("03-market-neutral-long-short", "05_portfolio_and_risk"),
+    "08_robustness": ("03-market-neutral-long-short", "06_robustness"),
+    "09_stress_and_attribution": ("03-market-neutral-long-short", "07_stress_windows"),
+    "10_fleetwatch": ("04-fleetwatch", "fleetwatch"),
+}
+
 if __name__ == "__main__":
     names = sys.argv[1:] or list(BUILDERS)
     for name in names:
@@ -488,7 +515,10 @@ if __name__ == "__main__":
         nb.cells = BUILDERS[name]()
         nb.metadata["kernelspec"] = {"name": "python3", "display_name": "Python 3",
                                      "language": "python"}
+        folder, fname = LAYOUT[name]
+        out_dir = ROOT / folder / "notebooks"
+        out_dir.mkdir(parents=True, exist_ok=True)
         NotebookClient(nb, timeout=900, kernel_name="python3",
-                       resources={"metadata": {"path": str(NB)}}).execute()
-        nbf.write(nb, NB / f"{name}.ipynb")
+                       resources={"metadata": {"path": str(out_dir)}}).execute()
+        nbf.write(nb, out_dir / f"{fname}.ipynb")
         print("built", name)

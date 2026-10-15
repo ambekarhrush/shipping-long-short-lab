@@ -53,6 +53,12 @@ from the companies' own filings (about 1,000 ships of 21 owners) and started rec
 hourly, in public, before each company reports. That forward record, not another backtest, is
 what can show whether the edge is real.
 
+## How this paper maps to the repository
+
+The work is organised as four projects: **01 Data foundation** (sections 1-2), **02 Freight
+priced by Friday** (sections 3-4), **03 Market-neutral long/short** (sections 5-7) and
+**04 FleetWatch** (section 8).
+
 ## 1. Why shipping, and why it is hard
 
 Shipping equities are levered, finite-life claims on volatile freight markets. Companies in the
@@ -73,7 +79,7 @@ Three things make the opportunity harder than it looks.
 
 ## 2. Getting the history right
 
-Before any signal was tested, the data audit (notebook 01) established which companies belonged
+Before any signal was tested, the data audit (project 01 in the repository) established which companies belonged
 to the opportunity set on each date and corrected vendor errors that would otherwise have
 manufactured results.
 

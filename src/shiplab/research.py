@@ -65,12 +65,20 @@ def _guard(end):
         raise PermissionError("Holdout is sealed: pass end < HOLDOUT_START or unseal=True")
 
 
-def log_trial(name: str, config: dict, start, end, r: pd.Series, tag: str = "research"):
+def log_trial(name: str, config: dict, start, end, r: pd.Series, tag: str = "research",
+              periods_per_year: int = 252):
+    """Append one run to the ledger. Monthly series: pass periods_per_year=12; the stored
+    daily-equivalent Sharpe is then SR_period / sqrt(252 / periods_per_year)."""
     RESULTS.mkdir(parents=True, exist_ok=True)
-    s = metrics.summary(r)
+    s = metrics.summary(r) if periods_per_year == 252 else {}
+    sr_p = r.mean() / r.std() if r.std() > 0 else np.nan
+    if periods_per_year != 252:
+        eq = (1 + r).prod()
+        s = {"sharpe": sr_p * np.sqrt(periods_per_year), "ann_return": eq ** (periods_per_year / len(r)) - 1,
+             "ann_vol": r.std() * np.sqrt(periods_per_year), "max_drawdown": metrics.drawdown(r).min()}
     row = {"time_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "tag": tag,
            "name": name, "start": str(start), "end": str(end), "config": json.dumps(config, default=str),
-           "sharpe": s.get("sharpe"), "daily_sharpe": r.mean() / r.std() if r.std() > 0 else np.nan,
+           "sharpe": s.get("sharpe"), "daily_sharpe": sr_p / np.sqrt(252 / periods_per_year),
            "ann_return": s.get("ann_return"), "ann_vol": s.get("ann_vol"), "max_dd": s.get("max_drawdown")}
     path = RESULTS / "trials.csv"
     pd.DataFrame([row]).to_csv(path, mode="a", header=not path.exists(), index=False)
