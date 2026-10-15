@@ -27,3 +27,12 @@ in `data/results/trials.csv`; the deflated Sharpe ratio counts them with all ear
 **What would count as support.** IC t-statistic above 2 with the registered sign, for either
 hypothesis. Signs are not reversed after the fact. US waters show only part of each fleet's
 activity, so a null result does not reject the global FleetWatch design.
+
+## Amendment (before any comparison with returns)
+
+**H2 is withdrawn.** On inspecting draught data quality in the first 120 weekly samples
+(12,186 large ships with five or more hourly observations), only 3% show a draught range of 30%
+or more, and 60% report a single, never-updated value. AIS draught is entered manually and US
+waters see most ships only near arrival or departure, so laden status cannot be measured
+reliably. H1 (idle share) is the only hypothesis tested. This amendment was made on data-quality
+grounds alone; no signal had been compared with returns.
