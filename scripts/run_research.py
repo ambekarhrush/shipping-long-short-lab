@@ -163,6 +163,24 @@ def main(holdout: bool):
         d = pd.concat([e, f], axis=1, keys=["eq", "fr"]).loc["2011":VAL_END].dropna()
         ll[seg] = {k: d["eq"].corr(d["fr"].shift(-k)) for k in range(-8, 9)}
     pd.DataFrame(ll).rename_axis("lag_weeks_equity_leads").to_csv(OUT / "lead_lag.csv")
+    # 7. aggregate AIS (PortWatch chokepoints) vs next-month freight
+    from shiplab import portwatch
+    c = portwatch.chokepoints()
+    piv = lambda col: c.pivot_table(index="date", columns="chokepoint", values=col, aggfunc="sum").resample("W-FRI").sum()  # noqa: E731
+    tk, db = piv("capacity_tanker"), piv("capacity_dry_bulk")
+    wf_ = inp.fr.resample("W-FRI").last()
+    tests = {"tanker Cape share": (tk["Cape of Good Hope"] / (tk["Cape of Good Hope"] + tk["Suez Canal"]), "BDTI", False),
+             "tanker Hormuz tonnes": (tk["Strait of Hormuz"], "BDTI", True),
+             "dry bulk Cape share": (db["Cape of Good Hope"] / (db["Cape of Good Hope"] + db["Suez Canal"]), "BDI", False),
+             "dry bulk Malacca tonnes": (db["Malacca Strait"], "BDI", True)}
+    rows = []
+    for nm, (x, sym, logx) in tests.items():
+        x4 = np.log(x.replace(0, np.nan)).diff(4) if logx else x.diff(4)
+        f = np.log(wf_[sym])
+        d = pd.concat([x4, f.diff(4), f.diff(4).shift(-4)], axis=1, keys=["x", "now", "next"]).loc["2019-06":].dropna()
+        rows.append({"signal": nm, "freight": sym, "corr_same_4w": d.x.corr(d.now), "corr_next_4w": d.x.corr(d.next), "weeks": len(d)})
+    pd.DataFrame(rows).to_csv(OUT / "portwatch_vs_freight.csv", index=False)
+
     pickle.dump({"wf": wf, "ho": ho}, open(DATA / "cache" / "results.pkl", "wb"))
     print("done", {k: round(v, 3) for k, v in dsr.items()})
 

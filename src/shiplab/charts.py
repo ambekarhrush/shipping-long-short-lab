@@ -352,6 +352,9 @@ def dispersion(tr: pd.DataFrame, inv: pd.DataFrame, seg: pd.Series):
         if len(last):
             ax.text(last.index[-1] + pd.Timedelta(days=40), last.iloc[-1], SEGMENT_LABELS[s], fontsize=8, va="center")
     ax.set_xlim(right=ax.get_xlim()[1] + 500)
+    ax.set_ylim(0, 200)
+    ax.text(0.99, 0.97, "axis capped at 200; 2021 container spread peaked near 700", transform=ax.transAxes,
+            ha="right", va="top", fontsize=7.5, color=style.MUTED)
     ax.set_ylabel("Percentage points")
     ax.set_title("Same freight market, very different outcomes")
     style.subtitle(ax, "Gap between the 75th and 25th percentile 12-month return within each segment "
