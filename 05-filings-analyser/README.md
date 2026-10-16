@@ -8,8 +8,8 @@ with the SEC since 2019: 758 releases from 29 companies, HTML and PDF. When a co
 next-quarter bookings run above the rate it just earned, its stock beat its segment by about
 3% over the following month. When they run below, it lagged by about 4%. The rank correlation
 is 0.26 (t 2.2) over 66 releases. The sample is small and mostly tankers, and the test was
-specified before returns were computed but not committed in advance. It is a lead to track
-live, not a proven edge.
+specified before returns were computed but not committed in advance. It is a lead, now
+[pre-registered](../docs/PREREGISTRATION_FILINGS.md) for a live test from the Q3 2026 season.
 
 ![Booking surprise vs next-month relative return](../figures/05_booking_surprise.png)
 
