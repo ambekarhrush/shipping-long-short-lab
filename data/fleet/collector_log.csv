@@ -1,3 +1,4 @@
 utc,status,detail
 2026-10-16T12:04Z,ok,"{""messages"": 42353, ""static_kept"": 30, ""position_kept"": 0, ""tracked_mmsi"": 0}"
 2026-10-16T13:24Z,error,ConnectionClosedError: no close frame received or sent
+2026-10-16T18:11Z,error,ConnectionClosedError: no close frame received or sent
