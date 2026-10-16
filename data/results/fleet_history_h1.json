@@ -1,0 +1,23 @@
+{
+ "months": 102,
+ "mean_ic": -0.022230278818094463,
+ "t_stat": -0.6931057651931182,
+ "by_segment": {
+  "dry_bulk": {
+   "mean": -0.0555,
+   "count": 102,
+   "std": 0.456,
+   "t": -1.2299
+  },
+  "tankers": {
+   "mean": 0.0111,
+   "count": 102,
+   "std": 0.4547,
+   "t": 0.246
+  }
+ },
+ "long_short_ann_return": -0.07566687969050612,
+ "long_short_sharpe": -0.07305780448502702,
+ "avg_names_per_segment_month": 6.200980392156863,
+ "note": "Gross of costs; equal-weight thirds; monthly. Pre-registered sign; run once."
+}

@@ -1,0 +1,23 @@
+{
+ "releases": 758,
+ "companies": 29,
+ "quarters": [
+  "2018Q3",
+  "2026Q3"
+ ],
+ "field_coverage": {
+  "forward_rate": 0.161,
+  "tce": 0.28,
+  "fleet_size": 0.371,
+  "dividend": 0.547,
+  "net_income_m": 0.765
+ },
+ "events": 66,
+ "rank_ic": 0.25977035632128936,
+ "t_stat": 2.152041530316205,
+ "mean_excess_when_surprise_above_5pct": 0.027576391551165407,
+ "n_above": 35,
+ "mean_excess_when_surprise_below_minus_5pct": -0.042758301195527045,
+ "n_below": 19,
+ "note": "20 trading days after release, return minus segment basket; pre-specified sign positive"
+}

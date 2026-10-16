@@ -8,3 +8,4 @@ __pycache__/
 data/cache/
 .DS_Store
 .sync.tgz
+data/filings/releases/

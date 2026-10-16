@@ -20,6 +20,8 @@ FIG = {
     "Figure 5": ("07_attribution.png", "Figure 5. Contribution by segment and side."),
     "Figure 6": ("09_stress.png", "Figure 6. Stress windows."),
     "Figure 7": ("08_trials.png", "Figure 7. Every research variant tried, from the trials ledger."),
+    "Figure 8": ("02_nowcast.png", "Figure 8. Out-of-sample freight nowcasts against a random walk, 2021-2026."),
+    "Figure 9": ("05_booking_surprise.png", "Figure 9. Next-quarter bookings in results releases vs the stock's return relative to its segment."),
 }
 INK, MUTED, RULE = colors.HexColor("#1B1F24"), colors.HexColor("#6B7280"), colors.HexColor("#E5E7EB")
 body = ParagraphStyle("b", fontName="Helvetica", fontSize=9.6, leading=14, textColor=INK, spaceAfter=6, alignment=TA_LEFT)

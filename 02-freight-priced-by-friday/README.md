@@ -17,14 +17,23 @@ public freight information fast.
 
 ![Aggregate AIS vs freight](../figures/02_portwatch.png)
 
+**Nowcasting freight itself.** Every Friday since 2021, a ridge regression refit on past data
+forecasts each Baltic index four weeks ahead. Only the index's own momentum beats a random walk,
+and only in dry bulk: out-of-sample R² is about 10% for capesize and 6% for the BDI. Adding
+port, chokepoint or equity data makes every forecast worse. A first version fed in all 20
+PortWatch series and overfit badly (capesize R² about -200%), so a compact set was fixed
+before the scored run.
+
+![Freight nowcast](../figures/02_nowcast.png)
+
 **Why it matters.** Freight momentum or freight timing should not be expected to earn a return
 after costs, and indeed did not (project 03). If an information edge exists, it must come from
 something the market sees late: what each company's own ships are doing (project 04).
 
 | | |
 |---|---|
-| Notebook | [`notebooks/freight_vs_equities.ipynb`](notebooks/freight_vs_equities.ipynb): fifteen years of freight and equities, within-segment dispersion, lead-lag, PortWatch |
+| Notebooks | [`notebooks/freight_vs_equities.ipynb`](notebooks/freight_vs_equities.ipynb): fifteen years of freight and equities, within-segment dispersion, lead-lag, PortWatch · [`notebooks/freight_nowcast.ipynb`](notebooks/freight_nowcast.ipynb): walk-forward nowcast and this week's forecast |
 | Data | Baltic indices daily since 2006; IMF PortWatch transits since 2019 |
-| Code | [`src/shiplab/freight.py`](../src/shiplab/freight.py), [`portwatch.py`](../src/shiplab/portwatch.py) |
+| Code | [`src/shiplab/freight.py`](../src/shiplab/freight.py), [`portwatch.py`](../src/shiplab/portwatch.py), [`nowcast.py`](../src/shiplab/nowcast.py) |
 
 **Previous:** [← 01 · Data foundation](../01-data-foundation) · **Next:** [03 · Market-neutral long/short →](../03-market-neutral-long-short)

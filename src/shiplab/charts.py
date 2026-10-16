@@ -400,3 +400,77 @@ def fleet_register(reg: pd.DataFrame):
     ax.set_title(f"FleetWatch register: {len(op):,} ships of {g['universe_id'].nunique()} listed owners")
     style.subtitle(ax, "Operating fleets extracted from each company's latest SEC annual report or fleet employment table")
     return fig
+
+
+def nowcast_scores(sc: pd.DataFrame):
+    """Out-of-sample R^2 vs random walk, by freight index and feature set."""
+    style.apply()
+    order = ["BCI", "BDI", "BDTI", "BCTI", "BLPG"]
+    models = [("momentum", "Freight momentum only", style.INK), ("momentum+ports", "+ port and chokepoint data", "#2A78D6"),
+              ("momentum+equities", "+ shipping equities", "#D2770F"), ("all", "Everything", "#C4C8CE")]
+    fig, ax = plt.subplots(figsize=(10, 3.8))
+    x = np.arange(len(order))
+    w = 0.2
+    for i, (m, lab, c) in enumerate(models):
+        v = sc[sc.model == m].set_index("target").reindex(order)["oos_r2_vs_random_walk"] * 100
+        ax.bar(x + (i - 1.5) * w, v.clip(lower=-12), w * 0.92, color=c, label=lab)
+        for xi, vi in zip(x, v):
+            if vi < -12:
+                ax.text(xi + (i - 1.5) * w, -11.6, f"{vi:.0f}", ha="center", va="bottom", fontsize=7, color=style.INK, rotation=90)
+    ax.set_axisbelow(True)
+    ax.set_ylim(-12, 12)
+    ax.axhline(0, color=style.INK, lw=0.8)
+    ax.set_xticks(x, ["Capesize\n(BCI)", "Dry bulk\n(BDI)", "Dirty tanker\n(BDTI)", "Clean tanker\n(BCTI)", "LPG\n(BLPG)"])
+    ax.set_ylabel("Out-of-sample R² (%)")
+    ax.grid(axis="y", color=style.GRID); ax.grid(axis="x", visible=False)
+    ax.legend(loc="upper right", ncol=2, fontsize=8)
+    ax.set_title("Freight's own momentum is the best nowcast; port and equity data make it worse")
+    style.subtitle(ax, "Four-week-ahead change, weekly walk-forward ridge, scored 2021-2026; above zero beats 'no change'")
+    return fig
+
+
+def filings_event(ev: pd.DataFrame):
+    """Booking surprise in results releases vs 20-day return relative to segment."""
+    style.apply()
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(10, 3.8), gridspec_kw={"width_ratios": [1.6, 1]})
+    x = ev.booking_surprise.clip(-0.8, 1.2) * 100
+    a1.scatter(x, ev.excess_return * 100, s=22, color=[style.SEGMENT_COLORS.get(s, style.INK) for s in ev.segment],
+               alpha=0.8, edgecolor="white", linewidth=0.5)
+    a1.axhline(0, color=style.INK, lw=0.6); a1.axvline(0, color=style.INK, lw=0.6)
+    a1.set_xlabel("Booking surprise: next-quarter booked rate vs this quarter's TCE (%)")
+    a1.set_ylabel("Return vs segment, next 20 days (%)")
+    a1.grid(color=style.GRID); a1.set_axisbelow(True); a2.set_axisbelow(True)
+    b = pd.cut(ev.booking_surprise, [-np.inf, -0.05, 0.05, np.inf], labels=["Bookings\nbelow TCE", "Within ±5%", "Bookings\nabove TCE"])
+    g = ev.groupby(b, observed=False)["excess_return"].agg(["mean", "count"])
+    a2.bar(range(3), g["mean"] * 100, color=["#B5483B", "#C4C8CE", "#1BA57A"], width=0.6)
+    for i, (m, n) in enumerate(zip(g["mean"] * 100, g["count"])):
+        a2.text(i, m + (0.3 if m >= 0 else -0.3), f"{m:+.1f}%\nn={n}", ha="center", va="bottom" if m >= 0 else "top", fontsize=8)
+    a2.set_xticks(range(3), g.index.astype(str), fontsize=8)
+    a2.axhline(0, color=style.INK, lw=0.6)
+    a2.grid(axis="y", color=style.GRID); a2.grid(axis="x", visible=False)
+    a2.set_ylim(min(-6, g["mean"].min() * 100 - 2), max(5, g["mean"].max() * 100 + 2))
+    fig.suptitle("Bookings above this quarter's rate preceded outperformance", x=0.06, ha="left",
+                 fontsize=12, fontweight="bold")
+    fig.text(0.06, 0.905, "Results releases 2019-2026; stock minus its segment basket from the day after release",
+             fontsize=9, color=style.MUTED)
+    fig.tight_layout(rect=(0, 0, 1, 0.9))
+    return fig
+
+
+def filings_coverage(t: pd.DataFrame):
+    """Which fields the analyser extracts, by company."""
+    style.apply()
+    fields = [("forward_rate", "Forward bookings"), ("tce", "Realised TCE"), ("fleet_size", "Fleet size"),
+              ("dividend", "Dividend"), ("net_income_m", "Net income")]
+    m = t.groupby("company")[[f for f, _ in fields]].apply(lambda g: g.notna().mean())
+    m = m.loc[m.mean(axis=1).sort_values().index]
+    fig, ax = plt.subplots(figsize=(10, 4.6))
+    im = ax.imshow(m.T.values, aspect="auto", cmap="Blues", vmin=0, vmax=1)
+    ax.set_yticks(range(len(fields)), [l for _, l in fields], fontsize=8.5)
+    ax.set_xticks(range(len(m)), m.index, rotation=90, fontsize=7.5)
+    ax.grid(False)
+    cb = fig.colorbar(im, ax=ax, fraction=0.025, pad=0.01)
+    cb.set_label("Share of quarters extracted", fontsize=8)
+    ax.set_title("What each company's releases disclose, in a form a parser can read")
+    style.subtitle(ax, "Share of results releases (2019-2026) where each field was found; blank = disclosed only in tables or not at all")
+    return fig

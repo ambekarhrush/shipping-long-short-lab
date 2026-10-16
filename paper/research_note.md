@@ -40,6 +40,10 @@ logged; the 2023-2026 holdout was pre-registered in git and run once.
 4. **Not significant after the search.** Deflated-Sharpe probability 0.31 over 27 logged trials.
 5. **Stress:** +4.4% in the 2016 trough (basket -36%), +5.3% through the Red Sea disruption,
    -5.0% in the 2026 Hormuz crisis.
+6. **Results-day text is read slowly.** Parsing 758 results releases: when next-quarter bookings
+   run above the rate just earned, the stock beat its segment by about 3% over the next month
+   (rank correlation 0.26, t 2.2, 66 releases; not pre-registered). Port and chokepoint data
+   do not improve freight nowcasts; a pre-registered US-waters idle-ship test was null.
 
 ## Implication and next step
 

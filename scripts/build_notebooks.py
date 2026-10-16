@@ -493,6 +493,151 @@ BUILDERS.update({
 })
 
 
+def nb_nowcast():
+    return [
+        md("""
+# Freight nowcast: can ports, chokepoints or equities say where freight goes next?
+
+**Target.** Log change in each Baltic index over the next four weeks, sampled every Friday.
+**Features**, all known by that Friday (PortWatch lagged a week for publication):
+the index's own 1, 4 and 12-week changes; a compact, pre-fixed set of PortWatch signals per
+segment (Cape-vs-Suez routing share, Hormuz and Malacca flows, Brazil/Australia/Guinea/Indonesia
+dry bulk exports); and the segment's equity basket.
+**Method.** Ridge regression (penalty fixed at 10, not tuned), refit weekly on an expanding
+window, scored strictly out of sample from January 2021. R² is measured against a random walk
+(forecast = no change), the standard bar for freight.
+"""),
+        code("""
+import warnings; warnings.filterwarnings("ignore")
+import pandas as pd, matplotlib.pyplot as plt
+from shiplab import charts
+from shiplab.config import DATA
+sc = pd.read_csv(DATA / "results" / "nowcast_scores.csv")
+charts.nowcast_scores(sc); plt.show()
+sc.pivot(index="target", columns="model", values="oos_r2_vs_random_walk").mul(100).round(1)
+"""),
+        md("""
+**Reading.** Capesize and the BDI carry real short-term momentum: their own recent changes beat
+a random walk out of sample (R² of about 10% and 6%). Adding port, chokepoint or equity data
+makes every forecast worse. A first version that fed in all 20 PortWatch series overfit badly
+(capesize R² of about -200%), so the compact set was fixed before the scored run; both are reported.
+Aggregate ship-tracking data describes the freight market the same week. It does not lead it.
+"""),
+        code("""
+fc = pd.read_csv(DATA / "results" / "nowcast_forecasts.csv", parse_dates=["date"])
+g = fc[(fc.target == "BCI") & (fc.model == "momentum")].set_index("date")
+fig, ax = plt.subplots(figsize=(10, 3.4))
+ax.plot(g.actual * 100, color="#C4C8CE", lw=1, label="Realised four-week change")
+ax.plot(g.forecast * 100, color="#1B1F24", lw=1.4, label="Momentum nowcast")
+ax.axhline(0, color="#1B1F24", lw=0.6); ax.legend(loc="upper left"); ax.set_ylabel("%")
+ax.set_title("Capesize: the nowcast gets direction more often than not, and none of the size"); plt.show()
+pd.read_csv(DATA / "results" / "nowcast_latest.csv")
+"""),
+    ]
+
+
+def nb_filings():
+    return [
+        md("""
+# 05 · Filings analyser
+
+Every results release filed with the SEC by the live universe since 2019 (6-K and 8-K exhibits,
+HTML and PDF), parsed into a company-quarter table. Each number keeps the sentence it came from,
+so any figure can be checked against the filing in one click.
+
+Fields: next-quarter days already fixed and their average rate; realised TCE; fleet size;
+dividend per share; net income.
+"""),
+        code("""
+import warnings; warnings.filterwarnings("ignore")
+import json, pandas as pd, matplotlib.pyplot as plt
+from shiplab import charts, filings
+from shiplab.config import DATA
+t = filings.table()
+charts.filings_coverage(t); plt.show()
+x = pd.read_csv(DATA / "results" / "filings_extracted.csv")
+x[x.company == "DHT"][["quarter", "forward_pct", "forward_rate", "tce", "booking_surprise", "dividend", "flags"]].tail(8)
+"""),
+        md("""
+**Audit trail.** The sentence behind each extracted forward booking:
+"""),
+        code("""
+pd.set_option("display.max_colwidth", 220)
+x.dropna(subset=["forward_rate"]).sample(6, random_state=3)[["company", "quarter", "forward_pct", "forward_rate", "forward_src"]]
+"""),
+        md("""
+**Quarter-on-quarter flags**, the first things an analyst checks on results day: bookings far
+above or below the quarter just reported, dividend changes, fleet growth or sales, coverage
+jumps.
+"""),
+        code("""
+latest = x.sort_values("filed").groupby("company").tail(1)
+latest[latest["flags"].fillna("") != ""][["company", "quarter", "filed", "flags"]]
+"""),
+        md("""
+## Does the booking surprise move the stock?
+
+**Specified before any return was computed:** booking surprise = next-quarter booked rate /
+this quarter's realised TCE - 1; expected sign positive; outcome = the stock's return minus its
+segment basket over the 20 trading days after the release. Logged in the trials ledger.
+"""),
+        code("""
+ev = pd.read_csv(DATA / "results" / "filings_event_study.csv")
+charts.filings_event(ev); plt.show()
+json.load(open(DATA / "results" / "filings_summary.json"))
+"""),
+        md("""
+**Reading.** The rank correlation is about 0.26 (t about 2.2) over 66 releases: when bookings
+run above the quarter just reported, the stock beat its segment by about 3% over the next
+month; when they run below, it lagged by about 4%. The market under-reacts to guidance that is
+in plain text on results day. The sample is small, mostly tankers, and the test was not
+committed to git in advance, so it is a lead to track live, not a proven edge.
+"""),
+    ]
+
+
+def nb_fleetmap():
+    return [
+        md("""
+# FleetWatch map and the US-waters history test
+
+**The map** ([`docs/fleetwatch/index.html`](../../docs/fleetwatch/index.html), published on
+GitHub Pages) shows every register ship seen on terrestrial AIS in the latest snapshot. A name
+match counts only once the ship's own static report confirms a cargo ship or tanker, so
+same-name tugs and yachts are excluded. The same data ships as
+[`fleetwatch.kml`](../../docs/fleetwatch/fleetwatch.kml) for Google My Maps or Google Earth.
+"""),
+        code("""
+import json, warnings; warnings.filterwarnings("ignore")
+import pandas as pd, matplotlib.pyplot as plt
+from shiplab.config import DATA, ROOT
+gj = json.load(open(ROOT / "docs" / "fleetwatch" / "fleet.geojson"))
+ships = pd.DataFrame([f["properties"] for f in gj["features"]])
+pd.crosstab(ships.ticker, ships.state, margins=True)
+"""),
+        md("""
+## Pre-registered history test: does idle share predict returns?
+
+[`docs/PREREGISTRATION_FLEET_HISTORY.md`](../../docs/PREREGISTRATION_FLEET_HISTORY.md),
+committed before any return was compared. NOAA US-waters AIS, one Wednesday a week; NOAA has
+not published 2025 and its server returns errors for half of 2024, so the test covers 2016 to
+2024 with gaps (102 months). Run once.
+"""),
+        code("""
+r = json.load(open(DATA / "results" / "fleet_history_h1.json")); r
+"""),
+        md("""
+**Result: null.** Mean IC -0.02 (t -0.7); the long/short lost money. US waters see each fleet
+only near American ports, so this does not reject the global design, as the pre-registration
+said in advance. It does mean there is no historical evidence for the idle-share signal yet;
+the live, global record is what will decide it.
+"""),
+    ]
+
+
+BUILDERS.update({"11_nowcast": nb_nowcast, "12_filings": nb_filings, "13_fleetmap": nb_fleetmap})
+
+
 # notebook -> (project folder, file name)
 LAYOUT = {
     "01_universe_and_data": ("01-data-foundation", "universe_and_data_audit"),
@@ -506,6 +651,9 @@ LAYOUT = {
     "08_robustness": ("03-market-neutral-long-short", "06_robustness"),
     "09_stress_and_attribution": ("03-market-neutral-long-short", "07_stress_windows"),
     "10_fleetwatch": ("04-fleetwatch", "fleetwatch"),
+    "11_nowcast": ("02-freight-priced-by-friday", "freight_nowcast"),
+    "12_filings": ("05-filings-analyser", "filings_analyser"),
+    "13_fleetmap": ("04-fleetwatch", "fleet_map_and_history_test"),
 }
 
 if __name__ == "__main__":

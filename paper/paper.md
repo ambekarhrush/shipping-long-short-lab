@@ -42,6 +42,11 @@ Four findings.
 4. **After correcting for the search, the public-data edge is not statistically distinguishable
    from luck.** With 27 logged research variants, the deflated-Sharpe probability of the holdout
    result is 0.31.
+5. **The text of results releases is read slowly.** When a company's next-quarter bookings,
+   stated in plain words on results day, run above the rate it just earned, its stock beat its
+   segment by about 3% over the following month; when they run below, it lagged by about 4%
+   (66 releases, rank correlation 0.26, t 2.2). The sample is small and the test was not
+   pre-registered, so it is a lead, not a result.
 
 The perspective that follows is the point of the project. If the market absorbs public freight
 data within days, and public fundamentals yield only a small, uncertain edge, then a durable
@@ -55,9 +60,9 @@ what can show whether the edge is real.
 
 ## How this paper maps to the repository
 
-The work is organised as four projects: **01 Data foundation** (sections 1-2), **02 Freight
-priced by Friday** (sections 3-4), **03 Market-neutral long/short** (sections 5-7) and
-**04 FleetWatch** (section 8).
+The work is organised as five projects: **01 Data foundation** (sections 1-2), **02 Freight
+priced by Friday** (sections 3-4), **03 Market-neutral long/short** (sections 5-7),
+**04 FleetWatch** and **05 Filings analyser** (section 8).
 
 ## 1. Why shipping, and why it is hard
 
@@ -142,6 +147,15 @@ The same is true of *aggregate* ship-tracking data. Using the IMF's PortWatch tr
 next month's freight index. None did: every correlation with the following four weeks of freight
 was below 0.09 in absolute value. Aggregate AIS data, like the Baltic indices, describes the
 market everyone already sees. Its value, if any, lies in attributing ships to specific companies.
+
+[Figure 8: freight nowcast]
+
+A formal nowcast confirms it. We forecast the four-week change in five Baltic indices every
+Friday from 2021, refitting a ridge regression weekly on past data only, with three feature
+sets: the index's own momentum; momentum plus a compact, pre-fixed set of PortWatch routing and
+export series; and momentum plus the segment's equity basket. Only momentum beat a random walk,
+and only in dry bulk (out-of-sample R-squared of about 10% for capesize and 6% for the BDI).
+Adding port or equity data made every forecast worse.
 
 ## 5. Finding two: what works inside a segment
 
@@ -247,7 +261,27 @@ thinly covered listed owners, and a model of each owner's quarter.
 
 The collector runs every hour and commits its output to the public repository. The commit
 history therefore proves that each estimate existed before the corresponding earnings release.
-The first test is the Q4 2026 reporting season in February 2027.
+The first test is the Q4 2026 reporting season in February 2027. A map of the fleets, built
+from the same data, is published with the repository and exports to Google My Maps.
+
+A historical version could only be run on US waters, where free AIS archives exist. Its single
+pre-registered hypothesis, that owners with more idle ships underperform their segment the
+next month, found nothing (102 months, information coefficient -0.02, t -0.7). As registered in
+advance, US waters see each fleet only near American ports, so this does not reject the global
+design, but it means the idle-share signal has no historical support yet.
+
+**What the filings already say.** Some of the late-arriving information is not hidden at all.
+Tanker and some dry bulk owners state in their results releases what share of next quarter's
+days are already fixed, and at what rate. We parsed every results release filed with the SEC by
+the universe since 2019 (758 releases, 29 companies), keeping the sentence behind each number.
+The booking surprise, next-quarter booked rate over the rate just earned, ranks the following
+month's relative return with a correlation of 0.26 (t 2.2, 66 releases).
+
+[Figure 9: booking surprise]
+
+The test was specified before returns were computed but not committed in advance, the sample is
+mostly tankers, and two-thirds of companies disclose bookings only in tables or not at all. It
+is the most promising public-data lead in the project, and the cheapest to track live.
 
 ## 9. Limitations
 
@@ -259,6 +293,8 @@ The first test is the Q4 2026 reporting season in February 2027.
 * Free price history is missing for several bankruptcies and four merged companies whose
   tickers were recycled; their absence biases measured returns upwards.
 * Oslo-only companies lack machine-readable fundamentals and are excluded from fundamental ranks.
+* The filings parser reads sentences, not tables: forward bookings are extracted for about a
+  sixth of releases, realised TCE for under a third.
 * FleetWatch uses terrestrial AIS, which loses ships in mid-ocean. Port events are reliable;
   speed between ports is not. Laden status needs one observed loaded voyage per ship before it
   is reliable.

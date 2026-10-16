@@ -1,0 +1,285 @@
+<title>FleetWatch Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: full-bleed map; floating search + chips top-left; place card left (bottom sheet on phones); controls bottom-right */
+:root{
+  --water:#aad3f2; --land:#f3f1ec; --border:#c8c2b8; --coast:#b9d3e6;
+  --label:#5f7d95; --port:#7a7a7a;
+  --panel:#ffffff; --ink:#202124; --ink2:#5f6368; --line:#e3e3e3; --chip:#ffffff; --chipOn:#e8f0fe; --chipOnInk:#1a56c4;
+  --shadow:0 1px 2px rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15);
+  --dry:#D2770F; --tank:#2A78D6; --cont:#1BA57A; --gas:#B04A9C; --sel:#ea4335;
+  --font:"Roboto",system-ui,-apple-system,"Segoe UI",Arial,sans-serif; --mono:"Roboto Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --water:#17263c; --land:#242f3e; --border:#3d4b5e; --coast:#2c3d55; --label:#6b88a8; --port:#8a96a6;
+  --panel:#202124; --ink:#e8eaed; --ink2:#9aa0a6; --line:#3c4043; --chip:#2b2c2f; --chipOn:#26364f; --chipOnInk:#8ab4f8;
+  --shadow:0 1px 3px rgba(0,0,0,.6),0 4px 10px rgba(0,0,0,.35); color-scheme:dark }}
+:root[data-theme="dark"]{
+  --water:#17263c; --land:#242f3e; --border:#3d4b5e; --coast:#2c3d55; --label:#6b88a8; --port:#8a96a6;
+  --panel:#202124; --ink:#e8eaed; --ink2:#9aa0a6; --line:#3c4043; --chip:#2b2c2f; --chipOn:#26364f; --chipOnInk:#8ab4f8;
+  --shadow:0 1px 3px rgba(0,0,0,.6),0 4px 10px rgba(0,0,0,.35); color-scheme:dark }
+html,body{height:100%}
+body{background:var(--water);color:var(--ink);font-family:var(--font);overflow:hidden}
+#map{position:fixed;inset:0;display:block;width:100%;height:100%;cursor:grab;touch-action:none}
+#map:active{cursor:grabbing}
+.top{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));
+  display:flex;gap:8px;align-items:flex-start;flex-wrap:wrap;pointer-events:none;z-index:5}
+.search{pointer-events:auto;width:min(392px,100%);background:var(--panel);border-radius:24px;box-shadow:var(--shadow);position:relative}
+.search label{display:flex;align-items:center;gap:10px;height:48px;padding:0 16px}
+.search svg{flex:none;color:var(--ink2)}
+.search input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:400 15px var(--font);color:var(--ink)}
+.search input::placeholder{color:var(--ink2)}
+.search:focus-within{outline:2px solid var(--chipOnInk);outline-offset:0}
+.results{border-top:1px solid var(--line);max-height:320px;overflow:auto;padding:6px 0}
+.results button{display:flex;gap:12px;align-items:center;width:100%;border:0;background:none;text-align:left;padding:8px 16px;color:var(--ink);font:400 14px var(--font);cursor:pointer}
+.results button:hover,.results button:focus-visible{background:var(--chipOn);outline:0}
+.results small{color:var(--ink2);display:block;font-size:12px}
+.chips{pointer-events:auto;display:flex;gap:8px;overflow-x:auto;max-width:100%;padding:6px 2px;scrollbar-width:none}
+.chip{flex:none;display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 12px;border-radius:16px;border:0;background:var(--chip);
+  color:var(--ink);font:500 13px var(--font);box-shadow:var(--shadow);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--chipOn);color:var(--chipOnInk)}
+.chip:focus-visible,.ctrl button:focus-visible,.card button:focus-visible{outline:2px solid var(--chipOnInk);outline-offset:2px}
+.dot{width:10px;height:10px;border-radius:50%}
+.card{position:fixed;z-index:6;background:var(--panel);box-shadow:var(--shadow);overflow:auto;
+  left:max(12px,env(safe-area-inset-left,0px));top:calc(120px + env(safe-area-inset-top,0px));width:360px;max-height:calc(100% - 160px);border-radius:12px}
+.card .hero{height:84px;position:relative}
+.card .hero svg{position:absolute;right:16px;bottom:-22px}
+.card .body{padding:18px 20px 20px;display:grid;gap:14px}
+.card h2{margin:0;font:400 22px/1.25 var(--font);text-wrap:balance}
+.card .sub{color:var(--ink2);font-size:14px;margin-top:4px}
+.badge{display:inline-flex;align-items:center;gap:6px;font:500 12px var(--font);padding:3px 10px;border-radius:12px;background:var(--chipOn);color:var(--chipOnInk);width:max-content}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:10px 16px;font-size:14px;border-top:1px solid var(--line);padding-top:14px;margin:0}
+.facts dt{color:var(--ink2)} .facts dd{margin:0;font-variant-numeric:tabular-nums;min-width:0;overflow-wrap:anywhere}
+.close{position:absolute;top:10px;right:10px;width:36px;height:36px;border-radius:50%;border:0;background:rgba(0,0,0,.25);color:#fff;cursor:pointer;font-size:20px;line-height:1}
+.links{display:flex;gap:8px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:14px}
+.links a{display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 14px;border-radius:17px;border:1px solid var(--line);color:var(--chipOnInk);text-decoration:none;font:500 13px var(--font)}
+.links a:hover{background:var(--chipOn)}
+.ctrl{position:fixed;z-index:5;right:max(12px,env(safe-area-inset-right,0px));bottom:calc(40px + env(safe-area-inset-bottom,0px));display:grid;gap:8px}
+.ctrl .zoom{display:grid;background:var(--panel);border-radius:8px;box-shadow:var(--shadow);overflow:hidden}
+.ctrl button{width:40px;height:40px;border:0;background:var(--panel);color:var(--ink2);cursor:pointer;display:grid;place-items:center}
+.ctrl .zoom button+button{border-top:1px solid var(--line)}
+.ctrl>button{border-radius:8px;box-shadow:var(--shadow)}
+.summary{position:fixed;z-index:4;left:max(12px,env(safe-area-inset-left,0px));bottom:calc(28px + env(safe-area-inset-bottom,0px));background:var(--panel);border-radius:8px;box-shadow:var(--shadow);
+  padding:10px 14px;font-size:12px;color:var(--ink2);display:grid;gap:6px;max-width:calc(100% - 90px)}
+.summary b{color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}
+.legend{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.attr{position:fixed;z-index:4;right:0;bottom:env(safe-area-inset-bottom,0px);background:color-mix(in srgb,var(--panel) 80%,transparent);color:var(--ink2);font-size:10px;
+  padding:2px max(8px,env(safe-area-inset-right,0px)) 2px 8px}
+.attr a{color:inherit}
+.tip{position:fixed;z-index:7;pointer-events:none;background:var(--panel);color:var(--ink);font:500 12px var(--font);padding:5px 9px;border-radius:6px;box-shadow:var(--shadow);white-space:nowrap}
+@media (max-width:640px){
+  .card{left:0;right:0;width:auto;top:auto;bottom:0;max-height:62%;border-radius:16px 16px 0 0;padding-bottom:env(safe-area-inset-bottom,0px)}
+  .summary{bottom:calc(28px + env(safe-area-inset-bottom,0px))}
+  .ctrl{bottom:calc(96px + env(safe-area-inset-bottom,0px))}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<canvas id="map" aria-label="World map of ships owned by listed shipping companies"></canvas>
+
+<div class="top">
+  <div class="search" role="search">
+    <label for="q">
+      <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.8l-.3-.3A6.5 6.5 0 1 0 9.5 16a6.5 6.5 0 0 0 4.2-1.6l.3.3v.8l5 5 1.5-1.5-5-5Zm-6 0a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9Z"/></svg>
+      <input id="q" type="search" placeholder="Search ships, owners or tickers" autocomplete="off">
+    </label>
+    <div class="results" id="results" hidden></div>
+  </div>
+  <div class="chips" id="chips" role="toolbar" aria-label="Filters"></div>
+</div>
+
+<aside class="card" id="card" hidden aria-live="polite"></aside>
+
+<div class="ctrl">
+  <button id="home" title="Show whole world" aria-label="Show whole world"><svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 6h-2.9a15.7 15.7 0 0 0-1.4-3.6A8 8 0 0 1 18.9 8ZM12 4a14 14 0 0 1 1.9 4h-3.8A14 14 0 0 1 12 4ZM4.3 14a8.2 8.2 0 0 1 0-4h3.4a16.5 16.5 0 0 0 0 4H4.3Zm.8 2h2.9c.3 1.3.8 2.5 1.4 3.6A8 8 0 0 1 5.1 16ZM8 8H5.1a8 8 0 0 1 4.3-3.6C8.8 5.5 8.3 6.7 8 8Zm4 12a14 14 0 0 1-1.9-4h3.8A14 14 0 0 1 12 20Zm2.3-6H9.7a14.7 14.7 0 0 1 0-4h4.6a14.7 14.7 0 0 1 0 4Zm.3 5.6c.6-1.1 1.1-2.3 1.4-3.6h2.9a8 8 0 0 1-4.3 3.6Zm1.7-5.6a16.5 16.5 0 0 0 0-4h3.4a8.2 8.2 0 0 1 0 4h-3.4Z"/></svg></button>
+  <div class="zoom">
+    <button id="zin" aria-label="Zoom in"><svg width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2Z"/></svg></button>
+    <button id="zout" aria-label="Zoom out"><svg width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M19 13H5v-2h14v2Z"/></svg></button>
+  </div>
+</div>
+
+<div class="summary" id="summary"></div>
+<div class="attr">Positions: aisstream.io terrestrial AIS · Ports: IMF PortWatch · Borders: Natural Earth · Independent research, not affiliated with any employer</div>
+<div class="tip" id="tip" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script>
+const DATA = /*__FLEET__*/null;
+const WORLD = /*__WORLD__*/null;
+const SEGS = [["dry_bulk","Dry bulk","--dry"],["tankers","Tankers","--tank"],["containers","Containers","--cont"],["gas","Gas","--gas"]];
+const STATES = [["underway","Underway"],["idle","Idle at sea"],["in port","In port"]];
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const segColor = s => css((SEGS.find(x=>x[0]===s)||SEGS[0])[2]);
+const segName = s => (SEGS.find(x=>x[0]===s)||[0,s])[1];
+const fmt = n => n==null ? "–" : n.toLocaleString("en-GB");
+
+const canvas = document.getElementById("map"), ctx = canvas.getContext("2d");
+const land = topojson.feature(WORLD, WORLD.objects.countries);
+const borders = topojson.mesh(WORLD, WORLD.objects.countries, (a,b)=>a!==b);
+const proj = d3.geoMercator().clipExtent(null);
+const path = d3.geoPath(proj, ctx);
+let W=0,H=0,dpr=1,transform=d3.zoomIdentity, baseScale=1;
+const filt = {seg:new Set(SEGS.map(s=>s[0])), state:new Set(STATES.map(s=>s[0])), unconf:false};
+let selected=null, hover=null, pts=[];
+
+function size(){
+  dpr=window.devicePixelRatio||1; W=innerWidth; H=innerHeight;
+  canvas.width=W*dpr; canvas.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+  baseScale = Math.max(W/(2*Math.PI), H/(2*Math.PI*0.62));
+  draw();
+}
+function setProj(){
+  const k=transform.k, s=baseScale*k;
+  proj.scale(s).translate([W/2*k+transform.x, H/2*k+transform.y]).center([15,22]);
+}
+const OCEANS=[["Pacific Ocean",-150,5],["Atlantic Ocean",-38,22],["Indian Ocean",78,-18],["Southern Ocean",20,-58],["Arctic Ocean",0,78],["Pacific Ocean",170,22]];
+function draw(){
+  setProj();
+  const ww = 2*Math.PI*proj.scale();              // one world width in px; draw copies so the map wraps like Google's
+  const n0 = Math.floor((-proj([-180,0])[0])/ww)-0, offs=[];
+  for(let o=-2;o<=2;o++){const x0=proj([-180,0])[0]+o*ww; if(x0<W && x0+ww>0) offs.push(o*ww);}
+  ctx.fillStyle=css("--water"); ctx.fillRect(0,0,W,H);
+  for(const o of offs){
+    ctx.save(); ctx.translate(o,0);
+    ctx.beginPath(); path(land); ctx.fillStyle=css("--land"); ctx.fill();
+    ctx.lineWidth=1.2; ctx.strokeStyle=css("--coast"); ctx.stroke();
+    ctx.save(); ctx.beginPath(); path(land); ctx.clip();
+    ctx.beginPath(); path(borders); ctx.setLineDash([3,2]); ctx.lineWidth=.7; ctx.strokeStyle=css("--border"); ctx.stroke(); ctx.setLineDash([]); ctx.restore();
+    ctx.restore();
+  }
+  const k=transform.k;
+  ctx.textAlign="center"; ctx.fillStyle=css("--label"); ctx.font=`italic 400 ${k<2?12:14}px ${css("--font")}`;
+  if(k<5) for(const o of offs) for(const [n,lo,la] of OCEANS){const p=proj([lo,la]); ctx.fillText(n,p[0]+o,p[1]);}
+  if(k>=3.2){
+    ctx.font=`400 11px ${css("--font")}`; ctx.fillStyle=css("--port"); ctx.textAlign="left";
+    for(const o of offs) for(const [n,la,lo] of DATA.ports){const p=proj([lo,la]); const x=p[0]+o; if(x<-20||x>W+20||p[1]<-20||p[1]>H+20) continue;
+      ctx.beginPath(); ctx.arc(x,p[1],2.2,0,7); ctx.fill(); ctx.fillText(n,x+5,p[1]+4);}
+  }
+  pts=[];
+  const r = Math.min(7.5, 4.2+Math.log2(k)*1.1);
+  const vis = DATA.ships.filter(s=>filt.seg.has(s.segment)&&filt.state.has(s.state)&&(s.confirmed||filt.unconf));
+  const order = [...vis].sort((a,b)=>(a.confirmed-b.confirmed));
+  for(const o of offs) for(const s of order){
+    const p=proj([s.lon,s.lat]); const x=p[0]+o; if(x<-10||x>W+10||p[1]<-10||p[1]>H+10) continue;
+    pts.push([x,p[1],s]); marker(x,p[1],s,r, s===hover);
+  }
+  if(selected){const p=proj([selected.lon,selected.lat]); for(const o of offs) pin(p[0]+o,p[1]);}
+  summary(vis);
+}
+function marker(x,y,s,r,hi){
+  const c=segColor(s.segment); ctx.save(); ctx.translate(x,y); if(!s.confirmed) ctx.globalAlpha=.45;
+  ctx.lineWidth=1.5; ctx.strokeStyle="#ffffff";
+  if(s.state==="underway" && s.hdg!=null){
+    ctx.rotate(s.hdg*Math.PI/180); const R=r*1.45;
+    ctx.beginPath(); ctx.moveTo(0,-R); ctx.lineTo(R*.72,R*.8); ctx.lineTo(0,R*.38); ctx.lineTo(-R*.72,R*.8); ctx.closePath();
+    ctx.fillStyle=c; ctx.fill(); ctx.stroke();
+  } else if(s.state==="idle"){
+    ctx.beginPath(); ctx.arc(0,0,r,0,7); ctx.fillStyle="#ffffff"; ctx.fill(); ctx.lineWidth=2.6; ctx.strokeStyle=c; ctx.stroke();
+  } else {
+    ctx.beginPath(); ctx.arc(0,0,r*.9,0,7); ctx.fillStyle=c; ctx.fill(); ctx.stroke();
+  }
+  if(hi){ctx.beginPath(); ctx.arc(0,0,r+5,0,7); ctx.lineWidth=2; ctx.strokeStyle=c; ctx.globalAlpha=.45; ctx.stroke();}
+  ctx.restore();
+}
+function pin(x,y){
+  ctx.save(); ctx.translate(x,y-2); ctx.fillStyle=css("--sel"); ctx.strokeStyle="#a52714"; ctx.lineWidth=1;
+  ctx.beginPath(); ctx.moveTo(0,0); ctx.bezierCurveTo(-3,-9,-11,-14,-11,-23); ctx.arc(0,-23,11,Math.PI,0); ctx.bezierCurveTo(11,-14,3,-9,0,0);
+  ctx.fill(); ctx.stroke(); ctx.beginPath(); ctx.arc(0,-23,4,0,7); ctx.fillStyle="#b31412"; ctx.fill(); ctx.restore();
+}
+function summary(vis){
+  const n=vis.length, by=d3.rollup(vis,v=>v.length,d=>d.state);
+  const pct=x=> n? Math.round(100*(by.get(x)||0)/n)+"%":"–";
+  document.getElementById("summary").innerHTML =
+    `<div><b>${fmt(n)}</b> ships ${filt.unconf?"shown":"confirmed"} of <b>${fmt(DATA.register)}</b> in the register · <b>${DATA.owners}</b> listed owners · as of ${DATA.as_of.slice(0,16).replace("T"," ")} UTC</div>
+     <div class="legend">${SEGS.filter(x=>DATA.register_by_segment[x[0]]).map(s=>`<span><i class="dot" style="background:var(${s[2]})"></i>${s[1]}</span>`).join("")}
+     <span>▲ underway ${pct("underway")}</span><span>○ idle ${pct("idle")}</span><span>● in port ${pct("in port")}</span></div>`;
+}
+
+// zoom & pan
+const zoom = d3.zoom().scaleExtent([1,60]).constrain((t,ext)=>{const k=t.k,ty=Math.min(Math.max(t.y, H*(1-k)*0.5 - H*0.45*k), H*0.45*k + H*(1-k)*0.5); return d3.zoomIdentity.translate(t.x,ty).scale(k);}).on("zoom",e=>{transform=e.transform; draw();});
+const sel = d3.select(canvas).call(zoom).on("dblclick.zoom",null);
+function flyTo(s,k=9){
+  // d3.zoom maps a base position p to k*p + t, so solve for t that puts the ship at the target point
+  const k1=Math.max(k,transform.k), off=innerWidth>640?190:0, offy=innerWidth>640?0:-H*0.2;
+  const p=d3.geoMercator().center([15,22]).scale(baseScale).translate([W/2,H/2])([s.lon,s.lat]);
+  const t=d3.zoomIdentity.translate(W/2+off-k1*p[0], H/2+offy-k1*p[1]).scale(k1);
+  sel.transition().duration(matchMedia("(prefers-reduced-motion: reduce)").matches?0:900).call(zoom.transform,t);
+}
+document.getElementById("zin").onclick=()=>sel.transition().duration(250).call(zoom.scaleBy,2);
+document.getElementById("zout").onclick=()=>sel.transition().duration(250).call(zoom.scaleBy,.5);
+document.getElementById("home").onclick=()=>sel.transition().duration(500).call(zoom.transform,d3.zoomIdentity);
+
+// hit testing
+function hit(ev){const r=canvas.getBoundingClientRect(),x=ev.clientX-r.left,y=ev.clientY-r.top; let best=null,bd=144;
+  for(const [px,py,s] of pts){const d=(px-x)**2+(py-y)**2; if(d<bd){bd=d;best=s;}} return best;}
+const tip=document.getElementById("tip");
+canvas.addEventListener("pointermove",ev=>{const s=hit(ev); if(s!==hover){hover=s; draw();}
+  canvas.style.cursor=s?"pointer":"";
+  if(s){tip.hidden=false; tip.textContent=`${s.name} · ${s.ticker}`; tip.style.left=(ev.clientX+12)+"px"; tip.style.top=(ev.clientY-30)+"px";} else tip.hidden=true;});
+canvas.addEventListener("pointerleave",()=>{tip.hidden=true; hover=null; draw();});
+canvas.addEventListener("click",ev=>{const s=hit(ev); if(s) select(s); else {selected=null; card.hidden=true; draw();}});
+
+// card
+const card=document.getElementById("card");
+function select(s,fly=false){
+  selected=s; const c=segColor(s.segment);
+  const stateTxt = s.state==="underway"?`Underway at ${s.sog?.toFixed(1)} kn`: s.state==="idle"?"Idle at sea":"In port";
+  const q = encodeURIComponent(`${s.lat},${s.lon}`);
+  card.innerHTML=`<div class="hero" style="background:linear-gradient(135deg,${c},color-mix(in srgb,${c} 55%,#000))">
+      <button class="close" aria-label="Close" id="x">×</button>
+      <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="var(--panel)"/><path d="M14 36h36l-5 9H19z" fill="${c}"/><rect x="24" y="24" width="10" height="10" fill="${c}"/><rect x="36" y="28" width="6" height="6" fill="${c}" opacity=".7"/></svg></div>
+    <div class="body">
+      <div><h2>${s.name}</h2><div class="sub">${s.owner} · ${s.ticker}</div></div>
+      <span class="badge"><i class="dot" style="background:${c}"></i>${segName(s.segment)} · ${stateTxt}</span>
+      ${s.confirmed?"":`<span class="badge" style="background:var(--line);color:var(--ink2)">Name match, identity not yet confirmed</span>`}
+      <dl class="facts">
+        <dt>Class</dt><dd style="text-transform:capitalize">${s.cls||"–"}</dd>
+        <dt>Deadweight</dt><dd>${fmt(s.dwt)} t</dd>
+        <dt>Built</dt><dd>${s.built??"–"}</dd>
+        <dt>Position</dt><dd>${s.lat.toFixed(3)}, ${s.lon.toFixed(3)}</dd>
+        <dt>Nearest port</dt><dd>${s.near} (${s.near_nm} nm)</dd>
+        <dt>Heading</dt><dd>${s.hdg!=null?Math.round(s.hdg)+"°":"–"}</dd>
+        <dt>Destination</dt><dd>${s.dest??"Not broadcast"}</dd>
+        <dt>Draught</dt><dd>${s.draught!=null?s.draught.toFixed(1)+" m":"–"}</dd>
+        <dt>Last seen</dt><dd>${s.seen.replace("T"," ")} UTC</dd>
+        <dt>MMSI · IMO</dt><dd style="font-family:var(--mono);font-size:13px">${s.mmsi} · ${s.imo??"–"}</dd>
+      </dl>
+      <div class="links">
+        <a href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">Open in Google Maps</a>
+        <a href="https://earth.google.com/web/search/${q}" target="_blank" rel="noopener">Google Earth</a>
+      </div>
+    </div>`;
+  card.hidden=false; document.getElementById("x").onclick=()=>{selected=null;card.hidden=true;draw();};
+  if(fly) flyTo(s); else draw();
+}
+
+// chips
+const chips=document.getElementById("chips");
+for(const [k,l,v] of SEGS.filter(x=>DATA.register_by_segment[x[0]])){const b=document.createElement("button");b.className="chip";b.setAttribute("aria-pressed","true");
+  b.innerHTML=`<i class="dot" style="background:var(${v})"></i>${l}`;b.onclick=()=>{toggle(filt.seg,k,b)};chips.append(b);}
+{const b=document.createElement("button");b.className="chip";b.setAttribute("aria-pressed","false");b.textContent="Name matches awaiting confirmation";
+  b.title="Ships whose broadcast name matches the register but whose own static report has not arrived yet";
+  b.onclick=()=>{filt.unconf=!filt.unconf;b.setAttribute("aria-pressed",String(filt.unconf));draw();};chips.append(b);}
+for(const [k,l] of STATES){const b=document.createElement("button");b.className="chip";b.setAttribute("aria-pressed","true");b.textContent=l;b.onclick=()=>toggle(filt.state,k,b);chips.append(b);}
+function toggle(set,k,b){ if(set.has(k)&&set.size>1){set.delete(k);b.setAttribute("aria-pressed","false");} else {set.add(k);b.setAttribute("aria-pressed","true");} draw(); }
+
+// search
+const q=document.getElementById("q"), res=document.getElementById("results");
+q.addEventListener("input",()=>{const t=q.value.trim().toLowerCase(); if(!t){res.hidden=true;return;}
+  const m=DATA.ships.filter(s=>(s.confirmed||filt.unconf)&&(s.name.toLowerCase().includes(t)||s.owner.toLowerCase().includes(t)||s.ticker.toLowerCase()===t||s.ticker.toLowerCase().startsWith(t))).slice(0,12);
+  res.innerHTML = m.length? m.map((s,i)=>`<button data-i="${DATA.ships.indexOf(s)}"><i class="dot" style="background:${segColor(s.segment)}"></i><span>${s.name}<small>${s.owner} · ${s.state} · near ${s.near}</small></span></button>`).join("")
+    : `<div style="padding:10px 16px;color:var(--ink2);font-size:14px">No ship seen in this snapshot matches “${t.replace(/[<>&]/g,"")}”.</div>`;
+  res.hidden=false;
+  res.querySelectorAll("button").forEach(b=>b.onclick=()=>{res.hidden=true; q.value=DATA.ships[+b.dataset.i].name; select(DATA.ships[+b.dataset.i],true);});
+});
+q.addEventListener("keydown",e=>{if(e.key==="Enter"){const b=res.querySelector("button"); if(b) b.click();} if(e.key==="Escape"){res.hidden=true;}});
+
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change",draw);
+new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+addEventListener("resize",size); size();
+document.fonts?.ready.then(draw);
+</script>
