@@ -106,8 +106,26 @@ def collect(minutes: float = 8.0) -> dict:
     return asyncio.run(_collect(minutes, key, RAW))
 
 
+def _log(status: str, detail: str) -> None:
+    """Append one line per run to data/fleet/collector_log.csv so failures are visible in the repo."""
+    import csv, datetime as dt
+    path = ROOT / "data" / "fleet" / "collector_log.csv"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    new = not path.exists()
+    with path.open("a", newline="") as f:
+        w = csv.writer(f)
+        if new:
+            w.writerow(["utc", "status", "detail"])
+        w.writerow([dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"), status, detail[:300]])
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--minutes", type=float, default=8.0)
-    stats = collect(ap.parse_args().minutes)
-    print(json.dumps(stats))
+    try:
+        stats = collect(ap.parse_args().minutes)
+        _log("ok", json.dumps(stats))
+        print(json.dumps(stats))
+    except Exception as e:  # never fail the workflow: log it and let the commit step record it
+        _log("error", f"{type(e).__name__}: {e}")
+        print(f"collector error: {type(e).__name__}: {e}")
