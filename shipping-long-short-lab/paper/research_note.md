@@ -1,7 +1,7 @@
 ---
 title: "Shipping long/short: research note"
 subtitle: "Public data is priced by Friday. The edge is in the ships."
-author: "Hrushikesh Ambekar"
+author: "Hrush Ambekar"
 date: "October 2026"
 ---
 
