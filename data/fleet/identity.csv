@@ -122,7 +122,7 @@ SBLK,Star Antares,STAR ANTARES,ultramax_supramax,61258,unmatched,,,
 SBLK,Star Tokyo,STAR TOKYO,ultramax_supramax,61225,unmatched,,,
 SBLK,Star Monica,STAR MONICA,ultramax_supramax,60935,unmatched,,,
 SBLK,Star Aquarius,STAR AQUARIUS,ultramax_supramax,60916,unmatched,,,
-SBLK,Star Pisces,STAR PISCES,ultramax_supramax,60916,unmatched,,,
+SBLK,Star Pisces,STAR PISCES,ultramax_supramax,60916,matched,636024670.0,9715854.0,198.0
 SBLK,Crane,CRANE,ultramax_supramax,57809,unmatched,,,
 SBLK,Egret Bulker,EGRET BULKER,ultramax_supramax,57809,unmatched,,,
 SBLK,Gannet Bulker,GANNET BULKER,ultramax_supramax,57809,unmatched,,,
