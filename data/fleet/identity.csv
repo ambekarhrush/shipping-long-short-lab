@@ -84,7 +84,7 @@ SBLK,Star Halifax,STAR HALIFAX,ultramax_supramax,63618,matched,636025205.0,98558
 SBLK,Star Helsinki,STAR HELSINKI,ultramax_supramax,63605,unmatched,,,
 SBLK,Star Gibraltar,STAR GIBRALTAR,ultramax_supramax,63576,unmatched,,,
 SBLK,Star Valencia,STAR VALENCIA,ultramax_supramax,63556,unmatched,,,
-SBLK,Star Dublin,STAR DUBLIN,ultramax_supramax,63550,unmatched,,,
+SBLK,Star Dublin,STAR DUBLIN,ultramax_supramax,63550,matched,636025363.0,9699323.0,199.0
 SBLK,Star Santos,STAR SANTOS,ultramax_supramax,63536,matched,636025666.0,9699347.0,200.0
 SBLK,Star Antwerp,STAR ANTWERP,ultramax_supramax,63530,unmatched,,,
 SBLK,Star Sydney,STAR SYDNEY,ultramax_supramax,63523,unmatched,,,
