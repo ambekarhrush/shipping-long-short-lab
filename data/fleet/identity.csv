@@ -1,5 +1,5 @@
 universe_id,vessel,vessel_key,vessel_class,dwt,status,mmsi,imo,ais_length
-SBLK,Goliath,GOLIATH,newcastlemax,209537,unmatched,,,
+SBLK,Goliath,GOLIATH,newcastlemax,209537,matched,503003000.0,9036430.0,142.0
 SBLK,Gargantua,GARGANTUA,newcastlemax,209529,unmatched,,,
 SBLK,Star Gina 2GR,STAR GINA 2GR,newcastlemax,209475,unmatched,,,
 SBLK,Maharaj,MAHARAJ,newcastlemax,209472,unmatched,,,
@@ -170,7 +170,7 @@ GNK,Genco Hunter,GENCO HUNTER,ultramax_supramax,58729,unmatched,,,
 GNK,Genco Auvergne,GENCO AUVERGNE,ultramax_supramax,58020,unmatched,,,
 GNK,Genco Bourgogne,GENCO BOURGOGNE,ultramax_supramax,58018,unmatched,,,
 GNK,Genco Languedoc,GENCO LANGUEDOC,ultramax_supramax,58018,unmatched,,,
-GNK,Genco Pyrenees,GENCO PYRENEES,ultramax_supramax,58018,unmatched,,,
+GNK,Genco Pyrenees,GENCO PYRENEES,ultramax_supramax,58018,matched,538003015.0,9511832.0,190.0
 GNK,Genco Rhone,GENCO RHONE,ultramax_supramax,58018,unmatched,,,
 GNK,Genco Ardennes,GENCO ARDENNES,ultramax_supramax,58014,unmatched,,,
 GNK,Genco Brittany,GENCO BRITTANY,ultramax_supramax,58014,unmatched,,,
@@ -199,7 +199,7 @@ SB,Pedhoulas Fighter,PEDHOULAS FIGHTER,kamsarmax_panamax,82500,unmatched,,,
 SB,Efrossini,EFROSSINI,kamsarmax_panamax,82000,unmatched,,,
 SB,Marina,MARINA,post_panamax,87000,matched,244690638.0,0.0,135.0
 SB,Xenia,XENIA,post_panamax,87000,unmatched,,,
-SB,Sophia,SOPHIA,post_panamax,87000,matched,244972000.0,9969443.0,88.0
+SB,Sophia,SOPHIA,post_panamax,87000,unmatched,,,
 SB,Eleni,ELENI,post_panamax,87000,unmatched,,,
 SB,Martine,MARTINE,post_panamax,87000,unmatched,,,
 SB,Andreas K,ANDREAS K,post_panamax,92000,unmatched,,,
