@@ -38,7 +38,7 @@ SBLK,Star Sirius,STAR SIRIUS,post_panamax,98681,unmatched,,,
 SBLK,Star Vega,STAR VEGA,post_panamax,98681,unmatched,,,
 SBLK,Star Aphrodite,STAR APHRODITE,post_panamax,92006,unmatched,,,
 SBLK,Star Piera,STAR PIERA,post_panamax,91951,unmatched,,,
-SBLK,Star Despoina,STAR DESPOINA,post_panamax,91951,unmatched,,,
+SBLK,Star Despoina,STAR DESPOINA,post_panamax,91951,matched,636020460.0,9450894.0,230.0
 SBLK,Star Electra,STAR ELECTRA,kamsarmax_panamax,83494,unmatched,,,
 SBLK,Star Angelina,STAR ANGELINA,kamsarmax_panamax,82981,unmatched,,,
 SBLK,Star Gwyneth,STAR GWYNETH,kamsarmax_panamax,82790,unmatched,,,
@@ -93,11 +93,11 @@ SBLK,Star Hong Kong,STAR HONG KONG,ultramax_supramax,63472,unmatched,,,
 SBLK,Idee Fixe,IDEE FIXE,ultramax_supramax,63458,matched,636025365.0,9700677.0,200.0
 SBLK,Star Shanghai,STAR SHANGHAI,ultramax_supramax,63438,unmatched,,,
 SBLK,Star Roberta,STAR ROBERTA,ultramax_supramax,63426,unmatched,,,
-SBLK,Laura,LAURA,ultramax_supramax,63399,matched,244780741.0,0.0,64.0
+SBLK,Laura,LAURA,ultramax_supramax,63399,unmatched,,,
 SBLK,Star Singapore,STAR SINGAPORE,ultramax_supramax,63386,unmatched,,,
 SBLK,Star Westport,STAR WESTPORT,ultramax_supramax,63344,unmatched,,,
 SBLK,Star Hamburg,STAR HAMBURG,ultramax_supramax,63334,unmatched,,,
-SBLK,Star Fairfield,STAR FAIRFIELD,ultramax_supramax,63301,unmatched,,,
+SBLK,Star Fairfield,STAR FAIRFIELD,ultramax_supramax,63301,matched,636024334.0,9575230.0,200.0
 SBLK,Star Greenwich,STAR GREENWICH,ultramax_supramax,63301,unmatched,,,
 SBLK,Star Groton,STAR GROTON,ultramax_supramax,63301,unmatched,,,
 SBLK,Star Madison,STAR MADISON,ultramax_supramax,63301,unmatched,,,
@@ -517,10 +517,10 @@ TEN,Euro,EURO,suezmax,157539,unmatched,,,
 TEN,Decathlon,DECATHLON,suezmax,158475,unmatched,,,
 TEN,Spyros K,SPYROS K,suezmax,157648,unmatched,,,
 TEN,Dimitris P,DIMITRIS P,suezmax,157740,unmatched,,,
-TEN,Arctic,ARCTIC,suezmax,163216,unmatched,,,
+TEN,Arctic,ARCTIC,suezmax,163216,matched,366826000.0,9131371.0,182.0
 TEN,Antarctic,ANTARCTIC,suezmax,163216,unmatched,,,
 TEN,Archangel,ARCHANGEL,suezmax,163216,unmatched,,,
-TEN,Alaska,ALASKA,suezmax,163250,unmatched,,,
+TEN,Alaska,ALASKA,suezmax,163250,matched,244810632.0,0.0,110.0
 TEN,Popi Sazaklis,POPI SAZAKLIS,suezmax,156900,unmatched,,,
 TEN,Dr Irene Tsakos,DR IRENE TSAKOS,suezmax,156833,unmatched,,,
 TEN,Silia T.,SILIA T,suezmax,156833,matched,241965000.0,9995753.0,270.0
@@ -680,7 +680,7 @@ ASC,Ardmore Seavanguard,ARDMORE SEAVANGUARD,mr,49998,matched,538005249.0,9637088
 ASC,Ardmore Sealion,ARDMORE SEALION,mr,49999,unmatched,,,
 ASC,Ardmore Seafox,ARDMORE SEAFOX,mr,49999,unmatched,,,
 ASC,Ardmore Seawolf,ARDMORE SEAWOLF,mr,49999,unmatched,,,
-ASC,Ardmore Seahawk,ARDMORE SEAHAWK,mr,49999,unmatched,,,
+ASC,Ardmore Seahawk,ARDMORE SEAHAWK,mr,49999,matched,538006132.0,9708239.0,183.0
 ASC,Ardmore Endeavour,ARDMORE ENDEAVOUR,mr,49997,unmatched,,,
 ASC,Ardmore Enterprise,ARDMORE ENTERPRISE,mr,49453,matched,538005092.0,9654555.0,183.0
 ASC,Ardmore Endurance,ARDMORE ENDURANCE,mr,49466,unmatched,,,
