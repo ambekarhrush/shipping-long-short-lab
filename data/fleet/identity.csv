@@ -69,7 +69,7 @@ SBLK,Stardust,STARDUST,kamsarmax_panamax,81502,unmatched,,,
 SBLK,Star Sky,STAR SKY,kamsarmax_panamax,81466,matched,636024128.0,9399105.0,225.0
 SBLK,Star Lambada,STAR LAMBADA,kamsarmax_panamax,81272,unmatched,,,
 SBLK,Star Carioca,STAR CARIOCA,kamsarmax_panamax,81262,unmatched,,,
-SBLK,Star Capoeira,STAR CAPOEIRA,kamsarmax_panamax,81253,unmatched,,,
+SBLK,Star Capoeira,STAR CAPOEIRA,kamsarmax_panamax,81253,matched,255915945.0,9719537.0,229.0
 SBLK,Star Macarena,STAR MACARENA,kamsarmax_panamax,81198,unmatched,,,
 SBLK,Star Lydia,STAR LYDIA,kamsarmax_panamax,81187,unmatched,,,
 SBLK,Star Nicole,STAR NICOLE,kamsarmax_panamax,81120,unmatched,,,
@@ -503,7 +503,7 @@ TNK,Yamato Spirit,YAMATO SPIRIT,aframax_lr2,107600,unmatched,,,
 TNK,Hovden Spirit,HOVDEN SPIRIT,aframax_lr2,105300,unmatched,,,
 TNK,Leyte Spirit,LEYTE SPIRIT,aframax_lr2,109700,unmatched,,,
 TNK,Luzon Spirit,LUZON SPIRIT,aframax_lr2,109600,unmatched,,,
-TNK,Sebarok Spirit,SEBAROK SPIRIT,aframax_lr2,109600,unmatched,,,
+TNK,Sebarok Spirit,SEBAROK SPIRIT,aframax_lr2,109600,matched,311000465.0,9572264.0,243.0
 TNK,Seletar Spirit,SELETAR SPIRIT,aframax_lr2,109000,unmatched,,,
 TNK,Semakau Spirit,SEMAKAU SPIRIT,aframax_lr2,115600,unmatched,,,
 TNK,Trysil Spirit,TRYSIL SPIRIT,aframax_lr2,105300,unmatched,,,
@@ -529,7 +529,7 @@ TEN,Rio 2016,RIO 2016,suezmax,155708,unmatched,,,
 TEN,Brasil 2014,BRASIL 2014,suezmax,155721,unmatched,,,
 TEN,Porto,PORTO,suezmax,154500,unmatched,,,
 TEN,Athens 04,ATHENS 04,suezmax,154350,matched,256881000.0,9988164.0,279.0
-TEN,Paris 24,PARIS 24,suezmax,154350,unmatched,,,
+TEN,Paris 24,PARIS 24,suezmax,154350,matched,256880000.0,9988176.0,279.0
 TEN,Caribbean Voyager,CARIBBEAN VOYAGER,aframax_lr2,115000,unmatched,,,
 TEN,Mediterranean Voyager,MEDITERRANEAN VOYAGER,aframax_lr2,115000,unmatched,,,
 TEN,Bergen TS,BERGEN TS,aframax_lr2,112108,matched,248024000.0,9737400.0,250.0
@@ -686,7 +686,7 @@ ASC,Ardmore Enterprise,ARDMORE ENTERPRISE,mr,49453,matched,538005092.0,9654555.0
 ASC,Ardmore Endurance,ARDMORE ENDURANCE,mr,49466,unmatched,,,
 ASC,Ardmore Encounter,ARDMORE ENCOUNTER,mr,49478,unmatched,,,
 ASC,Ardmore Explorer,ARDMORE EXPLORER,mr,49494,unmatched,,,
-ASC,Ardmore Exporter,ARDMORE EXPORTER,mr,49466,unmatched,,,
+ASC,Ardmore Exporter,ARDMORE EXPORTER,mr,49466,matched,538005089.0,9654775.0,183.0
 ASC,Ardmore Engineer,ARDMORE ENGINEER,mr,49420,unmatched,,,
 ASC,T Matterhorn,T MATTERHORN,mr,47981,unmatched,,,
 ASC,Ardmore Dauntless,ARDMORE DAUNTLESS,handy_tanker,37764,unmatched,,,
@@ -830,7 +830,7 @@ HAFNI,Hafnia Yarra,HAFNIA YARRA,lr1_panamax,74189,unmatched,,,
 HAFNI,Hafnia Zambesi,HAFNIA ZAMBESI,lr1_panamax,74995,unmatched,,,
 HAFNI,Karimata,KARIMATA,lr1_panamax,79885,unmatched,,,
 HAFNI,Sunda,SUNDA,lr1_panamax,79902,unmatched,,,
-HAFNI,Basset,BASSET,mr,49875,unmatched,,,
+HAFNI,Basset,BASSET,mr,49875,matched,563090700.0,9858060.0,183.0
 HAFNI,Beagle,BEAGLE,mr,49850,matched,352802000.0,9814181.0,183.0
 HAFNI,Boxer,BOXER,mr,49852,unmatched,,,
 HAFNI,Bulldog,BULLDOG,mr,49856,unmatched,,,
@@ -892,7 +892,7 @@ OET,Poliegos,POLIEGOS,suezmax,157525,unmatched,,,
 OET,Kimolos,KIMOLOS,suezmax,159159,unmatched,,,
 OET,Folegandros,FOLEGANDROS,suezmax,159221,unmatched,,,
 OET,Nissos Sikinos,NISSOS SIKINOS,suezmax,157447,unmatched,,,
-OET,Nissos Sifnos,NISSOS SIFNOS,suezmax,157447,unmatched,,,
+OET,Nissos Sifnos,NISSOS SIFNOS,suezmax,157447,matched,538008913.0,9884045.0,274.0
 OET,Nissos Rhenia,NISSOS RHENIA,vlcc,318953,unmatched,,,
 OET,Nissos Despotiko,NISSOS DESPOTIKO,vlcc,318953,unmatched,,,
 OET,Nissos Donoussa,NISSOS DONOUSSA,vlcc,318953,unmatched,,,
