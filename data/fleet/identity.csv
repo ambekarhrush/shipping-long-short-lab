@@ -339,7 +339,7 @@ CMDB,CAPE PROTEUS (ii),CAPE PROTEUS,capesize,180585,unmatched,,,
 CMDB,MILDRED,MILDRED,capesize,179678,unmatched,,,
 CMDB,MILESTONE,MILESTONE,capesize,176354,unmatched,,,
 CMDB,GRAMPUS CHARM,GRAMPUS CHARM,kamsarmax_panamax,82937,unmatched,,,
-CMDB,GRAND OCEAN,GRAND OCEAN,kamsarmax_panamax,82698,unmatched,,,
+CMDB,GRAND OCEAN,GRAND OCEAN,kamsarmax_panamax,82698,matched,538010206.0,9949651.0,229.0
 CMDB,APJ PRITI 2,APJ PRITI 2,kamsarmax_panamax,82574,unmatched,,,
 CMDB,IKAN KEMBUNG,IKAN KEMBUNG,kamsarmax_panamax,82023,unmatched,,,
 CMDB,EVER MAJESTY,EVER MAJESTY,kamsarmax_panamax,81936,matched,538009583.0,9913327.0,229.0
@@ -679,7 +679,7 @@ ASC,Ardmore Seavantage,ARDMORE SEAVANTAGE,mr,49997,unmatched,,,
 ASC,Ardmore Seavanguard,ARDMORE SEAVANGUARD,mr,49998,matched,538005249.0,9637088.0,183.0
 ASC,Ardmore Sealion,ARDMORE SEALION,mr,49999,unmatched,,,
 ASC,Ardmore Seafox,ARDMORE SEAFOX,mr,49999,unmatched,,,
-ASC,Ardmore Seawolf,ARDMORE SEAWOLF,mr,49999,unmatched,,,
+ASC,Ardmore Seawolf,ARDMORE SEAWOLF,mr,49999,matched,538006131.0,9708227.0,183.0
 ASC,Ardmore Seahawk,ARDMORE SEAHAWK,mr,49999,matched,538006132.0,9708239.0,183.0
 ASC,Ardmore Endeavour,ARDMORE ENDEAVOUR,mr,49997,unmatched,,,
 ASC,Ardmore Enterprise,ARDMORE ENTERPRISE,mr,49453,matched,538005092.0,9654555.0,183.0
@@ -851,7 +851,7 @@ HAFNI,Hafnia Eagle,HAFNIA EAGLE,mr,49999,unmatched,,,
 HAFNI,Hafnia Egret,HAFNIA EGRET,mr,49999,unmatched,,,
 HAFNI,Hafnia Falcon,HAFNIA FALCON,mr,49999,matched,566000000.0,9607186.0,183.0
 HAFNI,Hafnia Hawk,HAFNIA HAWK,mr,49999,unmatched,,,
-HAFNI,Hafnia Henriette,HAFNIA HENRIETTE,mr,49999,unmatched,,,
+HAFNI,Hafnia Henriette,HAFNIA HENRIETTE,mr,49999,matched,249345000.0,9726607.0,183.0
 HAFNI,Hafnia Jaguar,HAFNIA JAGUAR,mr,49999,unmatched,,,
 HAFNI,Hafnia Kestrel,HAFNIA KESTREL,mr,49999,unmatched,,,
 HAFNI,Hafnia Kirsten,HAFNIA KIRSTEN,mr,49999,unmatched,,,
