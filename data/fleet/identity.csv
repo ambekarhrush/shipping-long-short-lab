@@ -136,7 +136,7 @@ SBLK,Star Pegasus,STAR PEGASUS,ultramax_supramax,56540,matched,636024675.0,96217
 SBLK,Star Bright,STAR BRIGHT,ultramax_supramax,55569,unmatched,,,
 GNK,Genco Courageous,GENCO COURAGEOUS,capesize,182868,unmatched,,,
 GNK,Genco Reliance,GENCO RELIANCE,capesize,181146,unmatched,,,
-GNK,Genco Resolute,GENCO RESOLUTE,capesize,181060,unmatched,,,
+GNK,Genco Resolute,GENCO RESOLUTE,capesize,181060,matched,538008119.0,9698977.0,292.0
 GNK,Genco Endeavour,GENCO ENDEAVOUR,capesize,181057,unmatched,,,
 GNK,Genco Ranger,GENCO RANGER,capesize,180882,unmatched,,,
 GNK,Genco Constantine,GENCO CONSTANTINE,capesize,180183,unmatched,,,
@@ -300,7 +300,7 @@ CTRM,Magic Starlight,MAGIC STARLIGHT,kamsarmax_panamax,81048,unmatched,,,
 CTRM,Magic Mars,MAGIC MARS,kamsarmax_panamax,76822,unmatched,,,
 CTRM,Magic P,MAGIC P,kamsarmax_panamax,76453,unmatched,,,
 CTRM,Magic Pluto,MAGIC PLUTO,kamsarmax_panamax,74940,unmatched,,,
-CTRM,Magic Ariel,MAGIC ARIEL,kamsarmax_panamax,81845,unmatched,,,
+CTRM,Magic Ariel,MAGIC ARIEL,kamsarmax_panamax,81845,matched,538011341.0,9855599.0,229.0
 CTRM,Magic Celeste,MAGIC CELESTE,ultramax_supramax,63310,unmatched,,,
 CMDB,FRONTIER,FRONTIER,capesize,181415,unmatched,,,
 CMDB,MIRACLE (i),MIRACLE,capesize,180643,unmatched,,,
@@ -402,7 +402,7 @@ FRO,Front Crystal,FRONT CRYSTAL,suezmax,157000,unmatched,,,
 FRO,Front Coral,FRONT CORAL,suezmax,158000,unmatched,,,
 FRO,Front Cosmos,FRONT COSMOS,suezmax,158000,unmatched,,,
 FRO,Front Cascade,FRONT CASCADE,suezmax,157000,unmatched,,,
-FRO,Front Sparta,FRONT SPARTA,suezmax,157000,unmatched,,,
+FRO,Front Sparta,FRONT SPARTA,suezmax,157000,matched,477591500.0,9847114.0,275.0
 FRO,Front Samara,FRONT SAMARA,suezmax,157000,unmatched,,,
 FRO,Front Siena,FRONT SIENA,suezmax,157000,unmatched,,,
 FRO,Front Singapore,FRONT SINGAPORE,suezmax,157000,unmatched,,,
@@ -518,7 +518,7 @@ TEN,Decathlon,DECATHLON,suezmax,158475,unmatched,,,
 TEN,Spyros K,SPYROS K,suezmax,157648,unmatched,,,
 TEN,Dimitris P,DIMITRIS P,suezmax,157740,unmatched,,,
 TEN,Arctic,ARCTIC,suezmax,163216,matched,366826000.0,9131371.0,182.0
-TEN,Antarctic,ANTARCTIC,suezmax,163216,unmatched,,,
+TEN,Antarctic,ANTARCTIC,suezmax,163216,matched,636015560.0,9315185.0,274.0
 TEN,Archangel,ARCHANGEL,suezmax,163216,unmatched,,,
 TEN,Alaska,ALASKA,suezmax,163250,matched,244810632.0,0.0,110.0
 TEN,Popi Sazaklis,POPI SAZAKLIS,suezmax,156900,unmatched,,,
@@ -683,7 +683,7 @@ ASC,Ardmore Seawolf,ARDMORE SEAWOLF,mr,49999,unmatched,,,
 ASC,Ardmore Seahawk,ARDMORE SEAHAWK,mr,49999,matched,538006132.0,9708239.0,183.0
 ASC,Ardmore Endeavour,ARDMORE ENDEAVOUR,mr,49997,unmatched,,,
 ASC,Ardmore Enterprise,ARDMORE ENTERPRISE,mr,49453,matched,538005092.0,9654555.0,183.0
-ASC,Ardmore Endurance,ARDMORE ENDURANCE,mr,49466,unmatched,,,
+ASC,Ardmore Endurance,ARDMORE ENDURANCE,mr,49466,matched,538005095.0,9654567.0,183.0
 ASC,Ardmore Encounter,ARDMORE ENCOUNTER,mr,49478,unmatched,,,
 ASC,Ardmore Explorer,ARDMORE EXPLORER,mr,49494,unmatched,,,
 ASC,Ardmore Exporter,ARDMORE EXPORTER,mr,49466,matched,538005089.0,9654775.0,183.0
@@ -903,7 +903,7 @@ OET,Nissos Kea,NISSOS KEA,vlcc,300323,unmatched,,,
 OET,Nissos Nikouria,NISSOS NIKOURIA,vlcc,300323,unmatched,,,
 DSX,DSI Phoenix,DSI PHOENIX,ultramax_supramax,60456,unmatched,,,
 DSX,DSI Pollux,DSI POLLUX,ultramax_supramax,60446,unmatched,,,
-DSX,DSI Pyxis,DSI PYXIS,ultramax_supramax,60362,unmatched,,,
+DSX,DSI Pyxis,DSI PYXIS,ultramax_supramax,60362,matched,538009163.0,9800635.0,200.0
 DSX,DSI Polaris,DSI POLARIS,ultramax_supramax,60404,unmatched,,,
 DSX,DSI Pegasus,DSI PEGASUS,ultramax_supramax,60508,unmatched,,,
 DSX,DSI Aquarius,DSI AQUARIUS,ultramax_supramax,60309,unmatched,,,
