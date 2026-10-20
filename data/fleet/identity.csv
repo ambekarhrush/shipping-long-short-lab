@@ -404,7 +404,7 @@ FRO,Front Cosmos,FRONT COSMOS,suezmax,158000,unmatched,,,
 FRO,Front Cascade,FRONT CASCADE,suezmax,157000,unmatched,,,
 FRO,Front Sparta,FRONT SPARTA,suezmax,157000,matched,477591500.0,9847114.0,275.0
 FRO,Front Samara,FRONT SAMARA,suezmax,157000,unmatched,,,
-FRO,Front Siena,FRONT SIENA,suezmax,157000,unmatched,,,
+FRO,Front Siena,FRONT SIENA,suezmax,157000,matched,477539900.0,9832250.0,275.0
 FRO,Front Singapore,FRONT SINGAPORE,suezmax,157000,unmatched,,,
 FRO,Front Seoul,FRONT SEOUL,suezmax,157000,unmatched,,,
 FRO,Front Santiago,FRONT SANTIAGO,suezmax,157000,unmatched,,,
@@ -536,7 +536,7 @@ TEN,Bergen TS,BERGEN TS,aframax_lr2,112108,matched,248024000.0,9737400.0,250.0
 TEN,Stavanger TS,STAVANGER TS,aframax_lr2,113004,unmatched,,,
 TEN,Oslo TS,OSLO TS,aframax_lr2,112949,unmatched,,,
 TEN,Marathon TS,MARATHON TS,aframax_lr2,113651,matched,249987000.0,9737371.0,250.0
-TEN,Sola TS,SOLA TS,aframax_lr2,112939,unmatched,,,
+TEN,Sola TS,SOLA TS,aframax_lr2,112939,matched,248020000.0,9724350.0,250.0
 TEN,Elias Tsakos,ELIAS TSAKOS,aframax_lr2,113737,unmatched,,,
 TEN,Thomas Zafiras,THOMAS ZAFIRAS,aframax_lr2,113691,unmatched,,,
 TEN,Leontios H,LEONTIOS H,aframax_lr2,113611,unmatched,,,
@@ -840,7 +840,7 @@ HAFNI,Ecomar Gascogne,ECOMAR GASCOGNE,mr,49776,unmatched,,,
 HAFNI,Ecomar Guyenne,ECOMAR GUYENNE,mr,49763,unmatched,,,
 HAFNI,Hafnia Andrea,HAFNIA ANDREA,mr,49999,unmatched,,,
 HAFNI,Hafnia Ane,HAFNIA ANE,mr,49999,unmatched,,,
-HAFNI,Hafnia Atlantic,HAFNIA ATLANTIC,mr,49641,unmatched,,,
+HAFNI,Hafnia Atlantic,HAFNIA ATLANTIC,mr,49641,matched,563191400.0,9810214.0,183.0
 HAFNI,Hafnia Bobcat,HAFNIA BOBCAT,mr,49999,unmatched,,,
 HAFNI,Hafnia Caterina,HAFNIA CATERINA,mr,49999,unmatched,,,
 HAFNI,Hafnia Cheetah,HAFNIA CHEETAH,mr,49999,unmatched,,,
