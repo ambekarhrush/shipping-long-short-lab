@@ -400,7 +400,7 @@ FRO,Front Classic,FRONT CLASSIC,suezmax,157000,unmatched,,,
 FRO,Front Clipper,FRONT CLIPPER,suezmax,157000,unmatched,,,
 FRO,Front Crystal,FRONT CRYSTAL,suezmax,157000,unmatched,,,
 FRO,Front Coral,FRONT CORAL,suezmax,158000,unmatched,,,
-FRO,Front Cosmos,FRONT COSMOS,suezmax,158000,unmatched,,,
+FRO,Front Cosmos,FRONT COSMOS,suezmax,158000,matched,538007397.0,9769817.0,276.0
 FRO,Front Cascade,FRONT CASCADE,suezmax,157000,unmatched,,,
 FRO,Front Sparta,FRONT SPARTA,suezmax,157000,matched,477591500.0,9847114.0,275.0
 FRO,Front Samara,FRONT SAMARA,suezmax,157000,unmatched,,,
@@ -790,7 +790,7 @@ TRMD,TORM DUBAI,TORM DUBAI,mr,49990,unmatched,,,
 TRMD,TORM FREEDOM,TORM FREEDOM,mr,49683,unmatched,,,
 HAFNI,Hafnia Despina,HAFNIA DESPINA,aframax_lr2,109990,unmatched,,,
 HAFNI,Hafnia Galatea,HAFNIA GALATEA,aframax_lr2,109990,unmatched,,,
-HAFNI,Hafnia Languedoc,HAFNIA LANGUEDOC,aframax_lr2,109999,unmatched,,,
+HAFNI,Hafnia Languedoc,HAFNIA LANGUEDOC,aframax_lr2,109999,matched,563175500.0,9941685.0,250.0
 HAFNI,Hafnia Larissa,HAFNIA LARISSA,aframax_lr2,109990,unmatched,,,
 HAFNI,Hafnia Larvik,HAFNIA LARVIK,aframax_lr2,109999,unmatched,,,
 HAFNI,Hafnia Lillesand,HAFNIA LILLESAND,aframax_lr2,109999,unmatched,,,
