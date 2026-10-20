@@ -110,7 +110,7 @@ SBLK,Kennadi,KENNADI,ultramax_supramax,63262,unmatched,,,
 SBLK,Mackenzie,MACKENZIE,ultramax_supramax,63226,unmatched,,,
 SBLK,Star New London,STAR NEW LONDON,ultramax_supramax,63140,unmatched,,,
 SBLK,Star Apus,STAR APUS,ultramax_supramax,63123,unmatched,,,
-SBLK,Star Subaru,STAR SUBARU,ultramax_supramax,61571,unmatched,,,
+SBLK,Star Subaru,STAR SUBARU,ultramax_supramax,61571,matched,636024955.0,9705160.0,200.0
 SBLK,Star Stamford,STAR STAMFORD,ultramax_supramax,61530,unmatched,,,
 SBLK,Star Wave,STAR WAVE,ultramax_supramax,61491,matched,636019448.0,9746009.0,200.0
 SBLK,Star Challenger,STAR CHALLENGER,ultramax_supramax,61462,unmatched,,,
@@ -677,7 +677,7 @@ ASC,Ardmore Seavaliant,ARDMORE SEAVALIANT,mr,49998,unmatched,,,
 ASC,Ardmore Seaventure,ARDMORE SEAVENTURE,mr,49998,unmatched,,,
 ASC,Ardmore Seavantage,ARDMORE SEAVANTAGE,mr,49997,unmatched,,,
 ASC,Ardmore Seavanguard,ARDMORE SEAVANGUARD,mr,49998,matched,538005249.0,9637088.0,183.0
-ASC,Ardmore Sealion,ARDMORE SEALION,mr,49999,unmatched,,,
+ASC,Ardmore Sealion,ARDMORE SEALION,mr,49999,matched,538006129.0,9708203.0,182.0
 ASC,Ardmore Seafox,ARDMORE SEAFOX,mr,49999,unmatched,,,
 ASC,Ardmore Seawolf,ARDMORE SEAWOLF,mr,49999,matched,538006131.0,9708227.0,183.0
 ASC,Ardmore Seahawk,ARDMORE SEAHAWK,mr,49999,matched,538006132.0,9708239.0,183.0
