@@ -630,7 +630,7 @@ STNG,STI Millennia,STI MILLENNIA,mr,50000,unmatched,,,
 STNG,STI Magister,STI MAGISTER,mr,50000,unmatched,,,
 STNG,STI Mythic,STI MYTHIC,mr,50000,matched,538010465.0,9833553.0,183.0
 STNG,STI Marshall,STI MARSHALL,mr,50000,unmatched,,,
-STNG,STI Modest,STI MODEST,mr,50000,unmatched,,,
+STNG,STI Modest,STI MODEST,mr,50000,matched,538010468.0,9833577.0,183.0
 STNG,STI Maverick,STI MAVERICK,mr,50000,unmatched,,,
 STNG,STI Miracle,STI MIRACLE,mr,50000,unmatched,,,
 STNG,STI Mighty,STI MIGHTY,mr,50000,matched,538010459.0,9854739.0,183.0
@@ -889,7 +889,7 @@ HAFNI,PS Stars,PS STARS,mr,49999,unmatched,,,
 HAFNI,Yellow Stars,YELLOW STARS,mr,49999,unmatched,,,
 OET,Milos,MILOS,suezmax,157525,unmatched,,,
 OET,Poliegos,POLIEGOS,suezmax,157525,unmatched,,,
-OET,Kimolos,KIMOLOS,suezmax,159159,unmatched,,,
+OET,Kimolos,KIMOLOS,suezmax,159159,matched,538007774.0,9791145.0,274.0
 OET,Folegandros,FOLEGANDROS,suezmax,159221,unmatched,,,
 OET,Nissos Sikinos,NISSOS SIKINOS,suezmax,157447,unmatched,,,
 OET,Nissos Sifnos,NISSOS SIFNOS,suezmax,157447,matched,538008913.0,9884045.0,274.0
