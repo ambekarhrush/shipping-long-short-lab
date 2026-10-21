@@ -159,7 +159,7 @@ GNK,Genco Mantis,GENCO MANTIS,ultramax_supramax,63467,unmatched,,,
 GNK,Genco Scorpion,GENCO SCORPION,ultramax_supramax,63462,matched,538005968.0,9729477.0,200.0
 GNK,Genco Magic,GENCO MAGIC,ultramax_supramax,63443,unmatched,,,
 GNK,Genco Wasp,GENCO WASP,ultramax_supramax,63389,unmatched,,,
-GNK,Genco Constellation,GENCO CONSTELLATION,ultramax_supramax,63310,unmatched,,,
+GNK,Genco Constellation,GENCO CONSTELLATION,ultramax_supramax,63310,matched,538009131.0,9714678.0,200.0
 GNK,Genco Mayflower,GENCO MAYFLOWER,ultramax_supramax,63304,unmatched,,,
 GNK,Genco Madeleine,GENCO MADELEINE,ultramax_supramax,63163,matched,538007722.0,9705976.0,200.0
 GNK,Genco Weatherly,GENCO WEATHERLY,ultramax_supramax,61556,matched,636016497.0,9689172.0,200.0
@@ -812,7 +812,7 @@ HAFNI,Hafnia Experience,HAFNIA EXPERIENCE,lr1_panamax,74669,unmatched,,,
 HAFNI,Hafnia Express,HAFNIA EXPRESS,lr1_panamax,74663,matched,563153900.0,9735634.0,219.0
 HAFNI,Hafnia Guangzhou,HAFNIA GUANGZHOU,lr1_panamax,74999,unmatched,,,
 HAFNI,Hafnia Hong Kong,HAFNIA HONG KONG,lr1_panamax,74999,unmatched,,,
-HAFNI,Hafnia Kallang,HAFNIA KALLANG,lr1_panamax,74189,unmatched,,,
+HAFNI,Hafnia Kallang,HAFNIA KALLANG,lr1_panamax,74189,matched,563010700.0,9766190.0,228.0
 HAFNI,Hafnia Nanjing,HAFNIA NANJING,lr1_panamax,74999,matched,563108500.0,9863235.0,228.0
 HAFNI,Hafnia Shannon,HAFNIA SHANNON,lr1_panamax,74189,unmatched,,,
 HAFNI,Hafnia Pioneer,HAFNIA PIONEER,aframax_lr2,81305,unmatched,,,
