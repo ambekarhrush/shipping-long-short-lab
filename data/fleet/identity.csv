@@ -107,7 +107,7 @@ SBLK,Star Southport,STAR SOUTHPORT,ultramax_supramax,63301,unmatched,,,
 SBLK,Kaley,KALEY,ultramax_supramax,63283,unmatched,,,
 SBLK,Star Stockholm,STAR STOCKHOLM,ultramax_supramax,63275,unmatched,,,
 SBLK,Kennadi,KENNADI,ultramax_supramax,63262,unmatched,,,
-SBLK,Mackenzie,MACKENZIE,ultramax_supramax,63226,unmatched,,,
+SBLK,Mackenzie,MACKENZIE,ultramax_supramax,63226,matched,255915687.0,9973688.0,255.0
 SBLK,Star New London,STAR NEW LONDON,ultramax_supramax,63140,unmatched,,,
 SBLK,Star Apus,STAR APUS,ultramax_supramax,63123,unmatched,,,
 SBLK,Star Subaru,STAR SUBARU,ultramax_supramax,61571,matched,636024955.0,9705160.0,200.0
@@ -879,7 +879,7 @@ HAFNI,Hafnia Tiger,HAFNIA TIGER,mr,49999,unmatched,,,
 HAFNI,Hafnia Topaz,HAFNIA TOPAZ,mr,49561,unmatched,,,
 HAFNI,Hafnia Tourmaline,HAFNIA TOURMALINE,mr,49513,unmatched,,,
 HAFNI,Hafnia Turquoise,HAFNIA TURQUOISE,mr,49516,unmatched,,,
-HAFNI,Hafnia Valentino,HAFNIA VALENTINO,mr,49126,unmatched,,,
+HAFNI,Hafnia Valentino,HAFNIA VALENTINO,mr,49126,matched,563209600.0,9692246.0,183.0
 HAFNI,Hafnia Violette,HAFNIA VIOLETTE,mr,49126,unmatched,,,
 HAFNI,Hafnia Viridian,HAFNIA VIRIDIAN,mr,49126,unmatched,,,
 HAFNI,Hokkaido,HOKKAIDO,mr,49804,unmatched,,,
@@ -911,7 +911,7 @@ DSX,DSI Aquila,DSI AQUILA,ultramax_supramax,60309,unmatched,,,
 DSX,DSI Altair,DSI ALTAIR,ultramax_supramax,60309,unmatched,,,
 DSX,DSI Andromeda,DSI ANDROMEDA,ultramax_supramax,60309,unmatched,,,
 DSX,LETO,LETO,kamsarmax_panamax,81297,unmatched,,,
-DSX,MAERA,MAERA,kamsarmax_panamax,75403,unmatched,,,
+DSX,MAERA,MAERA,kamsarmax_panamax,75403,matched,538006862.0,9563677.0,225.0
 DSX,ISMENE,ISMENE,kamsarmax_panamax,77901,matched,538006861.0,9493535.0,225.0
 DSX,CRYSTALIA,CRYSTALIA,kamsarmax_panamax,77525,unmatched,,,
 DSX,ATALANDI,ATALANDI,kamsarmax_panamax,77529,matched,241317000.0,9658886.0,225.0
