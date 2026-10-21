@@ -330,7 +330,7 @@ CMDB,NORMA,NORMA,ultramax_supramax,58018,unmatched,,,
 CMDB,URUGUAY (ii),URUGUAY,ultramax_supramax,57937,unmatched,,,
 CMDB,CURACAO (ii),CURACAO,ultramax_supramax,57937,unmatched,,,
 CMDB,SERENA,SERENA,ultramax_supramax,57266,unmatched,,,
-CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,unmatched,,,
+CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,matched,244750019.0,0.0,199.0
 CMDB,BERMONDI,BERMONDI,ultramax_supramax,55469,unmatched,,,
 CMDB,SHANDONG MIGHTINESS,SHANDONG MIGHTINESS,newcastlemax,210896,unmatched,,,
 CMDB,SHANDONG MISSION (i),SHANDONG MISSION,newcastlemax,210800,unmatched,,,
@@ -405,7 +405,7 @@ FRO,Front Cascade,FRONT CASCADE,suezmax,157000,unmatched,,,
 FRO,Front Sparta,FRONT SPARTA,suezmax,157000,matched,477591500.0,9847114.0,275.0
 FRO,Front Samara,FRONT SAMARA,suezmax,157000,unmatched,,,
 FRO,Front Siena,FRONT SIENA,suezmax,157000,matched,477539900.0,9832250.0,275.0
-FRO,Front Singapore,FRONT SINGAPORE,suezmax,157000,unmatched,,,
+FRO,Front Singapore,FRONT SINGAPORE,suezmax,157000,matched,477539200.0,9832248.0,275.0
 FRO,Front Seoul,FRONT SEOUL,suezmax,157000,unmatched,,,
 FRO,Front Santiago,FRONT SANTIAGO,suezmax,157000,unmatched,,,
 FRO,Front Savannah,FRONT SAVANNAH,suezmax,157000,unmatched,,,
