@@ -152,7 +152,7 @@ GNK,Genco Titus,GENCO TITUS,capesize,177729,unmatched,,,
 GNK,Genco Bear,GENCO BEAR,capesize,177717,unmatched,,,
 GNK,Genco Tiberius,GENCO TIBERIUS,capesize,175874,unmatched,,,
 GNK,Genco Freedom,GENCO FREEDOM,ultramax_supramax,63667,matched,538006041.0,9742651.0,200.0
-GNK,Genco Hornet,GENCO HORNET,ultramax_supramax,63574,unmatched,,,
+GNK,Genco Hornet,GENCO HORNET,ultramax_supramax,63574,matched,538005879.0,9721932.0,200.0
 GNK,Genco Vigilant,GENCO VIGILANT,ultramax_supramax,63498,matched,538006042.0,9742663.0,200.0
 GNK,Genco Enterprise,GENCO ENTERPRISE,ultramax_supramax,63472,unmatched,,,
 GNK,Genco Mantis,GENCO MANTIS,ultramax_supramax,63467,unmatched,,,
@@ -481,7 +481,7 @@ TNK,Beijing Spirit,BEIJING SPIRIT,suezmax,156500,unmatched,,,
 TNK,Copper Spirit,COPPER SPIRIT,suezmax,156800,unmatched,,,
 TNK,Dilong Spirit,DILONG SPIRIT,suezmax,159000,unmatched,,,
 TNK,London Spirit,LONDON SPIRIT,suezmax,158700,unmatched,,,
-TNK,Moscow Spirit,MOSCOW SPIRIT,suezmax,156500,unmatched,,,
+TNK,Moscow Spirit,MOSCOW SPIRIT,suezmax,156500,matched,311000449.0,9418602.0,275.0
 TNK,Pinnacle Spirit,PINNACLE SPIRIT,suezmax,160400,unmatched,,,
 TNK,Rio Spirit,RIO SPIRIT,suezmax,158400,unmatched,,,
 TNK,Summit Spirit,SUMMIT SPIRIT,suezmax,160500,matched,309022000.0,9404833.0,274.0
@@ -789,7 +789,7 @@ TRMD,TORM DOVER,TORM DOVER,mr,49990,unmatched,,,
 TRMD,TORM DUBAI,TORM DUBAI,mr,49990,unmatched,,,
 TRMD,TORM FREEDOM,TORM FREEDOM,mr,49683,unmatched,,,
 HAFNI,Hafnia Despina,HAFNIA DESPINA,aframax_lr2,109990,unmatched,,,
-HAFNI,Hafnia Galatea,HAFNIA GALATEA,aframax_lr2,109990,unmatched,,,
+HAFNI,Hafnia Galatea,HAFNIA GALATEA,aframax_lr2,109990,matched,563068500.0,9796975.0,250.0
 HAFNI,Hafnia Languedoc,HAFNIA LANGUEDOC,aframax_lr2,109999,matched,563175500.0,9941685.0,250.0
 HAFNI,Hafnia Larissa,HAFNIA LARISSA,aframax_lr2,109990,unmatched,,,
 HAFNI,Hafnia Larvik,HAFNIA LARVIK,aframax_lr2,109999,unmatched,,,
@@ -863,7 +863,7 @@ HAFNI,Hafnia Lioness,HAFNIA LIONESS,mr,49999,unmatched,,,
 HAFNI,Hafnia Lise,HAFNIA LISE,mr,49875,unmatched,,,
 HAFNI,Hafnia Lotte,HAFNIA LOTTE,mr,49999,unmatched,,,
 HAFNI,Hafnia Lynx,HAFNIA LYNX,mr,49999,matched,563619000.0,9635808.0,183.0
-HAFNI,Hafnia Merlin,HAFNIA MERLIN,mr,49999,unmatched,,,
+HAFNI,Hafnia Merlin,HAFNIA MERLIN,mr,49999,matched,563484000.0,9682239.0,183.0
 HAFNI,Hafnia Mikala,HAFNIA MIKALA,mr,49999,unmatched,,,
 HAFNI,Hafnia Myna,HAFNIA MYNA,mr,49999,unmatched,,,
 HAFNI,Hafnia Osprey,HAFNIA OSPREY,mr,49999,unmatched,,,
