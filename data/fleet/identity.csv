@@ -234,7 +234,7 @@ SHIP,Hellasship,HELLASSHIP,capesize,181325,unmatched,,,
 SHIP,Honorship,HONORSHIP,capesize,180242,unmatched,,,
 SHIP,Fellowship,FELLOWSHIP,capesize,179701,unmatched,,,
 SHIP,Championship,CHAMPIONSHIP,capesize,179238,unmatched,,,
-SHIP,Partnership,PARTNERSHIP,capesize,179213,unmatched,,,
+SHIP,Partnership,PARTNERSHIP,capesize,179213,matched,538007497.0,9597848.0,292.0
 SHIP,Knightship,KNIGHTSHIP,capesize,178978,unmatched,,,
 SHIP,Lordship,LORDSHIP,capesize,178838,unmatched,,,
 SHIP,Blueship,BLUESHIP,capesize,178459,unmatched,,,
