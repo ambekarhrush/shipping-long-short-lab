@@ -534,7 +534,7 @@ TEN,Caribbean Voyager,CARIBBEAN VOYAGER,aframax_lr2,115000,unmatched,,,
 TEN,Mediterranean Voyager,MEDITERRANEAN VOYAGER,aframax_lr2,115000,unmatched,,,
 TEN,Bergen TS,BERGEN TS,aframax_lr2,112108,matched,248024000.0,9737400.0,250.0
 TEN,Stavanger TS,STAVANGER TS,aframax_lr2,113004,unmatched,,,
-TEN,Oslo TS,OSLO TS,aframax_lr2,112949,unmatched,,,
+TEN,Oslo TS,OSLO TS,aframax_lr2,112949,matched,248006000.0,9737383.0,250.0
 TEN,Marathon TS,MARATHON TS,aframax_lr2,113651,matched,249987000.0,9737371.0,250.0
 TEN,Sola TS,SOLA TS,aframax_lr2,112939,matched,248020000.0,9724350.0,250.0
 TEN,Elias Tsakos,ELIAS TSAKOS,aframax_lr2,113737,unmatched,,,
@@ -661,7 +661,7 @@ STNG,STI Stability,STI STABILITY,aframax_lr2,109999,unmatched,,,
 STNG,STI Steadfast,STI STEADFAST,aframax_lr2,109999,unmatched,,,
 STNG,STI Supreme,STI SUPREME,aframax_lr2,109999,unmatched,,,
 STNG,STI Symphony,STI SYMPHONY,aframax_lr2,109999,unmatched,,,
-STNG,STI Guard,STI GUARD,aframax_lr2,113000,unmatched,,,
+STNG,STI Guard,STI GUARD,aframax_lr2,113000,matched,538005822.0,9717101.0,249.0
 STNG,STI Guide,STI GUIDE,aframax_lr2,113000,unmatched,,,
 STNG,STI Selatar,STI SELATAR,aframax_lr2,109999,unmatched,,,
 STNG,STI Rambla,STI RAMBLA,aframax_lr2,109999,unmatched,,,
