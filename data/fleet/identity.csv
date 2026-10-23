@@ -130,7 +130,7 @@ SBLK,Grebe Bulker,GREBE BULKER,ultramax_supramax,57809,unmatched,,,
 SBLK,Ibis Bulker,IBIS BULKER,ultramax_supramax,57809,unmatched,,,
 SBLK,Jay,JAY,ultramax_supramax,57809,unmatched,,,
 SBLK,Kingfisher,KINGFISHER,ultramax_supramax,57809,unmatched,,,
-SBLK,Martin,MARTIN,ultramax_supramax,57809,unmatched,,,
+SBLK,Martin,MARTIN,ultramax_supramax,57809,matched,538003973.0,9441350.0,190.0
 SBLK,Star Cleo,STAR CLEO,ultramax_supramax,56582,unmatched,,,
 SBLK,Star Pegasus,STAR PEGASUS,ultramax_supramax,56540,matched,636024675.0,9621780.0,189.0
 SBLK,Star Bright,STAR BRIGHT,ultramax_supramax,55569,unmatched,,,
@@ -197,7 +197,7 @@ SB,Kerynia,KERYNIA,kamsarmax_panamax,82000,unmatched,,,
 SB,Pedhoulas Farmer,PEDHOULAS FARMER,kamsarmax_panamax,82500,unmatched,,,
 SB,Pedhoulas Fighter,PEDHOULAS FIGHTER,kamsarmax_panamax,82500,unmatched,,,
 SB,Efrossini,EFROSSINI,kamsarmax_panamax,82000,unmatched,,,
-SB,Marina,MARINA,post_panamax,87000,matched,244690638.0,0.0,135.0
+SB,Marina,MARINA,post_panamax,87000,unmatched,,,
 SB,Xenia,XENIA,post_panamax,87000,unmatched,,,
 SB,Sophia,SOPHIA,post_panamax,87000,unmatched,,,
 SB,Eleni,ELENI,post_panamax,87000,unmatched,,,
@@ -511,7 +511,7 @@ TEN,Hercules I,HERCULES I,vlcc,300000,unmatched,,,
 TEN,Ulysses,ULYSSES,vlcc,300000,unmatched,,,
 TEN,Dias I,DIAS I,vlcc,300000,unmatched,,,
 TEN,Apollo Voyager,APOLLO VOYAGER,suezmax,157877,matched,311000902.0,9878890.0,274.0
-TEN,Artemis Voyager,ARTEMIS VOYAGER,suezmax,157877,unmatched,,,
+TEN,Artemis Voyager,ARTEMIS VOYAGER,suezmax,157877,matched,311000903.0,9878905.0,274.0
 TEN,Eurovision,EUROVISION,suezmax,157803,matched,311076800.0,9567697.0,275.0
 TEN,Euro,EURO,suezmax,157539,unmatched,,,
 TEN,Decathlon,DECATHLON,suezmax,158475,unmatched,,,
@@ -653,7 +653,7 @@ STNG,STI Spiga,STI SPIGA,aframax_lr2,109999,unmatched,,,
 STNG,STI Kingsway,STI KINGSWAY,aframax_lr2,109999,unmatched,,,
 STNG,STI Solidarity,STI SOLIDARITY,aframax_lr2,109999,unmatched,,,
 STNG,STI Lombard,STI LOMBARD,aframax_lr2,109999,unmatched,,,
-STNG,STI Grace,STI GRACE,aframax_lr2,109999,unmatched,,,
+STNG,STI Grace,STI GRACE,aframax_lr2,109999,matched,538006356.0,9722584.0,256.0
 STNG,STI Jermyn,STI JERMYN,aframax_lr2,109999,unmatched,,,
 STNG,STI Sanctity,STI SANCTITY,aframax_lr2,109999,unmatched,,,
 STNG,STI Solace,STI SOLACE,aframax_lr2,109999,unmatched,,,
@@ -880,7 +880,7 @@ HAFNI,Hafnia Topaz,HAFNIA TOPAZ,mr,49561,unmatched,,,
 HAFNI,Hafnia Tourmaline,HAFNIA TOURMALINE,mr,49513,unmatched,,,
 HAFNI,Hafnia Turquoise,HAFNIA TURQUOISE,mr,49516,unmatched,,,
 HAFNI,Hafnia Valentino,HAFNIA VALENTINO,mr,49126,matched,563209600.0,9692246.0,183.0
-HAFNI,Hafnia Violette,HAFNIA VIOLETTE,mr,49126,unmatched,,,
+HAFNI,Hafnia Violette,HAFNIA VIOLETTE,mr,49126,matched,538005991.0,9690626.0,183.0
 HAFNI,Hafnia Viridian,HAFNIA VIRIDIAN,mr,49126,unmatched,,,
 HAFNI,Hokkaido,HOKKAIDO,mr,49804,unmatched,,,
 HAFNI,Orient Challenge,ORIENT CHALLENGE,mr,49972,unmatched,,,
