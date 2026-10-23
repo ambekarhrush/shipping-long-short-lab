@@ -669,7 +669,7 @@ STNG,STI Gauntlet,STI GAUNTLET,aframax_lr2,113000,matched,538005825.0,9717137.0,
 STNG,STI Gladiator,STI GLADIATOR,aframax_lr2,113000,unmatched,,,
 STNG,STI Gratitude,STI GRATITUDE,aframax_lr2,113000,unmatched,,,
 STNG,STI Lotus,STI LOTUS,aframax_lr2,110000,matched,538010454.0,9838230.0,250.0
-ASC,Ardmore Purpose,ARDMORE PURPOSE,mr,50192,unmatched,,,
+ASC,Ardmore Purpose,ARDMORE PURPOSE,mr,50192,matched,538011845.0,9859208.0,183.0
 ASC,Ardmore Gibraltar,ARDMORE GIBRALTAR,mr,49999,unmatched,,,
 ASC,Ardmore Pursuit,ARDMORE PURSUIT,mr,49709,unmatched,,,
 ASC,Ardmore Persistence,ARDMORE PERSISTENCE,mr,49688,unmatched,,,
@@ -876,7 +876,7 @@ HAFNI,Hafnia Raven,HAFNIA RAVEN,mr,49999,unmatched,,,
 HAFNI,Hafnia Swift,HAFNIA SWIFT,mr,49999,unmatched,,,
 HAFNI,Hafnia Tanzanite,HAFNIA TANZANITE,mr,49478,matched,538006764.0,9753703.0,183.0
 HAFNI,Hafnia Tiger,HAFNIA TIGER,mr,49999,unmatched,,,
-HAFNI,Hafnia Topaz,HAFNIA TOPAZ,mr,49561,unmatched,,,
+HAFNI,Hafnia Topaz,HAFNIA TOPAZ,mr,49561,matched,538006762.0,9753686.0,183.0
 HAFNI,Hafnia Tourmaline,HAFNIA TOURMALINE,mr,49513,unmatched,,,
 HAFNI,Hafnia Turquoise,HAFNIA TURQUOISE,mr,49516,unmatched,,,
 HAFNI,Hafnia Valentino,HAFNIA VALENTINO,mr,49126,matched,563209600.0,9692246.0,183.0
