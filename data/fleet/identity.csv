@@ -550,7 +550,7 @@ TEN,Alpes,ALPES,aframax_lr2,112505,unmatched,,,
 TEN,Aspen,ASPEN,aframax_lr2,112900,matched,636023947.0,9818058.0,250.0
 TEN,Promitheas,PROMITHEAS,aframax_lr2,117055,unmatched,,,
 TEN,Propontis,PROPONTIS,aframax_lr2,117055,unmatched,,,
-TEN,Njord DF,NJORD DF,aframax_lr2,114545,unmatched,,,
+TEN,Njord DF,NJORD DF,aframax_lr2,114545,matched,241866000.0,9953468.0,250.0
 TEN,Ran DF,RAN DF,aframax_lr2,114575,unmatched,,,
 TEN,Chios DF,CHIOS DF,aframax_lr2,114580,unmatched,,,
 TEN,Ithaki DF,ITHAKI DF,aframax_lr2,114598,matched,241875000.0,9953494.0,250.0
@@ -649,7 +649,7 @@ STNG,STI Winnie,STI WINNIE,aframax_lr2,109999,unmatched,,,
 STNG,STI Oxford,STI OXFORD,aframax_lr2,109999,unmatched,,,
 STNG,STI Lauren,STI LAUREN,aframax_lr2,109999,unmatched,,,
 STNG,STI Connaught,STI CONNAUGHT,aframax_lr2,109999,unmatched,,,
-STNG,STI Spiga,STI SPIGA,aframax_lr2,109999,unmatched,,,
+STNG,STI Spiga,STI SPIGA,aframax_lr2,109999,matched,538006343.0,9708148.0,256.0
 STNG,STI Kingsway,STI KINGSWAY,aframax_lr2,109999,unmatched,,,
 STNG,STI Solidarity,STI SOLIDARITY,aframax_lr2,109999,unmatched,,,
 STNG,STI Lombard,STI LOMBARD,aframax_lr2,109999,unmatched,,,
@@ -708,7 +708,7 @@ TRMD,TORM GWYNETH,TORM GWYNETH,aframax_lr2,119456,unmatched,,,
 TRMD,TORM HANNAH,TORM HANNAH,aframax_lr2,109999,unmatched,,,
 TRMD,TORM HELLERUP,TORM HELLERUP,aframax_lr2,114000,unmatched,,,
 TRMD,TORM HELENE,TORM HELENE,aframax_lr2,114000,unmatched,,,
-TRMD,TORM HERMIA,TORM HERMIA,aframax_lr2,114000,unmatched,,,
+TRMD,TORM HERMIA,TORM HERMIA,aframax_lr2,114000,matched,563047500.0,9797993.0,250.0
 TRMD,TORM HERDIS,TORM HERDIS,aframax_lr2,114000,unmatched,,,
 TRMD,TORM HILDE,TORM HILDE,aframax_lr2,114000,unmatched,,,
 TRMD,TORM HOUSTON,TORM HOUSTON,aframax_lr2,114000,unmatched,,,
@@ -786,7 +786,7 @@ TRMD,TORM DULCE,TORM DULCE,mr,49680,unmatched,,,
 TRMD,TORM DAVAO,TORM DAVAO,mr,49990,matched,563315400.0,9688350.0,183.0
 TRMD,TORM DELHI,TORM DELHI,mr,49990,unmatched,,,
 TRMD,TORM DOVER,TORM DOVER,mr,49990,unmatched,,,
-TRMD,TORM DUBAI,TORM DUBAI,mr,49990,unmatched,,,
+TRMD,TORM DUBAI,TORM DUBAI,mr,49990,matched,563315300.0,9681390.0,183.0
 TRMD,TORM FREEDOM,TORM FREEDOM,mr,49683,unmatched,,,
 HAFNI,Hafnia Despina,HAFNIA DESPINA,aframax_lr2,109990,unmatched,,,
 HAFNI,Hafnia Galatea,HAFNIA GALATEA,aframax_lr2,109990,matched,563068500.0,9796975.0,250.0
