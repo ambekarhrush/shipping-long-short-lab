@@ -146,7 +146,7 @@ GNK,Genco Defender,GENCO DEFENDER,capesize,180021,unmatched,,,
 GNK,Genco Intrepid,GENCO INTREPID,capesize,180007,unmatched,,,
 GNK,Genco Tiger,GENCO TIGER,capesize,179185,unmatched,,,
 GNK,Genco Lion,GENCO LION,capesize,179185,matched,538005330.0,9593464.0,292.0
-GNK,Genco London,GENCO LONDON,capesize,177833,unmatched,,,
+GNK,Genco London,GENCO LONDON,capesize,177833,matched,636021967.0,9430038.0,292.0
 GNK,Genco Wolf,GENCO WOLF,capesize,177752,unmatched,,,
 GNK,Genco Titus,GENCO TITUS,capesize,177729,unmatched,,,
 GNK,Genco Bear,GENCO BEAR,capesize,177717,unmatched,,,
@@ -455,7 +455,7 @@ DHT,DHT Europe 1,DHT EUROPE 1,vlcc,317713,unmatched,,,
 DHT,DHT Bauhinia 3,DHT BAUHINIA 3,vlcc,301019,unmatched,,,
 NAT,Nordic Pollux,NORDIC POLLUX,suezmax,150103,unmatched,,,
 NAT,Nordic Luna,NORDIC LUNA,suezmax,150037,unmatched,,,
-NAT,Nordic Freedom,NORDIC FREEDOM,suezmax,159331,unmatched,,,
+NAT,Nordic Freedom,NORDIC FREEDOM,suezmax,159331,matched,311817000.0,9288887.0,274.0
 NAT,Nordic Sprinter,NORDIC SPRINTER,suezmax,159089,unmatched,,,
 NAT,Nordic Skier,NORDIC SKIER,suezmax,159089,unmatched,,,
 NAT,Nordic Vega,NORDIC VEGA,suezmax,163940,unmatched,,,
@@ -500,7 +500,7 @@ TNK,Peak Spirit,PEAK SPIRIT,aframax_lr2,104600,unmatched,,,
 TNK,Tarbet Spirit,TARBET SPIRIT,aframax_lr2,107500,unmatched,,,
 TNK,Whistler Spirit,WHISTLER SPIRIT,aframax_lr2,109000,unmatched,,,
 TNK,Yamato Spirit,YAMATO SPIRIT,aframax_lr2,107600,unmatched,,,
-TNK,Hovden Spirit,HOVDEN SPIRIT,aframax_lr2,105300,unmatched,,,
+TNK,Hovden Spirit,HOVDEN SPIRIT,aframax_lr2,105300,matched,311001179.0,9596997.0,243.0
 TNK,Leyte Spirit,LEYTE SPIRIT,aframax_lr2,109700,unmatched,,,
 TNK,Luzon Spirit,LUZON SPIRIT,aframax_lr2,109600,unmatched,,,
 TNK,Sebarok Spirit,SEBAROK SPIRIT,aframax_lr2,109600,matched,311000465.0,9572264.0,243.0
