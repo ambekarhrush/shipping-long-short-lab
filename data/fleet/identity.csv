@@ -420,7 +420,7 @@ FRO,Front Cougar,FRONT COUGAR,aframax_lr2,110000,unmatched,,,
 FRO,Front Leopard,FRONT LEOPARD,aframax_lr2,110000,unmatched,,,
 FRO,Front Jaguar,FRONT JAGUAR,aframax_lr2,110000,matched,538006772.0,9703332.0,252.0
 FRO,Front Altair,FRONT ALTAIR,aframax_lr2,110000,unmatched,,,
-FRO,Front Antares,FRONT ANTARES,aframax_lr2,110000,unmatched,,,
+FRO,Front Antares,FRONT ANTARES,aframax_lr2,110000,matched,538007133.0,9745926.0,251.0
 FRO,Front Vega,FRONT VEGA,aframax_lr2,110000,matched,538007216.0,9767338.0,252.0
 FRO,Front Sirius,FRONT SIRIUS,aframax_lr2,110000,unmatched,,,
 FRO,Front Castor,FRONT CASTOR,aframax_lr2,110000,unmatched,,,
@@ -499,7 +499,7 @@ TNK,Orchid Spirit,ORCHID SPIRIT,aframax_lr2,112800,unmatched,,,
 TNK,Peak Spirit,PEAK SPIRIT,aframax_lr2,104600,unmatched,,,
 TNK,Tarbet Spirit,TARBET SPIRIT,aframax_lr2,107500,unmatched,,,
 TNK,Whistler Spirit,WHISTLER SPIRIT,aframax_lr2,109000,unmatched,,,
-TNK,Yamato Spirit,YAMATO SPIRIT,aframax_lr2,107600,unmatched,,,
+TNK,Yamato Spirit,YAMATO SPIRIT,aframax_lr2,107600,matched,311000357.0,9414503.0,243.0
 TNK,Hovden Spirit,HOVDEN SPIRIT,aframax_lr2,105300,matched,311001179.0,9596997.0,243.0
 TNK,Leyte Spirit,LEYTE SPIRIT,aframax_lr2,109700,unmatched,,,
 TNK,Luzon Spirit,LUZON SPIRIT,aframax_lr2,109600,unmatched,,,
@@ -948,7 +948,7 @@ INSW,SEAWAYS ENTERPRISE,SEAWAYS ENTERPRISE,vlcc,300000,unmatched,,,
 INSW,SEAWAYS EXCELSIOR,SEAWAYS EXCELSIOR,vlcc,300000,unmatched,,,
 INSW,SEAWAYS GIBBS HILL,SEAWAYS GIBBS HILL,vlcc,299942,unmatched,,,
 INSW,SEAWAYS RED,SEAWAYS RED,suezmax,159068,unmatched,,,
-INSW,SEAWAYS RIO GRANDE,SEAWAYS RIO GRANDE,suezmax,159056,unmatched,,,
+INSW,SEAWAYS RIO GRANDE,SEAWAYS RIO GRANDE,suezmax,159056,matched,538004028.0,9593438.0,274.0
 INSW,SEAWAYS SAN SABA,SEAWAYS SAN SABA,suezmax,159018,unmatched,,,
 INSW,SEAWAYS FRIO,SEAWAYS FRIO,suezmax,159000,unmatched,,,
 INSW,SEAWAYS TRINITY,SEAWAYS TRINITY,suezmax,158734,unmatched,,,
