@@ -13,7 +13,7 @@ SBLK,Star Marisa,STAR MARISA,newcastlemax,207709,unmatched,,,
 SBLK,Star Karlie,STAR KARLIE,newcastlemax,207566,unmatched,,,
 SBLK,Star Eleni,STAR ELENI,newcastlemax,207555,matched,636018077.0,9712668.0,300.0
 SBLK,Star Magnanimus,STAR MAGNANIMUS,newcastlemax,207526,unmatched,,,
-SBLK,Debbie H,DEBBIE H,newcastlemax,206861,unmatched,,,
+SBLK,Debbie H,DEBBIE H,newcastlemax,206861,matched,636019092.0,9796303.0,300.0
 SBLK,Star Ayesha,STAR AYESHA,newcastlemax,206852,unmatched,,,
 SBLK,Katie K,KATIE K,newcastlemax,206839,unmatched,,,
 SBLK,Leviathan,LEVIATHAN,capesize,182511,unmatched,,,
@@ -194,7 +194,7 @@ SB,Morphou,MORPHOU,kamsarmax_panamax,82000,unmatched,,,
 SB,Rizokarpaso10,RIZOKARPASO10,kamsarmax_panamax,82000,unmatched,,,
 SB,Ammoxostos11,AMMOXOSTOS11,kamsarmax_panamax,82000,unmatched,,,
 SB,Kerynia,KERYNIA,kamsarmax_panamax,82000,unmatched,,,
-SB,Pedhoulas Farmer,PEDHOULAS FARMER,kamsarmax_panamax,82500,unmatched,,,
+SB,Pedhoulas Farmer,PEDHOULAS FARMER,kamsarmax_panamax,82500,matched,210271000.0,9983528.0,229.0
 SB,Pedhoulas Fighter,PEDHOULAS FIGHTER,kamsarmax_panamax,82500,unmatched,,,
 SB,Efrossini,EFROSSINI,kamsarmax_panamax,82000,unmatched,,,
 SB,Marina,MARINA,post_panamax,87000,unmatched,,,
@@ -326,7 +326,7 @@ CMDB,ALWINE (ii),ALWINE,ultramax_supramax,61090,unmatched,,,
 CMDB,KOUSHUN (tbr. ASTROS) (iii),KOUSHUN,ultramax_supramax,60297,unmatched,,,
 CMDB,ATHENA (ii),ATHENA,ultramax_supramax,58018,unmatched,,,
 CMDB,ERACLE (ii),ERACLE,ultramax_supramax,58018,unmatched,,,
-CMDB,NORMA,NORMA,ultramax_supramax,58018,unmatched,,,
+CMDB,NORMA,NORMA,ultramax_supramax,58018,matched,636021631.0,9490739.0,189.0
 CMDB,URUGUAY (ii),URUGUAY,ultramax_supramax,57937,unmatched,,,
 CMDB,CURACAO (ii),CURACAO,ultramax_supramax,57937,unmatched,,,
 CMDB,SERENA,SERENA,ultramax_supramax,57266,unmatched,,,
@@ -652,7 +652,7 @@ STNG,STI Connaught,STI CONNAUGHT,aframax_lr2,109999,unmatched,,,
 STNG,STI Spiga,STI SPIGA,aframax_lr2,109999,matched,538006343.0,9708148.0,256.0
 STNG,STI Kingsway,STI KINGSWAY,aframax_lr2,109999,unmatched,,,
 STNG,STI Solidarity,STI SOLIDARITY,aframax_lr2,109999,unmatched,,,
-STNG,STI Lombard,STI LOMBARD,aframax_lr2,109999,matched,538006344.0,0.0,256.0
+STNG,STI Lombard,STI LOMBARD,aframax_lr2,109999,matched,538006344.0,9708150.0,256.0
 STNG,STI Grace,STI GRACE,aframax_lr2,109999,matched,538006356.0,9722584.0,256.0
 STNG,STI Jermyn,STI JERMYN,aframax_lr2,109999,unmatched,,,
 STNG,STI Sanctity,STI SANCTITY,aframax_lr2,109999,unmatched,,,
