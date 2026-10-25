@@ -87,7 +87,7 @@ SBLK,Star Valencia,STAR VALENCIA,ultramax_supramax,63556,unmatched,,,
 SBLK,Star Dublin,STAR DUBLIN,ultramax_supramax,63550,matched,636025363.0,9699323.0,199.0
 SBLK,Star Santos,STAR SANTOS,ultramax_supramax,63536,matched,636025666.0,9699347.0,200.0
 SBLK,Star Antwerp,STAR ANTWERP,ultramax_supramax,63530,unmatched,,,
-SBLK,Star Sydney,STAR SYDNEY,ultramax_supramax,63523,unmatched,,,
+SBLK,Star Sydney,STAR SYDNEY,ultramax_supramax,63523,matched,636024288.0,9699373.0,200.0
 SBLK,Star Copenhagen,STAR COPENHAGEN,ultramax_supramax,63495,unmatched,,,
 SBLK,Star Hong Kong,STAR HONG KONG,ultramax_supramax,63472,unmatched,,,
 SBLK,Idee Fixe,IDEE FIXE,ultramax_supramax,63458,matched,636025365.0,9700677.0,200.0
@@ -589,7 +589,7 @@ STNG,STI Camden,STI CAMDEN,handy_tanker,38734,unmatched,,,
 STNG,STI Battersea,STI BATTERSEA,handy_tanker,38734,unmatched,,,
 STNG,STI Wembley,STI WEMBLEY,handy_tanker,38734,unmatched,,,
 STNG,STI Finchley,STI FINCHLEY,handy_tanker,38734,matched,538005406.0,9696565.0,184.0
-STNG,STI Clapham,STI CLAPHAM,handy_tanker,38734,unmatched,,,
+STNG,STI Clapham,STI CLAPHAM,handy_tanker,38734,matched,538005407.0,9696577.0,184.0
 STNG,STI Poplar,STI POPLAR,handy_tanker,38734,matched,538005408.0,9696589.0,184.0
 STNG,STI Hammersmith,STI HAMMERSMITH,handy_tanker,38734,unmatched,,,
 STNG,STI Rotherhithe,STI ROTHERHITHE,handy_tanker,38734,matched,538005409.0,9706475.0,184.0
@@ -1000,5 +1000,5 @@ INSW,SEAWAYS CAPE MAY,SEAWAYS CAPE MAY,mr,49990,unmatched,,,
 INSW,SEAWAYS LOMA,SEAWAYS LOMA,mr,49990,unmatched,,,
 INSW,SEAWAYS STAMFORD,SEAWAYS STAMFORD,mr,49990,unmatched,,,
 INSW,SEAWAYS DWARKA,SEAWAYS DWARKA,mr,49990,matched,538005187.0,9697624.0,183.0
-INSW,SEAWAYS LONSDALE,SEAWAYS LONSDALE,mr,49990,unmatched,,,
+INSW,SEAWAYS LONSDALE,SEAWAYS LONSDALE,mr,49990,matched,538005186.0,9697612.0,183.0
 INSW,SEAWAYS CASTLE HILL,SEAWAYS CASTLE HILL,mr,49990,unmatched,,,
