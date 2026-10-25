@@ -58,7 +58,7 @@ SBLK,Star Renee,STAR RENEE,kamsarmax_panamax,82221,unmatched,,,
 SBLK,Star Nasia,STAR NASIA,kamsarmax_panamax,82220,unmatched,,,
 SBLK,Star Laura,STAR LAURA,kamsarmax_panamax,82209,unmatched,,,
 SBLK,Star Mona,STAR MONA,kamsarmax_panamax,82188,unmatched,,,
-SBLK,Star Helena,STAR HELENA,kamsarmax_panamax,82187,unmatched,,,
+SBLK,Star Helena,STAR HELENA,kamsarmax_panamax,82187,matched,538002630.0,9361213.0,229.0
 SBLK,Star Astrid,STAR ASTRID,kamsarmax_panamax,82158,unmatched,,,
 SBLK,Star Alessia,STAR ALESSIA,kamsarmax_panamax,81944,matched,636017962.0,9804564.0,229.0
 SBLK,Star Calypso,STAR CALYPSO,kamsarmax_panamax,81918,unmatched,,,
@@ -212,7 +212,7 @@ SB,Troodos Sun 14,TROODOS SUN 14,post_panamax,85000,unmatched,,,
 SB,Troodos Air,TROODOS AIR,post_panamax,85000,unmatched,,,
 SB,Troodos Oak,TROODOS OAK,post_panamax,85000,matched,209877000.0,9875135.0,228.0
 SB,Climate Respect,CLIMATE RESPECT,post_panamax,87000,unmatched,,,
-SB,Climate Ethics,CLIMATE ETHICS,post_panamax,87000,unmatched,,,
+SB,Climate Ethics,CLIMATE ETHICS,post_panamax,87000,matched,210526000.0,9942225.0,229.0
 SB,Climate Justice,CLIMATE JUSTICE,post_panamax,87000,unmatched,,,
 SB,Mount Troodos,MOUNT TROODOS,capesize,181400,unmatched,,,
 SB,Kanaris,KANARIS,capesize,178100,unmatched,,,
@@ -788,7 +788,7 @@ TRMD,TORM DELHI,TORM DELHI,mr,49990,unmatched,,,
 TRMD,TORM DOVER,TORM DOVER,mr,49990,unmatched,,,
 TRMD,TORM DUBAI,TORM DUBAI,mr,49990,matched,563315300.0,9681390.0,183.0
 TRMD,TORM FREEDOM,TORM FREEDOM,mr,49683,unmatched,,,
-HAFNI,Hafnia Despina,HAFNIA DESPINA,aframax_lr2,109990,unmatched,,,
+HAFNI,Hafnia Despina,HAFNIA DESPINA,aframax_lr2,109990,matched,563068400.0,9796494.0,250.0
 HAFNI,Hafnia Galatea,HAFNIA GALATEA,aframax_lr2,109990,matched,563068500.0,9796975.0,250.0
 HAFNI,Hafnia Languedoc,HAFNIA LANGUEDOC,aframax_lr2,109999,matched,563175500.0,9941685.0,250.0
 HAFNI,Hafnia Larissa,HAFNIA LARISSA,aframax_lr2,109990,unmatched,,,
