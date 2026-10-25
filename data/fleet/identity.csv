@@ -555,7 +555,7 @@ TEN,Ran DF,RAN DF,aframax_lr2,114575,unmatched,,,
 TEN,Chios DF,CHIOS DF,aframax_lr2,114580,unmatched,,,
 TEN,Ithaki DF,ITHAKI DF,aframax_lr2,114598,matched,241875000.0,9953494.0,250.0
 TEN,DF Montmartre,DF MONTMARTRE,aframax_lr2,109999,matched,636021310.0,9941714.0,250.0
-TEN,DF Mystras,DF MYSTRAS,aframax_lr2,109999,unmatched,,,
+TEN,DF Mystras,DF MYSTRAS,aframax_lr2,109999,matched,636021311.0,9941702.0,250.0
 TEN,Sunray,SUNRAY,lr1_panamax,74039,unmatched,,,
 TEN,Sunrise,SUNRISE,lr1_panamax,74043,unmatched,,,
 TEN,World Harmony,WORLD HARMONY,lr1_panamax,74200,unmatched,,,
