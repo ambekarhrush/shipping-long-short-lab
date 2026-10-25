@@ -854,7 +854,7 @@ HAFNI,Hafnia Hawk,HAFNIA HAWK,mr,49999,unmatched,,,
 HAFNI,Hafnia Henriette,HAFNIA HENRIETTE,mr,49999,matched,249345000.0,9726607.0,183.0
 HAFNI,Hafnia Jaguar,HAFNIA JAGUAR,mr,49999,matched,564409000.0,9635858.0,183.0
 HAFNI,Hafnia Kestrel,HAFNIA KESTREL,mr,49999,unmatched,,,
-HAFNI,Hafnia Kirsten,HAFNIA KIRSTEN,mr,49999,unmatched,,,
+HAFNI,Hafnia Kirsten,HAFNIA KIRSTEN,mr,49999,matched,249340000.0,9732682.0,183.0
 HAFNI,Hafnia Lene,HAFNIA LENE,mr,49999,unmatched,,,
 HAFNI,Hafnia Leo,HAFNIA LEO,mr,49999,unmatched,,,
 HAFNI,Hafnia Leopard,HAFNIA LEOPARD,mr,49999,matched,563868000.0,9635822.0,183.0
@@ -886,12 +886,12 @@ HAFNI,Hokkaido,HOKKAIDO,mr,49804,unmatched,,,
 HAFNI,Orient Challenge,ORIENT CHALLENGE,mr,49972,unmatched,,,
 HAFNI,Orient Innovation,ORIENT INNOVATION,mr,49997,unmatched,,,
 HAFNI,PS Stars,PS STARS,mr,49999,unmatched,,,
-HAFNI,Yellow Stars,YELLOW STARS,mr,49999,unmatched,,,
+HAFNI,Yellow Stars,YELLOW STARS,mr,49999,matched,538009099.0,9913626.0,183.0
 OET,Milos,MILOS,suezmax,157525,unmatched,,,
 OET,Poliegos,POLIEGOS,suezmax,157525,unmatched,,,
 OET,Kimolos,KIMOLOS,suezmax,159159,matched,538007774.0,9791145.0,274.0
 OET,Folegandros,FOLEGANDROS,suezmax,159221,unmatched,,,
-OET,Nissos Sikinos,NISSOS SIKINOS,suezmax,157447,unmatched,,,
+OET,Nissos Sikinos,NISSOS SIKINOS,suezmax,157447,matched,538008915.0,9884033.0,274.0
 OET,Nissos Sifnos,NISSOS SIFNOS,suezmax,157447,matched,538008913.0,9884045.0,274.0
 OET,Nissos Rhenia,NISSOS RHENIA,vlcc,318953,unmatched,,,
 OET,Nissos Despotiko,NISSOS DESPOTIKO,vlcc,318953,unmatched,,,
