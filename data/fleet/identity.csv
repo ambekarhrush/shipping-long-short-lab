@@ -134,7 +134,7 @@ SBLK,Martin,MARTIN,ultramax_supramax,57809,matched,538003973.0,9441350.0,190.0
 SBLK,Star Cleo,STAR CLEO,ultramax_supramax,56582,unmatched,,,
 SBLK,Star Pegasus,STAR PEGASUS,ultramax_supramax,56540,matched,636024675.0,9621780.0,189.0
 SBLK,Star Bright,STAR BRIGHT,ultramax_supramax,55569,unmatched,,,
-GNK,Genco Courageous,GENCO COURAGEOUS,capesize,182868,unmatched,,,
+GNK,Genco Courageous,GENCO COURAGEOUS,capesize,182868,matched,538011919.0,9875111.0,292.0
 GNK,Genco Reliance,GENCO RELIANCE,capesize,181146,unmatched,,,
 GNK,Genco Resolute,GENCO RESOLUTE,capesize,181060,matched,538008119.0,9698977.0,292.0
 GNK,Genco Endeavour,GENCO ENDEAVOUR,capesize,181057,unmatched,,,
@@ -179,7 +179,7 @@ GNK,Genco Predator,GENCO PREDATOR,ultramax_supramax,55407,unmatched,,,
 GNK,Genco Picardy,GENCO PICARDY,ultramax_supramax,55255,unmatched,,,
 SB,Zoe,ZOE,kamsarmax_panamax,75000,matched,240246000.0,7822483.0,82.0
 SB,Koulitsa 2,KOULITSA 2,kamsarmax_panamax,78100,unmatched,,,
-SB,Kypros Land,KYPROS LAND,kamsarmax_panamax,77100,unmatched,,,
+SB,Kypros Land,KYPROS LAND,kamsarmax_panamax,77100,matched,212250000.0,9667368.0,225.0
 SB,Kypros Sea,KYPROS SEA,kamsarmax_panamax,77100,unmatched,,,
 SB,Kypros Bravery,KYPROS BRAVERY,kamsarmax_panamax,78000,unmatched,,,
 SB,Kypros Sky,KYPROS SKY,kamsarmax_panamax,77100,matched,212452000.0,9713935.0,224.0
@@ -317,7 +317,7 @@ CMDB,BUILDER,BUILDER,kamsarmax_panamax,81541,unmatched,,,
 CMDB,FARMER,FARMER,kamsarmax_panamax,81541,matched,636020874.0,9589267.0,229.0
 CMDB,SAUVAN,SAUVAN,kamsarmax_panamax,79700,unmatched,,,
 CMDB,MERCHIA,MERCHIA,ultramax_supramax,63585,unmatched,,,
-CMDB,DAWN,DAWN,ultramax_supramax,63561,unmatched,,,
+CMDB,DAWN,DAWN,ultramax_supramax,63561,matched,636021018.0,9750440.0,200.0
 CMDB,SEABIRD (ii),SEABIRD,ultramax_supramax,63553,unmatched,,,
 CMDB,ORION (ii),ORION,ultramax_supramax,63473,unmatched,,,
 CMDB,DAMON (ii),DAMON,ultramax_supramax,63301,unmatched,,,
@@ -329,7 +329,7 @@ CMDB,ERACLE (ii),ERACLE,ultramax_supramax,58018,unmatched,,,
 CMDB,NORMA,NORMA,ultramax_supramax,58018,matched,636021631.0,9490739.0,189.0
 CMDB,URUGUAY (ii),URUGUAY,ultramax_supramax,57937,unmatched,,,
 CMDB,CURACAO (ii),CURACAO,ultramax_supramax,57937,unmatched,,,
-CMDB,SERENA,SERENA,ultramax_supramax,57266,unmatched,,,
+CMDB,SERENA,SERENA,ultramax_supramax,57266,matched,205489490.0,0.0,85.0
 CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,unmatched,,,
 CMDB,BERMONDI,BERMONDI,ultramax_supramax,55469,unmatched,,,
 CMDB,SHANDONG MIGHTINESS,SHANDONG MIGHTINESS,newcastlemax,210896,unmatched,,,
@@ -548,7 +548,7 @@ TEN,Maria Princess,MARIA PRINCESS,aframax_lr2,105346,unmatched,,,
 TEN,Sakura Princess,SAKURA PRINCESS,aframax_lr2,105365,unmatched,,,
 TEN,Alpes,ALPES,aframax_lr2,112505,unmatched,,,
 TEN,Aspen,ASPEN,aframax_lr2,112900,matched,636023947.0,9818058.0,250.0
-TEN,Promitheas,PROMITHEAS,aframax_lr2,117055,unmatched,,,
+TEN,Promitheas,PROMITHEAS,aframax_lr2,117055,matched,240547000.0,9305611.0,249.0
 TEN,Propontis,PROPONTIS,aframax_lr2,117055,unmatched,,,
 TEN,Njord DF,NJORD DF,aframax_lr2,114545,matched,241866000.0,9953468.0,250.0
 TEN,Ran DF,RAN DF,aframax_lr2,114575,unmatched,,,
@@ -662,7 +662,7 @@ STNG,STI Steadfast,STI STEADFAST,aframax_lr2,109999,unmatched,,,
 STNG,STI Supreme,STI SUPREME,aframax_lr2,109999,unmatched,,,
 STNG,STI Symphony,STI SYMPHONY,aframax_lr2,109999,unmatched,,,
 STNG,STI Guard,STI GUARD,aframax_lr2,113000,matched,538005822.0,9717101.0,249.0
-STNG,STI Guide,STI GUIDE,aframax_lr2,113000,unmatched,,,
+STNG,STI Guide,STI GUIDE,aframax_lr2,113000,matched,538005823.0,9717113.0,250.0
 STNG,STI Selatar,STI SELATAR,aframax_lr2,109999,unmatched,,,
 STNG,STI Rambla,STI RAMBLA,aframax_lr2,109999,unmatched,,,
 STNG,STI Gauntlet,STI GAUNTLET,aframax_lr2,113000,matched,538005825.0,9717137.0,249.0
@@ -739,7 +739,7 @@ TRMD,TORM ARAWA,TORM ARAWA,mr,49999,unmatched,,,
 TRMD,TORM ASLAUG,TORM ASLAUG,mr,49999,matched,219436000.0,9465978.0,183.0
 TRMD,TORM ASTRID,TORM ASTRID,mr,49999,matched,219420000.0,9510682.0,183.0
 TRMD,TORM ATLANTIC,TORM ATLANTIC,mr,49999,matched,219452000.0,9433509.0,183.0
-TRMD,TORM AUSTRALIA,TORM AUSTRALIA,mr,51737,unmatched,,,
+TRMD,TORM AUSTRALIA,TORM AUSTRALIA,mr,51737,matched,219253000.0,9443140.0,184.0
 TRMD,TORM CAVATINA,TORM CAVATINA,mr,46200,unmatched,,,
 TRMD,TORM CORRIDO,TORM CORRIDO,mr,46156,matched,219028420.0,9411305.0,182.0
 TRMD,TORM DIWATA,TORM DIWATA,mr,49746,unmatched,,,
@@ -791,7 +791,7 @@ TRMD,TORM FREEDOM,TORM FREEDOM,mr,49683,unmatched,,,
 HAFNI,Hafnia Despina,HAFNIA DESPINA,aframax_lr2,109990,matched,563068400.0,9796494.0,250.0
 HAFNI,Hafnia Galatea,HAFNIA GALATEA,aframax_lr2,109990,matched,563068500.0,9796975.0,250.0
 HAFNI,Hafnia Languedoc,HAFNIA LANGUEDOC,aframax_lr2,109999,matched,563175500.0,9941685.0,250.0
-HAFNI,Hafnia Larissa,HAFNIA LARISSA,aframax_lr2,109990,unmatched,,,
+HAFNI,Hafnia Larissa,HAFNIA LARISSA,aframax_lr2,109990,matched,563068600.0,9800300.0,250.0
 HAFNI,Hafnia Larvik,HAFNIA LARVIK,aframax_lr2,109999,unmatched,,,
 HAFNI,Hafnia Lillesand,HAFNIA LILLESAND,aframax_lr2,109999,unmatched,,,
 HAFNI,Hafnia Loire,HAFNIA LOIRE,aframax_lr2,109999,unmatched,,,
@@ -953,7 +953,7 @@ INSW,SEAWAYS SAN SABA,SEAWAYS SAN SABA,suezmax,159018,unmatched,,,
 INSW,SEAWAYS FRIO,SEAWAYS FRIO,suezmax,159000,unmatched,,,
 INSW,SEAWAYS TRINITY,SEAWAYS TRINITY,suezmax,158734,unmatched,,,
 INSW,SEAWAYS SAN JACINTO,SEAWAYS SAN JACINTO,suezmax,158658,unmatched,,,
-INSW,SEAWAYS COLORADO,SEAWAYS COLORADO,suezmax,158615,unmatched,,,
+INSW,SEAWAYS COLORADO,SEAWAYS COLORADO,suezmax,158615,matched,538004034.0,9594767.0,274.0
 INSW,SEAWAYS BRAZOS,SEAWAYS BRAZOS,suezmax,158537,unmatched,,,
 INSW,SEAWAYS PECOS,SEAWAYS PECOS,suezmax,158465,unmatched,,,
 INSW,SEAWAYS HATTERAS,SEAWAYS HATTERAS,suezmax,158432,matched,538007597.0,9730414.0,274.0
