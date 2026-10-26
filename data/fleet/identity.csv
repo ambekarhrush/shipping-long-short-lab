@@ -551,7 +551,7 @@ TEN,Aspen,ASPEN,aframax_lr2,112900,matched,636023947.0,9818058.0,250.0
 TEN,Promitheas,PROMITHEAS,aframax_lr2,117055,matched,240547000.0,9305611.0,249.0
 TEN,Propontis,PROPONTIS,aframax_lr2,117055,unmatched,,,
 TEN,Njord DF,NJORD DF,aframax_lr2,114545,matched,241866000.0,9953468.0,250.0
-TEN,Ran DF,RAN DF,aframax_lr2,114575,unmatched,,,
+TEN,Ran DF,RAN DF,aframax_lr2,114575,matched,241869000.0,9953470.0,250.0
 TEN,Chios DF,CHIOS DF,aframax_lr2,114580,unmatched,,,
 TEN,Ithaki DF,ITHAKI DF,aframax_lr2,114598,matched,241875000.0,9953494.0,250.0
 TEN,DF Montmartre,DF MONTMARTRE,aframax_lr2,109999,matched,636021310.0,9941714.0,250.0
@@ -598,7 +598,7 @@ STNG,STI Opera,STI OPERA,mr,49990,unmatched,,,
 STNG,STI Meraux,STI MERAUX,mr,49990,unmatched,,,
 STNG,STI Virtus,STI VIRTUS,mr,49990,unmatched,,,
 STNG,STI Aqua,STI AQUA,mr,49990,unmatched,,,
-STNG,STI Dama,STI DAMA,mr,49990,unmatched,,,
+STNG,STI Dama,STI DAMA,mr,49990,matched,538005173.0,9686716.0,183.0
 STNG,STI Regina,STI REGINA,mr,49990,unmatched,,,
 STNG,STI St. Charles,STI ST CHARLES,mr,49990,unmatched,,,
 STNG,STI Mayfair,STI MAYFAIR,mr,49990,matched,538005175.0,9686730.0,183.0
