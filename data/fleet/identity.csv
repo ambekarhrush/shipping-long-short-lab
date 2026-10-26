@@ -18,7 +18,7 @@ SBLK,Star Ayesha,STAR AYESHA,newcastlemax,206852,unmatched,,,
 SBLK,Katie K,KATIE K,newcastlemax,206839,unmatched,,,
 SBLK,Leviathan,LEVIATHAN,capesize,182511,unmatched,,,
 SBLK,Peloreus,PELOREUS,capesize,182496,unmatched,,,
-SBLK,Star Claudine,STAR CLAUDINE,capesize,181258,unmatched,,,
+SBLK,Star Claudine,STAR CLAUDINE,capesize,181258,matched,538004151.0,9444534.0,292.0
 SBLK,Star Ophelia,STAR OPHELIA,capesize,180716,unmatched,,,
 SBLK,Star Pauline,STAR PAULINE,capesize,180274,unmatched,,,
 SBLK,Star Martha,STAR MARTHA,capesize,180274,unmatched,,,
@@ -180,7 +180,7 @@ GNK,Genco Picardy,GENCO PICARDY,ultramax_supramax,55255,unmatched,,,
 SB,Zoe,ZOE,kamsarmax_panamax,75000,matched,240246000.0,7822483.0,82.0
 SB,Koulitsa 2,KOULITSA 2,kamsarmax_panamax,78100,unmatched,,,
 SB,Kypros Land,KYPROS LAND,kamsarmax_panamax,77100,matched,212250000.0,9667368.0,225.0
-SB,Kypros Sea,KYPROS SEA,kamsarmax_panamax,77100,unmatched,,,
+SB,Kypros Sea,KYPROS SEA,kamsarmax_panamax,77100,matched,212282000.0,9675602.0,224.0
 SB,Kypros Bravery,KYPROS BRAVERY,kamsarmax_panamax,78000,unmatched,,,
 SB,Kypros Sky,KYPROS SKY,kamsarmax_panamax,77100,matched,212452000.0,9713935.0,224.0
 SB,Kypros Loyalty,KYPROS LOYALTY,kamsarmax_panamax,78000,unmatched,,,
