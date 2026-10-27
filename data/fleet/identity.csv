@@ -412,7 +412,7 @@ FRO,Front Savannah,FRONT SAVANNAH,suezmax,157000,unmatched,,,
 FRO,Front Suez,FRONT SUEZ,suezmax,157000,unmatched,,,
 FRO,Front Shanghai,FRONT SHANGHAI,suezmax,157000,unmatched,,,
 FRO,Front Silkeborg,FRONT SILKEBORG,suezmax,157000,matched,477538800.0,9832274.0,275.0
-FRO,Front Cruiser,FRONT CRUISER,suezmax,157000,unmatched,,,
+FRO,Front Cruiser,FRONT CRUISER,suezmax,157000,matched,538008911.0,9797230.0,277.0
 FRO,Front Ocelot,FRONT OCELOT,aframax_lr2,110000,unmatched,,,
 FRO,Front Cheetah,FRONT CHEETAH,aframax_lr2,110000,unmatched,,,
 FRO,Front Lynx,FRONT LYNX,aframax_lr2,110000,unmatched,,,
@@ -587,7 +587,7 @@ STNG,STI Acton,STI ACTON,handy_tanker,38734,matched,538005405.0,9696553.0,184.0
 STNG,STI Fulham,STI FULHAM,handy_tanker,38734,unmatched,,,
 STNG,STI Camden,STI CAMDEN,handy_tanker,38734,unmatched,,,
 STNG,STI Battersea,STI BATTERSEA,handy_tanker,38734,unmatched,,,
-STNG,STI Wembley,STI WEMBLEY,handy_tanker,38734,unmatched,,,
+STNG,STI Wembley,STI WEMBLEY,handy_tanker,38734,matched,538005404.0,9691735.0,183.0
 STNG,STI Finchley,STI FINCHLEY,handy_tanker,38734,matched,538005406.0,9696565.0,184.0
 STNG,STI Clapham,STI CLAPHAM,handy_tanker,38734,matched,538005407.0,9696577.0,184.0
 STNG,STI Poplar,STI POPLAR,handy_tanker,38734,matched,538005408.0,9696589.0,184.0
@@ -655,7 +655,7 @@ STNG,STI Solidarity,STI SOLIDARITY,aframax_lr2,109999,unmatched,,,
 STNG,STI Lombard,STI LOMBARD,aframax_lr2,109999,matched,538006344.0,9708150.0,256.0
 STNG,STI Grace,STI GRACE,aframax_lr2,109999,matched,538006356.0,9722584.0,256.0
 STNG,STI Jermyn,STI JERMYN,aframax_lr2,109999,unmatched,,,
-STNG,STI Sanctity,STI SANCTITY,aframax_lr2,109999,unmatched,,,
+STNG,STI Sanctity,STI SANCTITY,aframax_lr2,109999,matched,538006078.0,9719707.0,250.0
 STNG,STI Solace,STI SOLACE,aframax_lr2,109999,unmatched,,,
 STNG,STI Stability,STI STABILITY,aframax_lr2,109999,unmatched,,,
 STNG,STI Steadfast,STI STEADFAST,aframax_lr2,109999,unmatched,,,
@@ -666,7 +666,7 @@ STNG,STI Guide,STI GUIDE,aframax_lr2,113000,matched,538005823.0,9717113.0,250.0
 STNG,STI Selatar,STI SELATAR,aframax_lr2,109999,unmatched,,,
 STNG,STI Rambla,STI RAMBLA,aframax_lr2,109999,unmatched,,,
 STNG,STI Gauntlet,STI GAUNTLET,aframax_lr2,113000,matched,538005825.0,9717137.0,249.0
-STNG,STI Gladiator,STI GLADIATOR,aframax_lr2,113000,unmatched,,,
+STNG,STI Gladiator,STI GLADIATOR,aframax_lr2,113000,matched,538005826.0,9722170.0,249.0
 STNG,STI Gratitude,STI GRATITUDE,aframax_lr2,113000,unmatched,,,
 STNG,STI Lotus,STI LOTUS,aframax_lr2,110000,matched,538010454.0,9838230.0,250.0
 ASC,Ardmore Purpose,ARDMORE PURPOSE,mr,50192,matched,538011845.0,9859208.0,183.0
@@ -689,7 +689,7 @@ ASC,Ardmore Explorer,ARDMORE EXPLORER,mr,49494,unmatched,,,
 ASC,Ardmore Exporter,ARDMORE EXPORTER,mr,49466,matched,538005089.0,9654775.0,183.0
 ASC,Ardmore Engineer,ARDMORE ENGINEER,mr,49420,unmatched,,,
 ASC,T Matterhorn,T MATTERHORN,mr,47981,unmatched,,,
-ASC,Ardmore Dauntless,ARDMORE DAUNTLESS,handy_tanker,37764,unmatched,,,
+ASC,Ardmore Dauntless,ARDMORE DAUNTLESS,handy_tanker,37764,matched,538006053.0,9707388.0,184.0
 ASC,Ardmore Defender,ARDMORE DEFENDER,handy_tanker,37791,matched,538005869.0,9707390.0,184.0
 ASC,Ardmore Cherokee,ARDMORE CHEROKEE,handy_tanker,25215,matched,538005865.0,9707845.0,159.0
 ASC,Ardmore Cheyenne,ARDMORE CHEYENNE,handy_tanker,25217,unmatched,,,
