@@ -2,7 +2,7 @@ universe_id,vessel,vessel_key,vessel_class,dwt,status,mmsi,imo,ais_length
 SBLK,Goliath,GOLIATH,newcastlemax,209537,matched,503003000.0,9036430.0,142.0
 SBLK,Gargantua,GARGANTUA,newcastlemax,209529,unmatched,,,
 SBLK,Star Gina 2GR,STAR GINA 2GR,newcastlemax,209475,unmatched,,,
-SBLK,Maharaj,MAHARAJ,newcastlemax,209472,unmatched,,,
+SBLK,Maharaj,MAHARAJ,newcastlemax,209472,matched,636020166.0,9735165.0,300.0
 SBLK,Star Leo,STAR LEO,newcastlemax,207939,unmatched,,,
 SBLK,Star Laetitia,STAR LAETITIA,newcastlemax,207896,unmatched,,,
 SBLK,Star Ariadne,STAR ARIADNE,newcastlemax,207812,unmatched,,,
@@ -416,7 +416,7 @@ FRO,Front Cruiser,FRONT CRUISER,suezmax,157000,matched,538008911.0,9797230.0,277
 FRO,Front Ocelot,FRONT OCELOT,aframax_lr2,110000,unmatched,,,
 FRO,Front Cheetah,FRONT CHEETAH,aframax_lr2,110000,unmatched,,,
 FRO,Front Lynx,FRONT LYNX,aframax_lr2,110000,unmatched,,,
-FRO,Front Cougar,FRONT COUGAR,aframax_lr2,110000,unmatched,,,
+FRO,Front Cougar,FRONT COUGAR,aframax_lr2,110000,matched,538006608.0,9686649.0,250.0
 FRO,Front Leopard,FRONT LEOPARD,aframax_lr2,110000,unmatched,,,
 FRO,Front Jaguar,FRONT JAGUAR,aframax_lr2,110000,matched,538006772.0,9703332.0,252.0
 FRO,Front Altair,FRONT ALTAIR,aframax_lr2,110000,unmatched,,,
@@ -600,7 +600,7 @@ STNG,STI Virtus,STI VIRTUS,mr,49990,unmatched,,,
 STNG,STI Aqua,STI AQUA,mr,49990,unmatched,,,
 STNG,STI Dama,STI DAMA,mr,49990,matched,538005173.0,9686716.0,183.0
 STNG,STI Regina,STI REGINA,mr,49990,unmatched,,,
-STNG,STI St. Charles,STI ST CHARLES,mr,49990,unmatched,,,
+STNG,STI St. Charles,STI ST CHARLES,mr,49990,matched,538005902.0,9681144.0,183.0
 STNG,STI Mayfair,STI MAYFAIR,mr,49990,matched,538005175.0,9686730.0,183.0
 STNG,STI Soho,STI SOHO,mr,49990,unmatched,,,
 STNG,STI Memphis,STI MEMPHIS,mr,49990,unmatched,,,
