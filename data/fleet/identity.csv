@@ -113,7 +113,7 @@ SBLK,Star Apus,STAR APUS,ultramax_supramax,63123,unmatched,,,
 SBLK,Star Subaru,STAR SUBARU,ultramax_supramax,61571,matched,636024955.0,9705160.0,200.0
 SBLK,Star Stamford,STAR STAMFORD,ultramax_supramax,61530,unmatched,,,
 SBLK,Star Wave,STAR WAVE,ultramax_supramax,61491,matched,636019448.0,9746009.0,200.0
-SBLK,Star Challenger,STAR CHALLENGER,ultramax_supramax,61462,unmatched,,,
+SBLK,Star Challenger,STAR CHALLENGER,ultramax_supramax,61462,matched,440401000.0,9754783.0,141.0
 SBLK,Star Fighter,STAR FIGHTER,ultramax_supramax,61455,unmatched,,,
 SBLK,Star Lutas,STAR LUTAS,ultramax_supramax,61347,unmatched,,,
 SBLK,Honey Badger,HONEY BADGER,ultramax_supramax,61320,unmatched,,,
@@ -197,7 +197,7 @@ SB,Kerynia,KERYNIA,kamsarmax_panamax,82000,unmatched,,,
 SB,Pedhoulas Farmer,PEDHOULAS FARMER,kamsarmax_panamax,82500,matched,210271000.0,9983528.0,229.0
 SB,Pedhoulas Fighter,PEDHOULAS FIGHTER,kamsarmax_panamax,82500,unmatched,,,
 SB,Efrossini,EFROSSINI,kamsarmax_panamax,82000,unmatched,,,
-SB,Marina,MARINA,post_panamax,87000,unmatched,,,
+SB,Marina,MARINA,post_panamax,87000,matched,209438000.0,9309497.0,229.0
 SB,Xenia,XENIA,post_panamax,87000,unmatched,,,
 SB,Sophia,SOPHIA,post_panamax,87000,unmatched,,,
 SB,Eleni,ELENI,post_panamax,87000,unmatched,,,
@@ -795,7 +795,7 @@ HAFNI,Hafnia Larissa,HAFNIA LARISSA,aframax_lr2,109990,matched,563068600.0,98003
 HAFNI,Hafnia Larvik,HAFNIA LARVIK,aframax_lr2,109999,unmatched,,,
 HAFNI,Hafnia Lillesand,HAFNIA LILLESAND,aframax_lr2,109999,unmatched,,,
 HAFNI,Hafnia Loire,HAFNIA LOIRE,aframax_lr2,109999,unmatched,,,
-HAFNI,Hafnia Neso,HAFNIA NESO,aframax_lr2,109990,unmatched,,,
+HAFNI,Hafnia Neso,HAFNIA NESO,aframax_lr2,109990,matched,563068700.0,9800312.0,250.0
 HAFNI,Hafnia Thalassa,HAFNIA THALASSA,aframax_lr2,109990,unmatched,,,
 HAFNI,Hafnia Triton,HAFNIA TRITON,aframax_lr2,109990,unmatched,,,
 HAFNI,Hafnia Africa,HAFNIA AFRICA,lr1_panamax,74539,unmatched,,,
@@ -837,7 +837,7 @@ HAFNI,Bulldog,BULLDOG,mr,49856,unmatched,,,
 HAFNI,BW Wren,BW WREN,mr,49999,unmatched,,,
 HAFNI,Ecomar Garonne,ECOMAR GARONNE,mr,49696,unmatched,,,
 HAFNI,Ecomar Gascogne,ECOMAR GASCOGNE,mr,49776,unmatched,,,
-HAFNI,Ecomar Guyenne,ECOMAR GUYENNE,mr,49763,unmatched,,,
+HAFNI,Ecomar Guyenne,ECOMAR GUYENNE,mr,49763,matched,228475800.0,1029273.0,183.0
 HAFNI,Hafnia Andrea,HAFNIA ANDREA,mr,49999,unmatched,,,
 HAFNI,Hafnia Ane,HAFNIA ANE,mr,49999,unmatched,,,
 HAFNI,Hafnia Atlantic,HAFNIA ATLANTIC,mr,49641,matched,563191400.0,9810214.0,183.0
