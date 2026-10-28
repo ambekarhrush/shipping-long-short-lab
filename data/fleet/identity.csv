@@ -294,7 +294,7 @@ EDRY,STARLIGHT,STARLIGHT,kamsarmax_panamax,75611,matched,210872000.0,9279484.0,2
 EDRY,BLESSED LUCK,BLESSED LUCK,kamsarmax_panamax,76704,unmatched,,,
 EDRY,EIRINI P,EIRINI P,kamsarmax_panamax,76466,unmatched,,,
 EDRY,TASOS,TASOS,kamsarmax_panamax,75100,unmatched,,,
-CTRM,Magic Thunder,MAGIC THUNDER,kamsarmax_panamax,83375,unmatched,,,
+CTRM,Magic Thunder,MAGIC THUNDER,kamsarmax_panamax,83375,matched,538009377.0,9442407.0,229.0
 CTRM,Magic Perseus,MAGIC PERSEUS,kamsarmax_panamax,82158,matched,538009448.0,9582477.0,227.0
 CTRM,Magic Starlight,MAGIC STARLIGHT,kamsarmax_panamax,81048,unmatched,,,
 CTRM,Magic Mars,MAGIC MARS,kamsarmax_panamax,76822,unmatched,,,
@@ -504,7 +504,7 @@ TNK,Hovden Spirit,HOVDEN SPIRIT,aframax_lr2,105300,matched,311001179.0,9596997.0
 TNK,Leyte Spirit,LEYTE SPIRIT,aframax_lr2,109700,unmatched,,,
 TNK,Luzon Spirit,LUZON SPIRIT,aframax_lr2,109600,unmatched,,,
 TNK,Sebarok Spirit,SEBAROK SPIRIT,aframax_lr2,109600,matched,311000465.0,9572264.0,243.0
-TNK,Seletar Spirit,SELETAR SPIRIT,aframax_lr2,109000,unmatched,,,
+TNK,Seletar Spirit,SELETAR SPIRIT,aframax_lr2,109000,matched,311000460.0,9484077.0,243.0
 TNK,Semakau Spirit,SEMAKAU SPIRIT,aframax_lr2,115600,unmatched,,,
 TNK,Trysil Spirit,TRYSIL SPIRIT,aframax_lr2,105300,unmatched,,,
 TEN,Hercules I,HERCULES I,vlcc,300000,unmatched,,,
@@ -561,7 +561,7 @@ TEN,Sunrise,SUNRISE,lr1_panamax,74043,unmatched,,,
 TEN,World Harmony,WORLD HARMONY,lr1_panamax,74200,unmatched,,,
 TEN,Chantal,CHANTAL,lr1_panamax,74329,unmatched,,,
 TEN,Selini,SELINI,lr1_panamax,74296,unmatched,,,
-TEN,Salamina,SALAMINA,lr1_panamax,74251,unmatched,,,
+TEN,Salamina,SALAMINA,lr1_panamax,74251,matched,636014128.0,9382968.0,228.0
 TEN,Selecao,SELECAO,lr1_panamax,74296,matched,636013614.0,9388297.0,228.0
 TEN,Socrates,SOCRATES,lr1_panamax,74327,unmatched,,,
 TEN,Andes,ANDES,lr1_panamax,68439,unmatched,,,
@@ -577,7 +577,7 @@ PSHG_T,P. MONTEREY,P MONTEREY,aframax_lr2,105525,unmatched,,,
 PSHG_T,P. LONG BEACH,P LONG BEACH,aframax_lr2,105408,unmatched,,,
 PSHG_T,P. MASSPORT,P MASSPORT,aframax_lr2,114036,unmatched,,,
 PSHG_T,P. TOKYO,P TOKYO,aframax_lr2,114014,unmatched,,,
-PSHG_T,P. BEVERLY HILLS,P BEVERLY HILLS,suezmax,157286,unmatched,,,
+PSHG_T,P. BEVERLY HILLS,P BEVERLY HILLS,suezmax,157286,matched,255916594.0,9794068.0,277.0
 PSHG_T,P. BEL AIR,P BEL AIR,suezmax,157286,unmatched,,,
 STNG,STI Brixton,STI BRIXTON,handy_tanker,38734,matched,538005399.0,9686869.0,184.0
 STNG,STI Comandante,STI COMANDANTE,handy_tanker,38734,matched,538005397.0,9686857.0,184.0
