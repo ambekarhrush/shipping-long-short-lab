@@ -177,7 +177,7 @@ GNK,Genco Brittany,GENCO BRITTANY,ultramax_supramax,58014,unmatched,,,
 GNK,Genco Aquitaine,GENCO AQUITAINE,ultramax_supramax,57981,unmatched,,,
 GNK,Genco Predator,GENCO PREDATOR,ultramax_supramax,55407,unmatched,,,
 GNK,Genco Picardy,GENCO PICARDY,ultramax_supramax,55255,unmatched,,,
-SB,Zoe,ZOE,kamsarmax_panamax,75000,matched,240246000.0,7822483.0,82.0
+SB,Zoe,ZOE,kamsarmax_panamax,75000,unmatched,,,
 SB,Koulitsa 2,KOULITSA 2,kamsarmax_panamax,78100,unmatched,,,
 SB,Kypros Land,KYPROS LAND,kamsarmax_panamax,77100,matched,212250000.0,9667368.0,225.0
 SB,Kypros Sea,KYPROS SEA,kamsarmax_panamax,77100,matched,212282000.0,9675602.0,224.0
@@ -330,7 +330,7 @@ CMDB,NORMA,NORMA,ultramax_supramax,58018,matched,636021631.0,9490739.0,189.0
 CMDB,URUGUAY (ii),URUGUAY,ultramax_supramax,57937,unmatched,,,
 CMDB,CURACAO (ii),CURACAO,ultramax_supramax,57937,unmatched,,,
 CMDB,SERENA,SERENA,ultramax_supramax,57266,matched,205489490.0,0.0,85.0
-CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,unmatched,,,
+CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,matched,244750019.0,0.0,199.0
 CMDB,BERMONDI,BERMONDI,ultramax_supramax,55469,unmatched,,,
 CMDB,SHANDONG MIGHTINESS,SHANDONG MIGHTINESS,newcastlemax,210896,unmatched,,,
 CMDB,SHANDONG MISSION (i),SHANDONG MISSION,newcastlemax,210800,unmatched,,,
@@ -387,7 +387,7 @@ FRO,Front Humber,FRONT HUMBER,vlcc,298800,unmatched,,,
 FRO,Front Morgan,FRONT MORGAN,vlcc,300200,unmatched,,,
 FRO,Front Clyde,FRONT CLYDE,vlcc,299300,unmatched,,,
 FRO,Front Forth,FRONT FORTH,vlcc,299300,unmatched,,,
-FRO,Front Spey,FRONT SPEY,vlcc,299500,unmatched,,,
+FRO,Front Spey,FRONT SPEY,vlcc,299500,matched,538012443.0,1087500.0,333.0
 FRO,Front Otra,FRONT OTRA,vlcc,300000,unmatched,,,
 FRO,Front Tay,FRONT TAY,vlcc,300000,unmatched,,,
 FRO,Front Dee,FRONT DEE,vlcc,300000,unmatched,,,
@@ -425,7 +425,7 @@ FRO,Front Vega,FRONT VEGA,aframax_lr2,110000,matched,538007216.0,9767338.0,252.0
 FRO,Front Sirius,FRONT SIRIUS,aframax_lr2,110000,unmatched,,,
 FRO,Front Castor,FRONT CASTOR,aframax_lr2,110000,unmatched,,,
 FRO,Front Pollux,FRONT POLLUX,aframax_lr2,110000,unmatched,,,
-FRO,Front Capella,FRONT CAPELLA,aframax_lr2,110000,unmatched,,,
+FRO,Front Capella,FRONT CAPELLA,aframax_lr2,110000,matched,538007462.0,9790995.0,252.0
 FRO,Front Polaris,FRONT POLARIS,aframax_lr2,110000,matched,538007463.0,9791004.0,251.0
 FRO,Front Fusion,FRONT FUSION,aframax_lr2,110000,unmatched,,,
 FRO,Front Future,FRONT FUTURE,aframax_lr2,110000,matched,538009183.0,9887815.0,244.0
@@ -482,7 +482,7 @@ TNK,Copper Spirit,COPPER SPIRIT,suezmax,156800,unmatched,,,
 TNK,Dilong Spirit,DILONG SPIRIT,suezmax,159000,unmatched,,,
 TNK,London Spirit,LONDON SPIRIT,suezmax,158700,unmatched,,,
 TNK,Moscow Spirit,MOSCOW SPIRIT,suezmax,156500,matched,311000449.0,9418602.0,275.0
-TNK,Pinnacle Spirit,PINNACLE SPIRIT,suezmax,160400,unmatched,,,
+TNK,Pinnacle Spirit,PINNACLE SPIRIT,suezmax,160400,matched,309992000.0,9385192.0,274.0
 TNK,Rio Spirit,RIO SPIRIT,suezmax,158400,unmatched,,,
 TNK,Summit Spirit,SUMMIT SPIRIT,suezmax,160500,matched,309022000.0,9404833.0,274.0
 TNK,Sydney Spirit,SYDNEY SPIRIT,suezmax,158500,matched,311000451.0,9594781.0,274.0
@@ -919,7 +919,7 @@ DSX,MAIA,MAIA,kamsarmax_panamax,82193,unmatched,,,
 DSX,MYRSINI,MYRSINI,kamsarmax_panamax,82117,unmatched,,,
 DSX,MEDUSA,MEDUSA,kamsarmax_panamax,82194,unmatched,,,
 DSX,MYRTO,MYRTO,kamsarmax_panamax,82131,matched,538004996.0,9518086.0,229.0
-DSX,ASTARTE,ASTARTE,kamsarmax_panamax,81513,unmatched,,,
+DSX,ASTARTE,ASTARTE,kamsarmax_panamax,81513,matched,538007493.0,9600645.0,229.0
 DSX,LEONIDAS P. C.,LEONIDAS P C,kamsarmax_panamax,82165,unmatched,,,
 DSX,AMPHITRITE,AMPHITRITE,post_panamax,98697,unmatched,,,
 DSX,POLYMNIA,POLYMNIA,post_panamax,98704,matched,538004898.0,9598660.0,239.0
