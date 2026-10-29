@@ -541,7 +541,7 @@ TEN,Elias Tsakos,ELIAS TSAKOS,aframax_lr2,113737,unmatched,,,
 TEN,Thomas Zafiras,THOMAS ZAFIRAS,aframax_lr2,113691,unmatched,,,
 TEN,Leontios H,LEONTIOS H,aframax_lr2,113611,matched,241454000.0,9724336.0,250.0
 TEN,Parthenon TS,PARTHENON TS,aframax_lr2,113554,matched,249948000.0,9724348.0,250.0
-TEN,Sapporo Princess,SAPPORO PRINCESS,aframax_lr2,105354,unmatched,,,
+TEN,Sapporo Princess,SAPPORO PRINCESS,aframax_lr2,105354,matched,636017817.0,9439199.0,228.0
 TEN,Uraga Princess,URAGA PRINCESS,aframax_lr2,105344,unmatched,,,
 TEN,Asahi Princess,ASAHI PRINCESS,aframax_lr2,105372,unmatched,,,
 TEN,Maria Princess,MARIA PRINCESS,aframax_lr2,105346,unmatched,,,
@@ -844,7 +844,7 @@ HAFNI,Hafnia Atlantic,HAFNIA ATLANTIC,mr,49641,matched,563191400.0,9810214.0,183
 HAFNI,Hafnia Bobcat,HAFNIA BOBCAT,mr,49999,unmatched,,,
 HAFNI,Hafnia Caterina,HAFNIA CATERINA,mr,49999,matched,563099900.0,9688427.0,183.0
 HAFNI,Hafnia Cheetah,HAFNIA CHEETAH,mr,49999,unmatched,,,
-HAFNI,Hafnia Cougar,HAFNIA COUGAR,mr,49999,unmatched,,,
+HAFNI,Hafnia Cougar,HAFNIA COUGAR,mr,49999,matched,563624000.0,9675494.0,183.0
 HAFNI,Hafnia Crux,HAFNIA CRUX,mr,49999,unmatched,,,
 HAFNI,Hafnia Daisy,HAFNIA DAISY,mr,49999,unmatched,,,
 HAFNI,Hafnia Eagle,HAFNIA EAGLE,mr,49999,unmatched,,,
@@ -869,7 +869,7 @@ HAFNI,Hafnia Myna,HAFNIA MYNA,mr,49999,unmatched,,,
 HAFNI,Hafnia Osprey,HAFNIA OSPREY,mr,49999,unmatched,,,
 HAFNI,Hafnia Pacific,HAFNIA PACIFIC,mr,49686,unmatched,,,
 HAFNI,Hafnia Panther,HAFNIA PANTHER,mr,49999,unmatched,,,
-HAFNI,Hafnia Petrel,HAFNIA PETREL,mr,49999,unmatched,,,
+HAFNI,Hafnia Petrel,HAFNIA PETREL,mr,49999,matched,564863000.0,9706073.0,183.0
 HAFNI,Hafnia Phoenix,HAFNIA PHOENIX,mr,49999,unmatched,,,
 HAFNI,Hafnia Puma,HAFNIA PUMA,mr,49999,unmatched,,,
 HAFNI,Hafnia Raven,HAFNIA RAVEN,mr,49999,unmatched,,,
