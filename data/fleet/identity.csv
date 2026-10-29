@@ -459,7 +459,7 @@ NAT,Nordic Freedom,NORDIC FREEDOM,suezmax,159331,matched,311817000.0,9288887.0,2
 NAT,Nordic Sprinter,NORDIC SPRINTER,suezmax,159089,unmatched,,,
 NAT,Nordic Skier,NORDIC SKIER,suezmax,159089,unmatched,,,
 NAT,Nordic Vega,NORDIC VEGA,suezmax,163940,unmatched,,,
-NAT,Nordic Light,NORDIC LIGHT,suezmax,158475,unmatched,,,
+NAT,Nordic Light,NORDIC LIGHT,suezmax,158475,matched,538003862.0,9436446.0,274.0
 NAT,Nordic Cross,NORDIC CROSS,suezmax,158475,matched,538003713.0,9438418.0,274.0
 NAT,Nordic Breeze,NORDIC BREEZE,suezmax,158597,unmatched,,,
 NAT,Nordic Zenith,NORDIC ZENITH,suezmax,158645,unmatched,,,
@@ -833,7 +833,7 @@ HAFNI,Sunda,SUNDA,lr1_panamax,79902,unmatched,,,
 HAFNI,Basset,BASSET,mr,49875,matched,563090700.0,9858060.0,183.0
 HAFNI,Beagle,BEAGLE,mr,49850,matched,352802000.0,9814181.0,183.0
 HAFNI,Boxer,BOXER,mr,49852,unmatched,,,
-HAFNI,Bulldog,BULLDOG,mr,49856,unmatched,,,
+HAFNI,Bulldog,BULLDOG,mr,49856,matched,563093600.0,9858072.0,183.0
 HAFNI,BW Wren,BW WREN,mr,49999,unmatched,,,
 HAFNI,Ecomar Garonne,ECOMAR GARONNE,mr,49696,unmatched,,,
 HAFNI,Ecomar Gascogne,ECOMAR GASCOGNE,mr,49776,unmatched,,,
@@ -842,7 +842,7 @@ HAFNI,Hafnia Andrea,HAFNIA ANDREA,mr,49999,unmatched,,,
 HAFNI,Hafnia Ane,HAFNIA ANE,mr,49999,unmatched,,,
 HAFNI,Hafnia Atlantic,HAFNIA ATLANTIC,mr,49641,matched,563191400.0,9810214.0,183.0
 HAFNI,Hafnia Bobcat,HAFNIA BOBCAT,mr,49999,unmatched,,,
-HAFNI,Hafnia Caterina,HAFNIA CATERINA,mr,49999,unmatched,,,
+HAFNI,Hafnia Caterina,HAFNIA CATERINA,mr,49999,matched,563099900.0,9688427.0,183.0
 HAFNI,Hafnia Cheetah,HAFNIA CHEETAH,mr,49999,unmatched,,,
 HAFNI,Hafnia Cougar,HAFNIA COUGAR,mr,49999,unmatched,,,
 HAFNI,Hafnia Crux,HAFNIA CRUX,mr,49999,unmatched,,,
