@@ -513,7 +513,7 @@ TEN,Dias I,DIAS I,vlcc,300000,unmatched,,,
 TEN,Apollo Voyager,APOLLO VOYAGER,suezmax,157877,matched,311000902.0,9878890.0,274.0
 TEN,Artemis Voyager,ARTEMIS VOYAGER,suezmax,157877,matched,311000903.0,9878905.0,274.0
 TEN,Eurovision,EUROVISION,suezmax,157803,matched,311076800.0,9567697.0,275.0
-TEN,Euro,EURO,suezmax,157539,unmatched,,,
+TEN,Euro,EURO,suezmax,157539,matched,311073800.0,9567702.0,274.0
 TEN,Decathlon,DECATHLON,suezmax,158475,unmatched,,,
 TEN,Spyros K,SPYROS K,suezmax,157648,unmatched,,,
 TEN,Dimitris P,DIMITRIS P,suezmax,157740,unmatched,,,
@@ -563,7 +563,7 @@ TEN,Chantal,CHANTAL,lr1_panamax,74329,unmatched,,,
 TEN,Selini,SELINI,lr1_panamax,74296,unmatched,,,
 TEN,Salamina,SALAMINA,lr1_panamax,74251,matched,636014128.0,9382968.0,228.0
 TEN,Selecao,SELECAO,lr1_panamax,74296,matched,636013614.0,9388297.0,228.0
-TEN,Socrates,SOCRATES,lr1_panamax,74327,unmatched,,,
+TEN,Socrates,SOCRATES,lr1_panamax,74327,matched,636013615.0,9390692.0,100.0
 TEN,Andes,ANDES,lr1_panamax,68439,unmatched,,,
 TEN,Byzantion,BYZANTION,handy_tanker,37275,matched,538008905.0,9315898.0,183.0
 TEN,Bosporos,BOSPOROS,handy_tanker,37275,matched,538008904.0,9315903.0,182.0
@@ -664,7 +664,7 @@ STNG,STI Symphony,STI SYMPHONY,aframax_lr2,109999,unmatched,,,
 STNG,STI Guard,STI GUARD,aframax_lr2,113000,matched,538005822.0,9717101.0,249.0
 STNG,STI Guide,STI GUIDE,aframax_lr2,113000,matched,538005823.0,9717113.0,250.0
 STNG,STI Selatar,STI SELATAR,aframax_lr2,109999,unmatched,,,
-STNG,STI Rambla,STI RAMBLA,aframax_lr2,109999,unmatched,,,
+STNG,STI Rambla,STI RAMBLA,aframax_lr2,109999,matched,538005645.0,9730880.0,250.0
 STNG,STI Gauntlet,STI GAUNTLET,aframax_lr2,113000,matched,538005825.0,9717137.0,249.0
 STNG,STI Gladiator,STI GLADIATOR,aframax_lr2,113000,matched,538005826.0,9722170.0,249.0
 STNG,STI Gratitude,STI GRATITUDE,aframax_lr2,113000,unmatched,,,
