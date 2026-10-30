@@ -470,7 +470,7 @@ NAT,Nordic Star,NORDIC STAR,suezmax,157738,unmatched,,,
 NAT,Nordic Space,NORDIC SPACE,suezmax,157582,matched,319095200.0,9748681.0,277.0
 NAT,Nordic Aquarius,NORDIC AQUARIUS,suezmax,157338,unmatched,,,
 NAT,Nordic Cygnus,NORDIC CYGNUS,suezmax,157526,unmatched,,,
-NAT,Nordic Tellus,NORDIC TELLUS,suezmax,157407,unmatched,,,
+NAT,Nordic Tellus,NORDIC TELLUS,suezmax,157407,matched,319131300.0,9818230.0,277.0
 NAT,Nordic Hunter,NORDIC HUNTER,suezmax,157037,unmatched,,,
 NAT,Nordic Harrier,NORDIC HARRIER,suezmax,157094,unmatched,,,
 TNK,Athens Spirit,ATHENS SPIRIT,suezmax,158500,unmatched,,,
@@ -818,7 +818,7 @@ HAFNI,Hafnia Shannon,HAFNIA SHANNON,lr1_panamax,74189,unmatched,,,
 HAFNI,Hafnia Pioneer,HAFNIA PIONEER,aframax_lr2,81305,unmatched,,,
 HAFNI,Hafnia Precision,HAFNIA PRECISION,lr1_panamax,74996,unmatched,,,
 HAFNI,Hafnia Prestige,HAFNIA PRESTIGE,lr1_panamax,74996,unmatched,,,
-HAFNI,Hafnia Pride,HAFNIA PRIDE,lr1_panamax,74997,unmatched,,,
+HAFNI,Hafnia Pride,HAFNIA PRIDE,lr1_panamax,74997,matched,563154300.0,9737747.0,220.0
 HAFNI,Hafnia Providence,HAFNIA PROVIDENCE,lr1_panamax,74996,unmatched,,,
 HAFNI,Hafnia Seine,HAFNIA SEINE,lr1_panamax,74998,unmatched,,,
 HAFNI,Hafnia Shanghai,HAFNIA SHANGHAI,lr1_panamax,74999,unmatched,,,
