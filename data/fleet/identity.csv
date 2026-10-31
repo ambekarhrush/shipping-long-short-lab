@@ -584,7 +584,7 @@ STNG,STI Comandante,STI COMANDANTE,handy_tanker,38734,matched,538005397.0,968685
 STNG,STI Pimlico,STI PIMLICO,handy_tanker,38734,matched,538005398.0,9686871.0,184.0
 STNG,STI Hackney,STI HACKNEY,handy_tanker,38734,matched,538005401.0,9686883.0,184.0
 STNG,STI Acton,STI ACTON,handy_tanker,38734,matched,538005405.0,9696553.0,184.0
-STNG,STI Fulham,STI FULHAM,handy_tanker,38734,unmatched,,,
+STNG,STI Fulham,STI FULHAM,handy_tanker,38734,matched,538005400.0,9688374.0,184.0
 STNG,STI Camden,STI CAMDEN,handy_tanker,38734,unmatched,,,
 STNG,STI Battersea,STI BATTERSEA,handy_tanker,38734,unmatched,,,
 STNG,STI Wembley,STI WEMBLEY,handy_tanker,38734,matched,538005404.0,9691735.0,183.0
@@ -598,7 +598,7 @@ STNG,STI Opera,STI OPERA,mr,49990,unmatched,,,
 STNG,STI Meraux,STI MERAUX,mr,49990,unmatched,,,
 STNG,STI Virtus,STI VIRTUS,mr,49990,unmatched,,,
 STNG,STI Aqua,STI AQUA,mr,49990,unmatched,,,
-STNG,STI Dama,STI DAMA,mr,49990,matched,538005173.0,9686716.0,183.0
+STNG,STI Dama,STI DAMA,mr,49990,unmatched,,,
 STNG,STI Regina,STI REGINA,mr,49990,unmatched,,,
 STNG,STI St. Charles,STI ST CHARLES,mr,49990,matched,538005902.0,9681144.0,183.0
 STNG,STI Mayfair,STI MAYFAIR,mr,49990,matched,538005175.0,9686730.0,183.0
@@ -787,7 +787,7 @@ TRMD,TORM DAVAO,TORM DAVAO,mr,49990,matched,563315400.0,9688350.0,183.0
 TRMD,TORM DELHI,TORM DELHI,mr,49990,unmatched,,,
 TRMD,TORM DOVER,TORM DOVER,mr,49990,unmatched,,,
 TRMD,TORM DUBAI,TORM DUBAI,mr,49990,matched,563315300.0,9681390.0,183.0
-TRMD,TORM FREEDOM,TORM FREEDOM,mr,49683,unmatched,,,
+TRMD,TORM FREEDOM,TORM FREEDOM,mr,49683,matched,219761000.0,9797395.0,183.0
 HAFNI,Hafnia Despina,HAFNIA DESPINA,aframax_lr2,109990,matched,563068400.0,9796494.0,250.0
 HAFNI,Hafnia Galatea,HAFNIA GALATEA,aframax_lr2,109990,matched,563068500.0,9796975.0,250.0
 HAFNI,Hafnia Languedoc,HAFNIA LANGUEDOC,aframax_lr2,109999,matched,563175500.0,9941685.0,250.0
@@ -901,7 +901,7 @@ OET,Nissos Keros,NISSOS KEROS,vlcc,318953,unmatched,,,
 OET,Nissos Anafi,NISSOS ANAFI,vlcc,318953,unmatched,,,
 OET,Nissos Kea,NISSOS KEA,vlcc,300323,unmatched,,,
 OET,Nissos Nikouria,NISSOS NIKOURIA,vlcc,300323,unmatched,,,
-DSX,DSI Phoenix,DSI PHOENIX,ultramax_supramax,60456,unmatched,,,
+DSX,DSI Phoenix,DSI PHOENIX,ultramax_supramax,60456,matched,538009164.0,9738337.0,200.0
 DSX,DSI Pollux,DSI POLLUX,ultramax_supramax,60446,unmatched,,,
 DSX,DSI Pyxis,DSI PYXIS,ultramax_supramax,60362,matched,538009163.0,9800635.0,200.0
 DSX,DSI Polaris,DSI POLARIS,ultramax_supramax,60404,unmatched,,,
