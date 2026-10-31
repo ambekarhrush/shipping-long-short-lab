@@ -155,7 +155,7 @@ GNK,Genco Freedom,GENCO FREEDOM,ultramax_supramax,63667,matched,538006041.0,9742
 GNK,Genco Hornet,GENCO HORNET,ultramax_supramax,63574,matched,538005879.0,9721932.0,200.0
 GNK,Genco Vigilant,GENCO VIGILANT,ultramax_supramax,63498,matched,538006042.0,9742663.0,200.0
 GNK,Genco Enterprise,GENCO ENTERPRISE,ultramax_supramax,63472,unmatched,,,
-GNK,Genco Mantis,GENCO MANTIS,ultramax_supramax,63467,unmatched,,,
+GNK,Genco Mantis,GENCO MANTIS,ultramax_supramax,63467,matched,538002314.0,9729489.0,200.0
 GNK,Genco Scorpion,GENCO SCORPION,ultramax_supramax,63462,matched,538005968.0,9729477.0,200.0
 GNK,Genco Magic,GENCO MAGIC,ultramax_supramax,63443,unmatched,,,
 GNK,Genco Wasp,GENCO WASP,ultramax_supramax,63389,unmatched,,,
@@ -297,7 +297,7 @@ EDRY,TASOS,TASOS,kamsarmax_panamax,75100,unmatched,,,
 CTRM,Magic Thunder,MAGIC THUNDER,kamsarmax_panamax,83375,matched,538009377.0,9442407.0,229.0
 CTRM,Magic Perseus,MAGIC PERSEUS,kamsarmax_panamax,82158,matched,538009448.0,9582477.0,227.0
 CTRM,Magic Starlight,MAGIC STARLIGHT,kamsarmax_panamax,81048,unmatched,,,
-CTRM,Magic Mars,MAGIC MARS,kamsarmax_panamax,76822,unmatched,,,
+CTRM,Magic Mars,MAGIC MARS,kamsarmax_panamax,76822,matched,538009627.0,9691400.0,223.0
 CTRM,Magic P,MAGIC P,kamsarmax_panamax,76453,unmatched,,,
 CTRM,Magic Pluto,MAGIC PLUTO,kamsarmax_panamax,74940,unmatched,,,
 CTRM,Magic Ariel,MAGIC ARIEL,kamsarmax_panamax,81845,matched,538011341.0,9855599.0,229.0
@@ -867,7 +867,7 @@ HAFNI,Hafnia Merlin,HAFNIA MERLIN,mr,49999,matched,563484000.0,9682239.0,183.0
 HAFNI,Hafnia Mikala,HAFNIA MIKALA,mr,49999,matched,249836000.0,9732709.0,183.0
 HAFNI,Hafnia Myna,HAFNIA MYNA,mr,49999,unmatched,,,
 HAFNI,Hafnia Osprey,HAFNIA OSPREY,mr,49999,unmatched,,,
-HAFNI,Hafnia Pacific,HAFNIA PACIFIC,mr,49686,unmatched,,,
+HAFNI,Hafnia Pacific,HAFNIA PACIFIC,mr,49686,matched,563195400.0,9810226.0,183.0
 HAFNI,Hafnia Panther,HAFNIA PANTHER,mr,49999,unmatched,,,
 HAFNI,Hafnia Petrel,HAFNIA PETREL,mr,49999,matched,564863000.0,9706073.0,183.0
 HAFNI,Hafnia Phoenix,HAFNIA PHOENIX,mr,49999,unmatched,,,
@@ -977,7 +977,7 @@ INSW,SEAWAYS MAGELLAN,SEAWAYS MAGELLAN,lr1_panamax,73600,unmatched,,,
 INSW,SEAWAYS WAVE,SEAWAYS WAVE,mr,51549,unmatched,,,
 INSW,SEAWAYS CREST,SEAWAYS CREST,mr,51510,unmatched,,,
 INSW,SEAWAYS MUSE,SEAWAYS MUSE,mr,51498,unmatched,,,
-INSW,SEAWAYS MELINA,SEAWAYS MELINA,mr,51483,unmatched,,,
+INSW,SEAWAYS MELINA,SEAWAYS MELINA,mr,51483,matched,538011713.0,9387944.0,183.0
 INSW,SEAWAYS MIRAGE,SEAWAYS MIRAGE,mr,51476,matched,538011209.0,9387138.0,183.0
 INSW,SEAWAYS OAK,SEAWAYS OAK,mr,51260,unmatched,,,
 INSW,SEAWAYS MILOS,SEAWAYS MILOS,mr,50378,unmatched,,,
