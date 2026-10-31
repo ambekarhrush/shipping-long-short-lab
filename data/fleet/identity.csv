@@ -59,7 +59,7 @@ SBLK,Star Nasia,STAR NASIA,kamsarmax_panamax,82220,unmatched,,,
 SBLK,Star Laura,STAR LAURA,kamsarmax_panamax,82209,unmatched,,,
 SBLK,Star Mona,STAR MONA,kamsarmax_panamax,82188,unmatched,,,
 SBLK,Star Helena,STAR HELENA,kamsarmax_panamax,82187,matched,538002630.0,9361213.0,229.0
-SBLK,Star Astrid,STAR ASTRID,kamsarmax_panamax,82158,unmatched,,,
+SBLK,Star Astrid,STAR ASTRID,kamsarmax_panamax,82158,matched,538006910.0,9582453.0,229.0
 SBLK,Star Alessia,STAR ALESSIA,kamsarmax_panamax,81944,matched,636017962.0,9804564.0,229.0
 SBLK,Star Calypso,STAR CALYPSO,kamsarmax_panamax,81918,unmatched,,,
 SBLK,Star Suzanna,STAR SUZANNA,kamsarmax_panamax,81711,unmatched,,,
@@ -120,7 +120,7 @@ SBLK,Honey Badger,HONEY BADGER,ultramax_supramax,61320,unmatched,,,
 SBLK,Wolverine,WOLVERINE,ultramax_supramax,61292,matched,636024841.0,9711327.0,200.0
 SBLK,Star Antares,STAR ANTARES,ultramax_supramax,61258,unmatched,,,
 SBLK,Star Tokyo,STAR TOKYO,ultramax_supramax,61225,unmatched,,,
-SBLK,Star Monica,STAR MONICA,ultramax_supramax,60935,unmatched,,,
+SBLK,Star Monica,STAR MONICA,ultramax_supramax,60935,matched,636020177.0,9715842.0,198.0
 SBLK,Star Aquarius,STAR AQUARIUS,ultramax_supramax,60916,unmatched,,,
 SBLK,Star Pisces,STAR PISCES,ultramax_supramax,60916,matched,636024670.0,9715854.0,198.0
 SBLK,Crane,CRANE,ultramax_supramax,57809,unmatched,,,
@@ -158,7 +158,7 @@ GNK,Genco Enterprise,GENCO ENTERPRISE,ultramax_supramax,63472,unmatched,,,
 GNK,Genco Mantis,GENCO MANTIS,ultramax_supramax,63467,matched,538002314.0,9729489.0,200.0
 GNK,Genco Scorpion,GENCO SCORPION,ultramax_supramax,63462,matched,538005968.0,9729477.0,200.0
 GNK,Genco Magic,GENCO MAGIC,ultramax_supramax,63443,unmatched,,,
-GNK,Genco Wasp,GENCO WASP,ultramax_supramax,63389,unmatched,,,
+GNK,Genco Wasp,GENCO WASP,ultramax_supramax,63389,matched,538005900.0,9722015.0,200.0
 GNK,Genco Constellation,GENCO CONSTELLATION,ultramax_supramax,63310,matched,538009131.0,9714678.0,200.0
 GNK,Genco Mayflower,GENCO MAYFLOWER,ultramax_supramax,63304,unmatched,,,
 GNK,Genco Madeleine,GENCO MADELEINE,ultramax_supramax,63163,matched,538007722.0,9705976.0,200.0
@@ -769,7 +769,7 @@ TRMD,TORM SUPREME,TORM SUPREME,mr,49999,unmatched,,,
 TRMD,TORM THOR,TORM THOR,mr,49842,unmatched,,,
 TRMD,TORM THUNDER,TORM THUNDER,mr,49842,unmatched,,,
 TRMD,TORM TIMOTHY,TORM TIMOTHY,mr,49842,matched,338607000.0,9726487.0,183.0
-TRMD,TORM TITAN,TORM TITAN,mr,49842,unmatched,,,
+TRMD,TORM TITAN,TORM TITAN,mr,49842,matched,219351000.0,9712319.0,183.0
 TRMD,TORM TORINO,TORM TORINO,mr,49842,unmatched,,,
 TRMD,TORM TROILUS,TORM TROILUS,mr,49842,unmatched,,,
 TRMD,TORM DANICA,TORM DANICA,mr,49999,unmatched,,,
@@ -951,7 +951,7 @@ INSW,SEAWAYS RED,SEAWAYS RED,suezmax,159068,unmatched,,,
 INSW,SEAWAYS RIO GRANDE,SEAWAYS RIO GRANDE,suezmax,159056,matched,538004028.0,9593438.0,274.0
 INSW,SEAWAYS SAN SABA,SEAWAYS SAN SABA,suezmax,159018,unmatched,,,
 INSW,SEAWAYS FRIO,SEAWAYS FRIO,suezmax,159000,unmatched,,,
-INSW,SEAWAYS TRINITY,SEAWAYS TRINITY,suezmax,158734,unmatched,,,
+INSW,SEAWAYS TRINITY,SEAWAYS TRINITY,suezmax,158734,matched,538006699.0,9730361.0,274.0
 INSW,SEAWAYS SAN JACINTO,SEAWAYS SAN JACINTO,suezmax,158658,unmatched,,,
 INSW,SEAWAYS COLORADO,SEAWAYS COLORADO,suezmax,158615,matched,538004034.0,9594767.0,274.0
 INSW,SEAWAYS BRAZOS,SEAWAYS BRAZOS,suezmax,158537,unmatched,,,
