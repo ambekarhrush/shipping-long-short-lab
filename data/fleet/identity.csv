@@ -330,7 +330,7 @@ CMDB,NORMA,NORMA,ultramax_supramax,58018,matched,636021631.0,9490739.0,189.0
 CMDB,URUGUAY (ii),URUGUAY,ultramax_supramax,57937,unmatched,,,
 CMDB,CURACAO (ii),CURACAO,ultramax_supramax,57937,unmatched,,,
 CMDB,SERENA,SERENA,ultramax_supramax,57266,matched,205489490.0,0.0,85.0
-CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,matched,244750019.0,0.0,199.0
+CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,unmatched,,,
 CMDB,BERMONDI,BERMONDI,ultramax_supramax,55469,unmatched,,,
 CMDB,SHANDONG MIGHTINESS,SHANDONG MIGHTINESS,newcastlemax,210896,unmatched,,,
 CMDB,SHANDONG MISSION (i),SHANDONG MISSION,newcastlemax,210800,unmatched,,,
@@ -574,7 +574,7 @@ PSHG_T,BRIOLETTE,BRIOLETTE,aframax_lr2,104588,unmatched,,,
 PSHG_T,P. SOPHIA,P SOPHIA,aframax_lr2,105071,unmatched,,,
 PSHG_T,P. ALIKI,P ALIKI,aframax_lr2,105304,unmatched,,,
 PSHG_T,P. MONTEREY,P MONTEREY,aframax_lr2,105525,unmatched,,,
-PSHG_T,P. LONG BEACH,P LONG BEACH,aframax_lr2,105408,unmatched,,,
+PSHG_T,P. LONG BEACH,P LONG BEACH,aframax_lr2,105408,matched,538005201.0,9656890.0,244.0
 PSHG_T,P. MASSPORT,P MASSPORT,aframax_lr2,114036,unmatched,,,
 PSHG_T,P. TOKYO,P TOKYO,aframax_lr2,114014,matched,538011728.0,1057206.0,250.0
 PSHG_T,P. BEVERLY HILLS,P BEVERLY HILLS,suezmax,157286,matched,255916594.0,9794068.0,277.0
