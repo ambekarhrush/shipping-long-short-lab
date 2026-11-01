@@ -285,7 +285,7 @@ EDRY,EKATERINI,EKATERINI,kamsarmax_panamax,82006,unmatched,,,
 EDRY,XENIA,XENIA,kamsarmax_panamax,82019,unmatched,,,
 EDRY,ALEXANDROS P,ALEXANDROS P,ultramax_supramax,63127,unmatched,,,
 EDRY,CHRISTOS K,CHRISTOS K,ultramax_supramax,63197,matched,538010803.0,9700081.0,199.0
-EDRY,YANNIS PITTAS,YANNIS PITTAS,ultramax_supramax,63243,unmatched,,,
+EDRY,YANNIS PITTAS,YANNIS PITTAS,ultramax_supramax,63243,matched,538010804.0,9698317.0,199.0
 EDRY,MARIA,MARIA,ultramax_supramax,63153,unmatched,,,
 EDRY,GOOD HEART,GOOD HEART,ultramax_supramax,62996,unmatched,,,
 EDRY,MOLYVOS LUCK,MOLYVOS LUCK,ultramax_supramax,57924,unmatched,,,
@@ -549,7 +549,7 @@ TEN,Sakura Princess,SAKURA PRINCESS,aframax_lr2,105365,unmatched,,,
 TEN,Alpes,ALPES,aframax_lr2,112505,unmatched,,,
 TEN,Aspen,ASPEN,aframax_lr2,112900,matched,636023947.0,9818058.0,250.0
 TEN,Promitheas,PROMITHEAS,aframax_lr2,117055,matched,240547000.0,9305611.0,249.0
-TEN,Propontis,PROPONTIS,aframax_lr2,117055,unmatched,,,
+TEN,Propontis,PROPONTIS,aframax_lr2,117055,matched,240565000.0,9305623.0,249.0
 TEN,Njord DF,NJORD DF,aframax_lr2,114545,matched,241866000.0,9953468.0,250.0
 TEN,Ran DF,RAN DF,aframax_lr2,114575,matched,241869000.0,9953470.0,250.0
 TEN,Chios DF,CHIOS DF,aframax_lr2,114580,unmatched,,,
