@@ -151,7 +151,7 @@ GNK,Genco Wolf,GENCO WOLF,capesize,177752,unmatched,,,
 GNK,Genco Titus,GENCO TITUS,capesize,177729,unmatched,,,
 GNK,Genco Bear,GENCO BEAR,capesize,177717,unmatched,,,
 GNK,Genco Tiberius,GENCO TIBERIUS,capesize,175874,unmatched,,,
-GNK,Genco Freedom,GENCO FREEDOM,ultramax_supramax,63667,matched,538006041.0,9742651.0,200.0
+GNK,Genco Freedom,GENCO FREEDOM,ultramax_supramax,63667,matched,538006041.0,9742651.0,202.0
 GNK,Genco Hornet,GENCO HORNET,ultramax_supramax,63574,matched,538005879.0,9721932.0,200.0
 GNK,Genco Vigilant,GENCO VIGILANT,ultramax_supramax,63498,matched,538006042.0,9742663.0,200.0
 GNK,Genco Enterprise,GENCO ENTERPRISE,ultramax_supramax,63472,unmatched,,,
@@ -495,7 +495,7 @@ TNK,Garibaldi Spirit,GARIBALDI SPIRIT,aframax_lr2,109000,unmatched,,,
 TNK,Kmarin Reliance,KMARIN RELIANCE,aframax_lr2,109500,unmatched,,,
 TNK,Kmarin Renown,KMARIN RENOWN,aframax_lr2,109700,unmatched,,,
 TNK,Kmarin Respect,KMARIN RESPECT,aframax_lr2,109600,unmatched,,,
-TNK,Orchid Spirit,ORCHID SPIRIT,aframax_lr2,112800,unmatched,,,
+TNK,Orchid Spirit,ORCHID SPIRIT,aframax_lr2,112800,matched,311001568.0,9901867.0,250.0
 TNK,Peak Spirit,PEAK SPIRIT,aframax_lr2,104600,unmatched,,,
 TNK,Tarbet Spirit,TARBET SPIRIT,aframax_lr2,107500,unmatched,,,
 TNK,Whistler Spirit,WHISTLER SPIRIT,aframax_lr2,109000,unmatched,,,
@@ -527,7 +527,7 @@ TEN,Silia T.,SILIA T,suezmax,156833,matched,241965000.0,9995753.0,270.0
 TEN,Lisboa,LISBOA,suezmax,157000,unmatched,,,
 TEN,Rio 2016,RIO 2016,suezmax,155708,unmatched,,,
 TEN,Brasil 2014,BRASIL 2014,suezmax,155721,unmatched,,,
-TEN,Porto,PORTO,suezmax,154500,unmatched,,,
+TEN,Porto,PORTO,suezmax,154500,matched,229682000.0,9915791.0,279.0
 TEN,Athens 04,ATHENS 04,suezmax,154350,matched,256881000.0,9988164.0,279.0
 TEN,Paris 24,PARIS 24,suezmax,154350,matched,256880000.0,9988176.0,279.0
 TEN,Caribbean Voyager,CARIBBEAN VOYAGER,aframax_lr2,115000,unmatched,,,
@@ -780,7 +780,7 @@ TRMD,TORM DURGA,TORM DURGA,mr,49680,unmatched,,,
 TRMD,TORM DAMINI,TORM DAMINI,mr,49746,unmatched,,,
 TRMD,TORM DORIS,TORM DORIS,mr,49680,unmatched,,,
 TRMD,TORM DAGNY,TORM DAGNY,mr,49635,unmatched,,,
-TRMD,TORM DEBORAH,TORM DEBORAH,mr,49680,unmatched,,,
+TRMD,TORM DEBORAH,TORM DEBORAH,mr,49680,matched,219643000.0,9683386.0,183.0
 TRMD,TORM DAPHNE,TORM DAPHNE,mr,49746,unmatched,,,
 TRMD,TORM DULCE,TORM DULCE,mr,49680,unmatched,,,
 TRMD,TORM DAVAO,TORM DAVAO,mr,49990,matched,563315400.0,9688350.0,183.0
