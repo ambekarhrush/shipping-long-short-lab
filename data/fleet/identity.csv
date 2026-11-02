@@ -151,7 +151,7 @@ GNK,Genco Wolf,GENCO WOLF,capesize,177752,unmatched,,,
 GNK,Genco Titus,GENCO TITUS,capesize,177729,unmatched,,,
 GNK,Genco Bear,GENCO BEAR,capesize,177717,unmatched,,,
 GNK,Genco Tiberius,GENCO TIBERIUS,capesize,175874,unmatched,,,
-GNK,Genco Freedom,GENCO FREEDOM,ultramax_supramax,63667,matched,538006041.0,9742651.0,202.0
+GNK,Genco Freedom,GENCO FREEDOM,ultramax_supramax,63667,matched,538006041.0,9742651.0,200.0
 GNK,Genco Hornet,GENCO HORNET,ultramax_supramax,63574,matched,538005879.0,9721932.0,200.0
 GNK,Genco Vigilant,GENCO VIGILANT,ultramax_supramax,63498,matched,538006042.0,9742663.0,200.0
 GNK,Genco Enterprise,GENCO ENTERPRISE,ultramax_supramax,63472,unmatched,,,
@@ -496,7 +496,7 @@ TNK,Kmarin Reliance,KMARIN RELIANCE,aframax_lr2,109500,unmatched,,,
 TNK,Kmarin Renown,KMARIN RENOWN,aframax_lr2,109700,unmatched,,,
 TNK,Kmarin Respect,KMARIN RESPECT,aframax_lr2,109600,unmatched,,,
 TNK,Orchid Spirit,ORCHID SPIRIT,aframax_lr2,112800,matched,311001568.0,9901867.0,250.0
-TNK,Peak Spirit,PEAK SPIRIT,aframax_lr2,104600,unmatched,,,
+TNK,Peak Spirit,PEAK SPIRIT,aframax_lr2,104600,matched,311000279.0,9514171.0,228.0
 TNK,Tarbet Spirit,TARBET SPIRIT,aframax_lr2,107500,unmatched,,,
 TNK,Whistler Spirit,WHISTLER SPIRIT,aframax_lr2,109000,unmatched,,,
 TNK,Yamato Spirit,YAMATO SPIRIT,aframax_lr2,107600,matched,311000357.0,9414503.0,243.0
