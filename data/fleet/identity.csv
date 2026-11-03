@@ -330,7 +330,7 @@ CMDB,NORMA,NORMA,ultramax_supramax,58018,matched,636021631.0,9490739.0,189.0
 CMDB,URUGUAY (ii),URUGUAY,ultramax_supramax,57937,unmatched,,,
 CMDB,CURACAO (ii),CURACAO,ultramax_supramax,57937,unmatched,,,
 CMDB,SERENA,SERENA,ultramax_supramax,57266,matched,205489490.0,0.0,85.0
-CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,matched,244750019.0,0.0,199.0
+CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,matched,244750019.0,0.0,212.0
 CMDB,BERMONDI,BERMONDI,ultramax_supramax,55469,unmatched,,,
 CMDB,SHANDONG MIGHTINESS,SHANDONG MIGHTINESS,newcastlemax,210896,unmatched,,,
 CMDB,SHANDONG MISSION (i),SHANDONG MISSION,newcastlemax,210800,unmatched,,,
@@ -563,7 +563,7 @@ TEN,Chantal,CHANTAL,lr1_panamax,74329,unmatched,,,
 TEN,Selini,SELINI,lr1_panamax,74296,unmatched,,,
 TEN,Salamina,SALAMINA,lr1_panamax,74251,matched,636014128.0,9382968.0,228.0
 TEN,Selecao,SELECAO,lr1_panamax,74296,matched,636013614.0,9388297.0,228.0
-TEN,Socrates,SOCRATES,lr1_panamax,74327,matched,636013615.0,9390692.0,100.0
+TEN,Socrates,SOCRATES,lr1_panamax,74327,matched,636013615.0,9390692.0,227.0
 TEN,Andes,ANDES,lr1_panamax,68439,unmatched,,,
 TEN,Byzantion,BYZANTION,handy_tanker,37275,matched,538008905.0,9315898.0,183.0
 TEN,Bosporos,BOSPOROS,handy_tanker,37275,matched,538008904.0,9315903.0,182.0
@@ -707,7 +707,7 @@ TRMD,TORM GWENDOLYN,TORM GWENDOLYN,aframax_lr2,119456,unmatched,,,
 TRMD,TORM GWYNETH,TORM GWYNETH,aframax_lr2,119456,matched,563216200.0,9429003.0,250.0
 TRMD,TORM HANNAH,TORM HANNAH,aframax_lr2,109999,unmatched,,,
 TRMD,TORM HELLERUP,TORM HELLERUP,aframax_lr2,114000,unmatched,,,
-TRMD,TORM HELENE,TORM HELENE,aframax_lr2,114000,unmatched,,,
+TRMD,TORM HELENE,TORM HELENE,aframax_lr2,114000,matched,219029621.0,9904871.0,250.0
 TRMD,TORM HERMIA,TORM HERMIA,aframax_lr2,114000,matched,563047500.0,9797993.0,250.0
 TRMD,TORM HERDIS,TORM HERDIS,aframax_lr2,114000,unmatched,,,
 TRMD,TORM HILDE,TORM HILDE,aframax_lr2,114000,unmatched,,,
