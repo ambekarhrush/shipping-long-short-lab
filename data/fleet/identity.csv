@@ -72,7 +72,7 @@ SBLK,Star Carioca,STAR CARIOCA,kamsarmax_panamax,81262,unmatched,,,
 SBLK,Star Capoeira,STAR CAPOEIRA,kamsarmax_panamax,81253,matched,255915945.0,9719537.0,229.0
 SBLK,Star Macarena,STAR MACARENA,kamsarmax_panamax,81198,unmatched,,,
 SBLK,Star Lydia,STAR LYDIA,kamsarmax_panamax,81187,unmatched,,,
-SBLK,Star Nicole,STAR NICOLE,kamsarmax_panamax,81120,unmatched,,,
+SBLK,Star Nicole,STAR NICOLE,kamsarmax_panamax,81120,matched,636020464.0,9673783.0,229.0
 SBLK,Star Virginia,STAR VIRGINIA,kamsarmax_panamax,81061,unmatched,,,
 SBLK,Star Genesis,STAR GENESIS,kamsarmax_panamax,80705,unmatched,,,
 SBLK,Star Flame,STAR FLAME,kamsarmax_panamax,80448,unmatched,,,
@@ -106,7 +106,7 @@ SBLK,Star Rowayton,STAR ROWAYTON,ultramax_supramax,63301,unmatched,,,
 SBLK,Star Southport,STAR SOUTHPORT,ultramax_supramax,63301,matched,636025034.0,9575228.0,199.0
 SBLK,Kaley,KALEY,ultramax_supramax,63283,unmatched,,,
 SBLK,Star Stockholm,STAR STOCKHOLM,ultramax_supramax,63275,unmatched,,,
-SBLK,Kennadi,KENNADI,ultramax_supramax,63262,unmatched,,,
+SBLK,Kennadi,KENNADI,ultramax_supramax,63262,matched,636024962.0,9703576.0,200.0
 SBLK,Mackenzie,MACKENZIE,ultramax_supramax,63226,matched,255915687.0,9973688.0,255.0
 SBLK,Star New London,STAR NEW LONDON,ultramax_supramax,63140,unmatched,,,
 SBLK,Star Apus,STAR APUS,ultramax_supramax,63123,unmatched,,,
@@ -506,7 +506,7 @@ TNK,Luzon Spirit,LUZON SPIRIT,aframax_lr2,109600,unmatched,,,
 TNK,Sebarok Spirit,SEBAROK SPIRIT,aframax_lr2,109600,matched,311000465.0,9572264.0,243.0
 TNK,Seletar Spirit,SELETAR SPIRIT,aframax_lr2,109000,matched,311000460.0,9484077.0,243.0
 TNK,Semakau Spirit,SEMAKAU SPIRIT,aframax_lr2,115600,unmatched,,,
-TNK,Trysil Spirit,TRYSIL SPIRIT,aframax_lr2,105300,unmatched,,,
+TNK,Trysil Spirit,TRYSIL SPIRIT,aframax_lr2,105300,matched,311001176.0,9593414.0,244.0
 TEN,Hercules I,HERCULES I,vlcc,300000,unmatched,,,
 TEN,Ulysses,ULYSSES,vlcc,300000,unmatched,,,
 TEN,Dias I,DIAS I,vlcc,300000,unmatched,,,
