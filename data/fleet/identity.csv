@@ -308,7 +308,7 @@ CMDB,PROSPER,PROSPER,capesize,179895,unmatched,,,
 CMDB,DORADO,DORADO,capesize,179842,unmatched,,,
 CMDB,MAGNES,MAGNES,capesize,179546,unmatched,,,
 CMDB,IMPERATOR (ii),IMPERATOR,capesize,176387,matched,257141000.0,9014690.0,88.0
-CMDB,ENNA (ii),ENNA,capesize,175975,unmatched,,,
+CMDB,ENNA (ii),ENNA,capesize,175975,matched,636018477.0,9453743.0,292.0
 CMDB,AEOLIAN (ii),AEOLIAN,kamsarmax_panamax,83478,unmatched,,,
 CMDB,GRENETA (ii),GRENETA,kamsarmax_panamax,82166,unmatched,,,
 CMDB,HYDRUS (ii),HYDRUS,kamsarmax_panamax,81601,unmatched,,,
@@ -330,7 +330,7 @@ CMDB,NORMA,NORMA,ultramax_supramax,58018,matched,636021631.0,9490739.0,189.0
 CMDB,URUGUAY (ii),URUGUAY,ultramax_supramax,57937,unmatched,,,
 CMDB,CURACAO (ii),CURACAO,ultramax_supramax,57937,unmatched,,,
 CMDB,SERENA,SERENA,ultramax_supramax,57266,matched,205489490.0,0.0,85.0
-CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,unmatched,,,
+CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,matched,244750019.0,0.0,199.0
 CMDB,BERMONDI,BERMONDI,ultramax_supramax,55469,unmatched,,,
 CMDB,SHANDONG MIGHTINESS,SHANDONG MIGHTINESS,newcastlemax,210896,unmatched,,,
 CMDB,SHANDONG MISSION (i),SHANDONG MISSION,newcastlemax,210800,unmatched,,,
@@ -525,7 +525,7 @@ TEN,Popi Sazaklis,POPI SAZAKLIS,suezmax,156900,unmatched,,,
 TEN,Dr Irene Tsakos,DR IRENE TSAKOS,suezmax,156833,unmatched,,,
 TEN,Silia T.,SILIA T,suezmax,156833,matched,241965000.0,9995753.0,270.0
 TEN,Lisboa,LISBOA,suezmax,157000,unmatched,,,
-TEN,Rio 2016,RIO 2016,suezmax,155708,unmatched,,,
+TEN,Rio 2016,RIO 2016,suezmax,155708,matched,241235000.0,9623867.0,278.0
 TEN,Brasil 2014,BRASIL 2014,suezmax,155721,unmatched,,,
 TEN,Porto,PORTO,suezmax,154500,matched,229682000.0,9915791.0,279.0
 TEN,Athens 04,ATHENS 04,suezmax,154350,matched,256881000.0,9988164.0,279.0
@@ -883,7 +883,7 @@ HAFNI,Hafnia Valentino,HAFNIA VALENTINO,mr,49126,matched,563209600.0,9692246.0,1
 HAFNI,Hafnia Violette,HAFNIA VIOLETTE,mr,49126,matched,538005991.0,9690626.0,183.0
 HAFNI,Hafnia Viridian,HAFNIA VIRIDIAN,mr,49126,unmatched,,,
 HAFNI,Hokkaido,HOKKAIDO,mr,49804,unmatched,,,
-HAFNI,Orient Challenge,ORIENT CHALLENGE,mr,49972,unmatched,,,
+HAFNI,Orient Challenge,ORIENT CHALLENGE,mr,49972,matched,563022700.0,9793375.0,183.0
 HAFNI,Orient Innovation,ORIENT INNOVATION,mr,49997,unmatched,,,
 HAFNI,PS Stars,PS STARS,mr,49999,unmatched,,,
 HAFNI,Yellow Stars,YELLOW STARS,mr,49999,matched,538009099.0,9913626.0,183.0
