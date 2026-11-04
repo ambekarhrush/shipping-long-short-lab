@@ -81,7 +81,7 @@ SBLK,Star Vancouver,STAR VANCOUVER,ultramax_supramax,63670,unmatched,,,
 SBLK,Star Oslo,STAR OSLO,ultramax_supramax,63655,unmatched,,,
 SBLK,Star Rotterdam,STAR ROTTERDAM,ultramax_supramax,63629,unmatched,,,
 SBLK,Star Halifax,STAR HALIFAX,ultramax_supramax,63618,matched,636025205.0,9855862.0,199.0
-SBLK,Star Helsinki,STAR HELSINKI,ultramax_supramax,63605,unmatched,,,
+SBLK,Star Helsinki,STAR HELSINKI,ultramax_supramax,63605,matched,636025047.0,9699270.0,199.0
 SBLK,Star Gibraltar,STAR GIBRALTAR,ultramax_supramax,63576,unmatched,,,
 SBLK,Star Valencia,STAR VALENCIA,ultramax_supramax,63556,unmatched,,,
 SBLK,Star Dublin,STAR DUBLIN,ultramax_supramax,63550,matched,636025363.0,9699323.0,199.0
@@ -343,7 +343,7 @@ CMDB,GRAND OCEAN,GRAND OCEAN,kamsarmax_panamax,82698,matched,538010206.0,9949651
 CMDB,APJ PRITI 2,APJ PRITI 2,kamsarmax_panamax,82574,unmatched,,,
 CMDB,IKAN KEMBUNG,IKAN KEMBUNG,kamsarmax_panamax,82023,matched,563107600.0,9881378.0,229.0
 CMDB,EVER MAJESTY,EVER MAJESTY,kamsarmax_panamax,81936,matched,538009583.0,9913327.0,229.0
-CMDB,MAJESTIC STAR,MAJESTIC STAR,kamsarmax_panamax,81878,unmatched,,,
+CMDB,MAJESTIC STAR,MAJESTIC STAR,kamsarmax_panamax,81878,matched,353184000.0,9865568.0,229.0
 CMDB,MAJESTIC ISLAND,MAJESTIC ISLAND,kamsarmax_panamax,81632,unmatched,,,
 CMDB,NAVIOS CITRINE (ii),NAVIOS CITRINE,kamsarmax_panamax,81626,unmatched,,,
 CMDB,GEORGITSI (ii),GEORGITSI,kamsarmax_panamax,81309,unmatched,,,
@@ -693,7 +693,7 @@ ASC,Ardmore Dauntless,ARDMORE DAUNTLESS,handy_tanker,37764,matched,538006053.0,9
 ASC,Ardmore Defender,ARDMORE DEFENDER,handy_tanker,37791,matched,538005869.0,9707390.0,184.0
 ASC,Ardmore Cherokee,ARDMORE CHEROKEE,handy_tanker,25215,matched,538005865.0,9707845.0,159.0
 ASC,Ardmore Cheyenne,ARDMORE CHEYENNE,handy_tanker,25217,unmatched,,,
-ASC,Ardmore Chinook,ARDMORE CHINOOK,handy_tanker,25217,unmatched,,,
+ASC,Ardmore Chinook,ARDMORE CHINOOK,handy_tanker,25217,matched,538005867.0,9707869.0,159.0
 ASC,Ardmore Chippewa,ARDMORE CHIPPEWA,handy_tanker,25217,unmatched,,,
 TRMD,TORM GABRIELLA,TORM GABRIELLA,aframax_lr2,119456,matched,563216400.0,9428994.0,250.0
 TRMD,TORM GANGA,TORM GANGA,aframax_lr2,119456,unmatched,,,
@@ -777,11 +777,11 @@ TRMD,TORM DENISE,TORM DENISE,mr,49999,matched,563214100.0,9702211.0,183.0
 TRMD,TORM DAGMAR,TORM DAGMAR,mr,49999,matched,563214200.0,9702209.0,183.0
 TRMD,TORM DIANA,TORM DIANA,mr,49999,unmatched,,,
 TRMD,TORM DURGA,TORM DURGA,mr,49680,unmatched,,,
-TRMD,TORM DAMINI,TORM DAMINI,mr,49746,unmatched,,,
+TRMD,TORM DAMINI,TORM DAMINI,mr,49746,matched,219641000.0,9682370.0,183.0
 TRMD,TORM DORIS,TORM DORIS,mr,49680,unmatched,,,
 TRMD,TORM DAGNY,TORM DAGNY,mr,49635,unmatched,,,
 TRMD,TORM DEBORAH,TORM DEBORAH,mr,49680,matched,219643000.0,9683386.0,183.0
-TRMD,TORM DAPHNE,TORM DAPHNE,mr,49746,unmatched,,,
+TRMD,TORM DAPHNE,TORM DAPHNE,mr,49746,matched,219642000.0,9692313.0,183.0
 TRMD,TORM DULCE,TORM DULCE,mr,49680,unmatched,,,
 TRMD,TORM DAVAO,TORM DAVAO,mr,49990,matched,563315400.0,9688350.0,183.0
 TRMD,TORM DELHI,TORM DELHI,mr,49990,unmatched,,,
@@ -814,7 +814,7 @@ HAFNI,Hafnia Guangzhou,HAFNIA GUANGZHOU,lr1_panamax,74999,unmatched,,,
 HAFNI,Hafnia Hong Kong,HAFNIA HONG KONG,lr1_panamax,74999,unmatched,,,
 HAFNI,Hafnia Kallang,HAFNIA KALLANG,lr1_panamax,74189,matched,563010700.0,9766190.0,228.0
 HAFNI,Hafnia Nanjing,HAFNIA NANJING,lr1_panamax,74999,matched,563108500.0,9863235.0,228.0
-HAFNI,Hafnia Shannon,HAFNIA SHANNON,lr1_panamax,74189,unmatched,,,
+HAFNI,Hafnia Shannon,HAFNIA SHANNON,lr1_panamax,74189,matched,563016200.0,9766217.0,228.0
 HAFNI,Hafnia Pioneer,HAFNIA PIONEER,aframax_lr2,81305,unmatched,,,
 HAFNI,Hafnia Precision,HAFNIA PRECISION,lr1_panamax,74996,unmatched,,,
 HAFNI,Hafnia Prestige,HAFNIA PRESTIGE,lr1_panamax,74996,unmatched,,,
