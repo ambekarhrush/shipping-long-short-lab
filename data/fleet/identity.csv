@@ -178,7 +178,7 @@ GNK,Genco Aquitaine,GENCO AQUITAINE,ultramax_supramax,57981,matched,538002316.0,
 GNK,Genco Predator,GENCO PREDATOR,ultramax_supramax,55407,unmatched,,,
 GNK,Genco Picardy,GENCO PICARDY,ultramax_supramax,55255,unmatched,,,
 SB,Zoe,ZOE,kamsarmax_panamax,75000,unmatched,,,
-SB,Koulitsa 2,KOULITSA 2,kamsarmax_panamax,78100,unmatched,,,
+SB,Koulitsa 2,KOULITSA 2,kamsarmax_panamax,78100,matched,210266000.0,9639684.0,225.0
 SB,Kypros Land,KYPROS LAND,kamsarmax_panamax,77100,matched,212250000.0,9667368.0,225.0
 SB,Kypros Sea,KYPROS SEA,kamsarmax_panamax,77100,matched,212282000.0,9675602.0,224.0
 SB,Kypros Bravery,KYPROS BRAVERY,kamsarmax_panamax,78000,unmatched,,,
@@ -760,7 +760,7 @@ TRMD,TORM SINGAPORE,TORM SINGAPORE,mr,51737,unmatched,,,
 TRMD,TORM SOLUTION,TORM SOLUTION,mr,49999,matched,219214000.0,9836050.0,183.0
 TRMD,TORM SOVEREIGN,TORM SOVEREIGN,mr,49999,matched,563034100.0,9797723.0,183.0
 TRMD,TORM SPLENDID,TORM SPLENDID,mr,49999,unmatched,,,
-TRMD,TORM STELLAR,TORM STELLAR,mr,49999,unmatched,,,
+TRMD,TORM STELLAR,TORM STELLAR,mr,49999,matched,219357000.0,9854806.0,183.0
 TRMD,TORM STRENGTH,TORM STRENGTH,mr,49999,unmatched,,,
 TRMD,TORM STRONG,TORM STRONG,mr,49999,unmatched,,,
 TRMD,TORM SUBLIME,TORM SUBLIME,mr,49999,unmatched,,,
@@ -855,7 +855,7 @@ HAFNI,Hafnia Henriette,HAFNIA HENRIETTE,mr,49999,matched,249345000.0,9726607.0,1
 HAFNI,Hafnia Jaguar,HAFNIA JAGUAR,mr,49999,matched,564409000.0,9635858.0,183.0
 HAFNI,Hafnia Kestrel,HAFNIA KESTREL,mr,49999,unmatched,,,
 HAFNI,Hafnia Kirsten,HAFNIA KIRSTEN,mr,49999,matched,249340000.0,9732682.0,183.0
-HAFNI,Hafnia Lene,HAFNIA LENE,mr,49999,unmatched,,,
+HAFNI,Hafnia Lene,HAFNIA LENE,mr,49999,matched,256468000.0,9726619.0,183.0
 HAFNI,Hafnia Leo,HAFNIA LEO,mr,49999,unmatched,,,
 HAFNI,Hafnia Leopard,HAFNIA LEOPARD,mr,49999,matched,563868000.0,9635822.0,183.0
 HAFNI,Hafnia Libra,HAFNIA LIBRA,mr,49999,unmatched,,,
