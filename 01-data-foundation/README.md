@@ -1,5 +1,7 @@
 # 01 · Data foundation
 
+[Project one-pager (PDF)](docs/project-brief.pdf) · [Editable brief](docs/project-brief.md)
+
 **Question.** Can free data support an honest backtest of listed shipping equities?
 
 **Answer.** Yes, but only after fixing errors that would otherwise manufacture results. This

@@ -1,5 +1,7 @@
 # 03 · Market-neutral long/short
 
+[Project one-pager (PDF)](docs/project-brief.pdf) · [Editable brief](docs/project-brief.md)
+
 **Question.** Is there stock-selection alpha in listed shipping using public data only?
 
 **Answer.** A small, genuinely market-neutral one, which holds out of sample but is not

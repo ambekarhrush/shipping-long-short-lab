@@ -1,5 +1,7 @@
 # 04 · FleetWatch
 
+[Project one-pager (PDF)](docs/project-brief.pdf) · [Editable brief](docs/project-brief.md)
+
 **Question.** Can ship-level tracking of each listed owner's fleet see what the market prices
 late: utilisation, idle time, geography?
 

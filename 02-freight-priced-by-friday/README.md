@@ -1,5 +1,7 @@
 # 02 · Freight priced by Friday
 
+[Project one-pager (PDF)](docs/project-brief.pdf) · [Editable brief](docs/project-brief.md)
+
 **Question.** Do public freight indices, or freely available ship-tracking data, predict
 shipping stock returns?
 

@@ -1,5 +1,7 @@
 # 05 · Filings analyser
 
+[Project one-pager (PDF)](docs/project-brief.pdf) · [Editable brief](docs/project-brief.md)
+
 **Question.** What do shipping companies tell the market in their results releases, quarter by
 quarter, and does the market read it?
 

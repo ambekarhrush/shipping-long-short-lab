@@ -1,5 +1,7 @@
 # Where is the edge in listed shipping?
 
+[Project one-pager (PDF)](docs/project-brief.pdf) · [Editable brief](docs/project-brief.md)
+
 **Five connected research projects on 54 New York- and Oslo-listed shipping companies,
 2011-2026: clean data, a fast market, a small public-data alpha, and a live ship-level record
 built to find what the market sees late.**
