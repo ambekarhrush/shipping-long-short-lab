@@ -121,7 +121,7 @@ SBLK,Wolverine,WOLVERINE,ultramax_supramax,61292,matched,636024841.0,9711327.0,2
 SBLK,Star Antares,STAR ANTARES,ultramax_supramax,61258,unmatched,,,
 SBLK,Star Tokyo,STAR TOKYO,ultramax_supramax,61225,unmatched,,,
 SBLK,Star Monica,STAR MONICA,ultramax_supramax,60935,matched,636020177.0,9715842.0,198.0
-SBLK,Star Aquarius,STAR AQUARIUS,ultramax_supramax,60916,unmatched,,,
+SBLK,Star Aquarius,STAR AQUARIUS,ultramax_supramax,60916,matched,636024902.0,9715828.0,198.0
 SBLK,Star Pisces,STAR PISCES,ultramax_supramax,60916,matched,636024670.0,9715854.0,198.0
 SBLK,Crane,CRANE,ultramax_supramax,57809,unmatched,,,
 SBLK,Egret Bulker,EGRET BULKER,ultramax_supramax,57809,matched,538003818.0,9441295.0,190.0
@@ -289,7 +289,7 @@ EDRY,YANNIS PITTAS,YANNIS PITTAS,ultramax_supramax,63243,matched,538010804.0,969
 EDRY,MARIA,MARIA,ultramax_supramax,63153,matched,538010802.0,9698329.0,202.0
 EDRY,GOOD HEART,GOOD HEART,ultramax_supramax,62996,unmatched,,,
 EDRY,MOLYVOS LUCK,MOLYVOS LUCK,ultramax_supramax,57924,unmatched,,,
-EDRY,SANTA CRUZ,SANTA CRUZ,kamsarmax_panamax,76440,matched,636016671.0,9287170.0,225.0
+EDRY,SANTA CRUZ,SANTA CRUZ,kamsarmax_panamax,76440,ambiguous,256545000.0,9442495.0,229.0
 EDRY,STARLIGHT,STARLIGHT,kamsarmax_panamax,75611,matched,210872000.0,9279484.0,225.0
 EDRY,BLESSED LUCK,BLESSED LUCK,kamsarmax_panamax,76704,unmatched,,,
 EDRY,EIRINI P,EIRINI P,kamsarmax_panamax,76466,unmatched,,,
@@ -910,7 +910,7 @@ DSX,DSI Aquarius,DSI AQUARIUS,ultramax_supramax,60309,unmatched,,,
 DSX,DSI Aquila,DSI AQUILA,ultramax_supramax,60309,unmatched,,,
 DSX,DSI Altair,DSI ALTAIR,ultramax_supramax,60309,unmatched,,,
 DSX,DSI Andromeda,DSI ANDROMEDA,ultramax_supramax,60309,unmatched,,,
-DSX,LETO,LETO,kamsarmax_panamax,81297,unmatched,,,
+DSX,LETO,LETO,kamsarmax_panamax,81297,matched,538005599.0,9397731.0,225.0
 DSX,MAERA,MAERA,kamsarmax_panamax,75403,matched,538006862.0,9563677.0,225.0
 DSX,ISMENE,ISMENE,kamsarmax_panamax,77901,matched,538006861.0,9493535.0,225.0
 DSX,CRYSTALIA,CRYSTALIA,kamsarmax_panamax,77525,unmatched,,,
