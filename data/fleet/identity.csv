@@ -186,7 +186,7 @@ SB,Kypros Sky,KYPROS SKY,kamsarmax_panamax,77100,matched,212452000.0,9713935.0,2
 SB,Kypros Loyalty,KYPROS LOYALTY,kamsarmax_panamax,78000,unmatched,,,
 SB,Kypros Spirit,KYPROS SPIRIT,kamsarmax_panamax,78000,unmatched,,,
 SB,Pedhoulas Commander,PEDHOULAS COMMANDER,kamsarmax_panamax,83700,unmatched,,,
-SB,Pedhoulas Rose,PEDHOULAS ROSE,kamsarmax_panamax,82000,unmatched,,,
+SB,Pedhoulas Rose,PEDHOULAS ROSE,kamsarmax_panamax,82000,matched,210093000.0,9738038.0,229.0
 SB,Pedhoulas Cedrus12,PEDHOULAS CEDRUS12,kamsarmax_panamax,81800,unmatched,,,
 SB,Vassos9,VASSOS9,kamsarmax_panamax,82000,unmatched,,,
 SB,Pedhoulas Trader7,PEDHOULAS TRADER7,kamsarmax_panamax,82000,unmatched,,,
@@ -286,7 +286,7 @@ EDRY,XENIA,XENIA,kamsarmax_panamax,82019,unmatched,,,
 EDRY,ALEXANDROS P,ALEXANDROS P,ultramax_supramax,63127,unmatched,,,
 EDRY,CHRISTOS K,CHRISTOS K,ultramax_supramax,63197,matched,538010803.0,9700081.0,199.0
 EDRY,YANNIS PITTAS,YANNIS PITTAS,ultramax_supramax,63243,matched,538010804.0,9698317.0,199.0
-EDRY,MARIA,MARIA,ultramax_supramax,63153,unmatched,,,
+EDRY,MARIA,MARIA,ultramax_supramax,63153,matched,538010802.0,9698329.0,202.0
 EDRY,GOOD HEART,GOOD HEART,ultramax_supramax,62996,unmatched,,,
 EDRY,MOLYVOS LUCK,MOLYVOS LUCK,ultramax_supramax,57924,unmatched,,,
 EDRY,SANTA CRUZ,SANTA CRUZ,kamsarmax_panamax,76440,matched,636016671.0,9287170.0,225.0
@@ -483,7 +483,7 @@ TNK,Dilong Spirit,DILONG SPIRIT,suezmax,159000,unmatched,,,
 TNK,London Spirit,LONDON SPIRIT,suezmax,158700,unmatched,,,
 TNK,Moscow Spirit,MOSCOW SPIRIT,suezmax,156500,matched,311000449.0,9418602.0,275.0
 TNK,Pinnacle Spirit,PINNACLE SPIRIT,suezmax,160400,matched,309992000.0,9385192.0,274.0
-TNK,Rio Spirit,RIO SPIRIT,suezmax,158400,unmatched,,,
+TNK,Rio Spirit,RIO SPIRIT,suezmax,158400,matched,311000450.0,9419565.0,272.0
 TNK,Summit Spirit,SUMMIT SPIRIT,suezmax,160500,matched,309022000.0,9404833.0,274.0
 TNK,Sydney Spirit,SYDNEY SPIRIT,suezmax,158500,matched,311000451.0,9594781.0,274.0
 TNK,Tahoe Spirit,TAHOE SPIRIT,suezmax,156900,matched,311000337.0,9427641.0,274.0
@@ -846,7 +846,7 @@ HAFNI,Hafnia Caterina,HAFNIA CATERINA,mr,49999,matched,563099900.0,9688427.0,183
 HAFNI,Hafnia Cheetah,HAFNIA CHEETAH,mr,49999,unmatched,,,
 HAFNI,Hafnia Cougar,HAFNIA COUGAR,mr,49999,matched,563624000.0,9675494.0,183.0
 HAFNI,Hafnia Crux,HAFNIA CRUX,mr,49999,unmatched,,,
-HAFNI,Hafnia Daisy,HAFNIA DAISY,mr,49999,unmatched,,,
+HAFNI,Hafnia Daisy,HAFNIA DAISY,mr,49999,matched,249347000.0,9709788.0,183.0
 HAFNI,Hafnia Eagle,HAFNIA EAGLE,mr,49999,unmatched,,,
 HAFNI,Hafnia Egret,HAFNIA EGRET,mr,49999,unmatched,,,
 HAFNI,Hafnia Falcon,HAFNIA FALCON,mr,49999,matched,566000000.0,9607186.0,183.0
