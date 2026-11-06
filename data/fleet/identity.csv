@@ -321,7 +321,7 @@ CMDB,DAWN,DAWN,ultramax_supramax,63561,matched,636021018.0,9750440.0,200.0
 CMDB,SEABIRD (ii),SEABIRD,ultramax_supramax,63553,unmatched,,,
 CMDB,ORION (ii),ORION,ultramax_supramax,63473,unmatched,,,
 CMDB,DAMON (ii),DAMON,ultramax_supramax,63301,unmatched,,,
-CMDB,ARYA (ii),ARYA,ultramax_supramax,61424,unmatched,,,
+CMDB,ARYA (ii),ARYA,ultramax_supramax,61424,matched,636023373.0,9667435.0,200.0
 CMDB,ALWINE (ii),ALWINE,ultramax_supramax,61090,unmatched,,,
 CMDB,KOUSHUN (tbr. ASTROS) (iii),KOUSHUN,ultramax_supramax,60297,unmatched,,,
 CMDB,ATHENA (ii),ATHENA,ultramax_supramax,58018,unmatched,,,
@@ -622,7 +622,7 @@ STNG,STI San Telmo,STI SAN TELMO,mr,49990,matched,538007041.0,9794410.0,183.0
 STNG,STI Donald C Trauscht,STI DONALD C TRAUSCHT,mr,49990,unmatched,,,
 STNG,STI Esles II,STI ESLES II,mr,49990,unmatched,,,
 STNG,STI Jardins,STI JARDINS,mr,49990,unmatched,,,
-STNG,STI Magic,STI MAGIC,mr,50000,unmatched,,,
+STNG,STI Magic,STI MAGIC,mr,50000,matched,538010461.0,9829447.0,183.0
 STNG,STI Mystery,STI MYSTERY,mr,50000,unmatched,,,
 STNG,STI Marvel,STI MARVEL,mr,50000,unmatched,,,
 STNG,STI Magnetic,STI MAGNETIC,mr,50000,unmatched,,,
