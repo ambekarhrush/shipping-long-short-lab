@@ -173,7 +173,7 @@ GNK,Genco Languedoc,GENCO LANGUEDOC,ultramax_supramax,58018,matched,538002743.0,
 GNK,Genco Pyrenees,GENCO PYRENEES,ultramax_supramax,58018,matched,538003015.0,9511832.0,190.0
 GNK,Genco Rhone,GENCO RHONE,ultramax_supramax,58018,unmatched,,,
 GNK,Genco Ardennes,GENCO ARDENNES,ultramax_supramax,58014,unmatched,,,
-GNK,Genco Brittany,GENCO BRITTANY,ultramax_supramax,58014,unmatched,,,
+GNK,Genco Brittany,GENCO BRITTANY,ultramax_supramax,58014,matched,538002668.0,9490698.0,189.0
 GNK,Genco Aquitaine,GENCO AQUITAINE,ultramax_supramax,57981,matched,538002316.0,9490624.0,190.0
 GNK,Genco Predator,GENCO PREDATOR,ultramax_supramax,55407,unmatched,,,
 GNK,Genco Picardy,GENCO PICARDY,ultramax_supramax,55255,unmatched,,,
@@ -497,7 +497,7 @@ TNK,Kmarin Renown,KMARIN RENOWN,aframax_lr2,109700,unmatched,,,
 TNK,Kmarin Respect,KMARIN RESPECT,aframax_lr2,109600,unmatched,,,
 TNK,Orchid Spirit,ORCHID SPIRIT,aframax_lr2,112800,matched,311001568.0,9901867.0,250.0
 TNK,Peak Spirit,PEAK SPIRIT,aframax_lr2,104600,matched,311000279.0,9514171.0,228.0
-TNK,Tarbet Spirit,TARBET SPIRIT,aframax_lr2,107500,unmatched,,,
+TNK,Tarbet Spirit,TARBET SPIRIT,aframax_lr2,107500,matched,311000225.0,9408322.0,244.0
 TNK,Whistler Spirit,WHISTLER SPIRIT,aframax_lr2,109000,unmatched,,,
 TNK,Yamato Spirit,YAMATO SPIRIT,aframax_lr2,107600,matched,311000357.0,9414503.0,243.0
 TNK,Hovden Spirit,HOVDEN SPIRIT,aframax_lr2,105300,matched,311001179.0,9596997.0,243.0
@@ -904,7 +904,7 @@ OET,Nissos Nikouria,NISSOS NIKOURIA,vlcc,300323,unmatched,,,
 DSX,DSI Phoenix,DSI PHOENIX,ultramax_supramax,60456,matched,538009164.0,9738337.0,200.0
 DSX,DSI Pollux,DSI POLLUX,ultramax_supramax,60446,unmatched,,,
 DSX,DSI Pyxis,DSI PYXIS,ultramax_supramax,60362,matched,538009163.0,9800635.0,200.0
-DSX,DSI Polaris,DSI POLARIS,ultramax_supramax,60404,unmatched,,,
+DSX,DSI Polaris,DSI POLARIS,ultramax_supramax,60404,matched,538008060.0,9738349.0,200.0
 DSX,DSI Pegasus,DSI PEGASUS,ultramax_supramax,60508,unmatched,,,
 DSX,DSI Aquarius,DSI AQUARIUS,ultramax_supramax,60309,unmatched,,,
 DSX,DSI Aquila,DSI AQUILA,ultramax_supramax,60309,unmatched,,,
@@ -976,7 +976,7 @@ INSW,SEAWAYS DELGADA,SEAWAYS DELGADA,lr1_panamax,73600,unmatched,,,
 INSW,SEAWAYS MAGELLAN,SEAWAYS MAGELLAN,lr1_panamax,73600,unmatched,,,
 INSW,SEAWAYS WAVE,SEAWAYS WAVE,mr,51549,unmatched,,,
 INSW,SEAWAYS CREST,SEAWAYS CREST,mr,51510,unmatched,,,
-INSW,SEAWAYS MUSE,SEAWAYS MUSE,mr,51498,unmatched,,,
+INSW,SEAWAYS MUSE,SEAWAYS MUSE,mr,51498,matched,538011488.0,9374301.0,183.0
 INSW,SEAWAYS MELINA,SEAWAYS MELINA,mr,51483,matched,538011713.0,9387944.0,183.0
 INSW,SEAWAYS MIRAGE,SEAWAYS MIRAGE,mr,51476,matched,538011209.0,9387138.0,183.0
 INSW,SEAWAYS OAK,SEAWAYS OAK,mr,51260,unmatched,,,
