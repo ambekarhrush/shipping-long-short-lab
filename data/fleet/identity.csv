@@ -91,7 +91,7 @@ SBLK,Star Sydney,STAR SYDNEY,ultramax_supramax,63523,matched,636024288.0,9699373
 SBLK,Star Copenhagen,STAR COPENHAGEN,ultramax_supramax,63495,unmatched,,,
 SBLK,Star Hong Kong,STAR HONG KONG,ultramax_supramax,63472,unmatched,,,
 SBLK,Idee Fixe,IDEE FIXE,ultramax_supramax,63458,matched,636025365.0,9700677.0,200.0
-SBLK,Star Shanghai,STAR SHANGHAI,ultramax_supramax,63438,unmatched,,,
+SBLK,Star Shanghai,STAR SHANGHAI,ultramax_supramax,63438,matched,636025718.0,9743588.0,199.0
 SBLK,Star Roberta,STAR ROBERTA,ultramax_supramax,63426,unmatched,,,
 SBLK,Laura,LAURA,ultramax_supramax,63399,unmatched,,,
 SBLK,Star Singapore,STAR SINGAPORE,ultramax_supramax,63386,unmatched,,,
@@ -593,7 +593,7 @@ STNG,STI Clapham,STI CLAPHAM,handy_tanker,38734,matched,538005407.0,9696577.0,18
 STNG,STI Poplar,STI POPLAR,handy_tanker,38734,matched,538005408.0,9696589.0,184.0
 STNG,STI Hammersmith,STI HAMMERSMITH,handy_tanker,38734,matched,538005410.0,9706463.0,184.0
 STNG,STI Rotherhithe,STI ROTHERHITHE,handy_tanker,38734,matched,538005409.0,9706475.0,184.0
-STNG,STI Duchessa,STI DUCHESSA,mr,49990,unmatched,,,
+STNG,STI Duchessa,STI DUCHESSA,mr,49990,matched,538005225.0,9669938.0,183.0
 STNG,STI Opera,STI OPERA,mr,49990,unmatched,,,
 STNG,STI Meraux,STI MERAUX,mr,49990,unmatched,,,
 STNG,STI Virtus,STI VIRTUS,mr,49990,unmatched,,,
@@ -722,11 +722,11 @@ TRMD,TORM ELIZABETH,TORM ELIZABETH,lr1_panamax,75000,matched,219295000.0,9850006
 TRMD,TORM EVELYN,TORM EVELYN,lr1_panamax,74606,unmatched,,,
 TRMD,TORM EVOLVE,TORM EVOLVE,lr1_panamax,74554,unmatched,,,
 TRMD,TORM EVA,TORM EVA,lr1_panamax,74552,unmatched,,,
-TRMD,TORM EMMA,TORM EMMA,lr1_panamax,75000,unmatched,,,
+TRMD,TORM EMMA,TORM EMMA,lr1_panamax,75000,matched,219495000.0,9592680.0,228.0
 TRMD,TORM EMILIE,TORM EMILIE,lr1_panamax,75013,unmatched,,,
 TRMD,TORM INTEGRITY,TORM INTEGRITY,lr1_panamax,73800,matched,219496000.0,9602710.0,229.0
 TRMD,TORM INNOVATION,TORM INNOVATION,lr1_panamax,73847,unmatched,,,
-TRMD,TORM AGNES,TORM AGNES,mr,49999,unmatched,,,
+TRMD,TORM AGNES,TORM AGNES,mr,49999,matched,219412000.0,9465992.0,188.0
 TRMD,TORM AGNETE,TORM AGNETE,mr,49999,matched,219413000.0,9466013.0,183.0
 TRMD,TORM ALEXANDRA,TORM ALEXANDRA,mr,49999,unmatched,,,
 TRMD,TORM ALICE,TORM ALICE,mr,49999,unmatched,,,
@@ -802,7 +802,7 @@ HAFNI,Hafnia Africa,HAFNIA AFRICA,lr1_panamax,74539,unmatched,,,
 HAFNI,Hafnia Asia,HAFNIA ASIA,lr1_panamax,74490,unmatched,,,
 HAFNI,Hafnia Australia,HAFNIA AUSTRALIA,lr1_panamax,74539,unmatched,,,
 HAFNI,Hafnia Beijing,HAFNIA BEIJING,lr1_panamax,74999,unmatched,,,
-HAFNI,Hafnia Exceed,HAFNIA EXCEED,lr1_panamax,74664,unmatched,,,
+HAFNI,Hafnia Exceed,HAFNIA EXCEED,lr1_panamax,74664,matched,563153300.0,9735608.0,219.0
 HAFNI,Hafnia Excel,HAFNIA EXCEL,lr1_panamax,74547,unmatched,,,
 HAFNI,Hafnia Excellence,HAFNIA EXCELLENCE,lr1_panamax,74613,unmatched,,,
 HAFNI,Hafnia Excelsior,HAFNIA EXCELSIOR,lr1_panamax,74665,unmatched,,,
