@@ -477,7 +477,7 @@ TNK,Athens Spirit,ATHENS SPIRIT,suezmax,158500,unmatched,,,
 TNK,Atlanta Spirit,ATLANTA SPIRIT,suezmax,158700,unmatched,,,
 TNK,Baker Spirit,BAKER SPIRIT,suezmax,156900,unmatched,,,
 TNK,Barcelona Spirit,BARCELONA SPIRIT,suezmax,158500,unmatched,,,
-TNK,Beijing Spirit,BEIJING SPIRIT,suezmax,156500,unmatched,,,
+TNK,Beijing Spirit,BEIJING SPIRIT,suezmax,156500,matched,311000444.0,9418597.0,274.0
 TNK,Copper Spirit,COPPER SPIRIT,suezmax,156800,unmatched,,,
 TNK,Dilong Spirit,DILONG SPIRIT,suezmax,159000,unmatched,,,
 TNK,London Spirit,LONDON SPIRIT,suezmax,158700,unmatched,,,
