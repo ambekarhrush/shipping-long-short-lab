@@ -166,7 +166,7 @@ GNK,Genco Weatherly,GENCO WEATHERLY,ultramax_supramax,61556,matched,636016497.0,
 GNK,Genco Mary,GENCO MARY,ultramax_supramax,61304,unmatched,,,
 GNK,Genco Laddey,GENCO LADDEY,ultramax_supramax,61303,unmatched,,,
 GNK,Genco Columbia,GENCO COLUMBIA,ultramax_supramax,60294,unmatched,,,
-GNK,Genco Hunter,GENCO HUNTER,ultramax_supramax,58729,unmatched,,,
+GNK,Genco Hunter,GENCO HUNTER,ultramax_supramax,58729,matched,538002980.0,9368871.0,190.0
 GNK,Genco Auvergne,GENCO AUVERGNE,ultramax_supramax,58020,unmatched,,,
 GNK,Genco Bourgogne,GENCO BOURGOGNE,ultramax_supramax,58018,matched,538002572.0,9490662.0,189.0
 GNK,Genco Languedoc,GENCO LANGUEDOC,ultramax_supramax,58018,matched,538002743.0,9490686.0,190.0
@@ -202,7 +202,7 @@ SB,Xenia,XENIA,post_panamax,87000,unmatched,,,
 SB,Sophia,SOPHIA,post_panamax,87000,unmatched,,,
 SB,Eleni,ELENI,post_panamax,87000,unmatched,,,
 SB,Martine,MARTINE,post_panamax,87000,unmatched,,,
-SB,Andreas K,ANDREAS K,post_panamax,92000,unmatched,,,
+SB,Andreas K,ANDREAS K,post_panamax,92000,matched,210875000.0,9438121.0,230.0
 SB,Agios Spyridonas,AGIOS SPYRIDONAS,post_panamax,92000,unmatched,,,
 SB,Venus Heritage,VENUS HERITAGE,post_panamax,95800,unmatched,,,
 SB,Venus History,VENUS HISTORY,post_panamax,95800,unmatched,,,
@@ -330,7 +330,7 @@ CMDB,NORMA,NORMA,ultramax_supramax,58018,matched,636021631.0,9490739.0,189.0
 CMDB,URUGUAY (ii),URUGUAY,ultramax_supramax,57937,unmatched,,,
 CMDB,CURACAO (ii),CURACAO,ultramax_supramax,57937,unmatched,,,
 CMDB,SERENA,SERENA,ultramax_supramax,57266,matched,205489490.0,0.0,85.0
-CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,matched,244750019.0,0.0,212.0
+CMDB,LIBRA (ii),LIBRA,ultramax_supramax,56701,unmatched,,,
 CMDB,BERMONDI,BERMONDI,ultramax_supramax,55469,unmatched,,,
 CMDB,SHANDONG MIGHTINESS,SHANDONG MIGHTINESS,newcastlemax,210896,unmatched,,,
 CMDB,SHANDONG MISSION (i),SHANDONG MISSION,newcastlemax,210800,unmatched,,,
@@ -378,7 +378,7 @@ FRO,Front Neiden,FRONT NEIDEN,vlcc,300200,unmatched,,,
 FRO,Front Flores,FRONT FLORES,vlcc,298600,unmatched,,,
 FRO,Front Gander,FRONT GANDER,vlcc,299200,matched,538010891.0,9937098.0,328.0
 FRO,Front Eagle,FRONT EAGLE,vlcc,299600,unmatched,,,
-FRO,Front Beaver,FRONT BEAVER,vlcc,299200,unmatched,,,
+FRO,Front Beaver,FRONT BEAVER,vlcc,299200,matched,538010892.0,9943748.0,328.0
 FRO,Front Beauly,FRONT BEAULY,vlcc,300000,unmatched,,,
 FRO,Front Surna,FRONT SURNA,vlcc,299000,unmatched,,,
 FRO,Front Naver,FRONT NAVER,vlcc,300200,unmatched,,,
@@ -654,7 +654,7 @@ STNG,STI Kingsway,STI KINGSWAY,aframax_lr2,109999,unmatched,,,
 STNG,STI Solidarity,STI SOLIDARITY,aframax_lr2,109999,unmatched,,,
 STNG,STI Lombard,STI LOMBARD,aframax_lr2,109999,matched,538006344.0,9708150.0,256.0
 STNG,STI Grace,STI GRACE,aframax_lr2,109999,matched,538006356.0,9722584.0,256.0
-STNG,STI Jermyn,STI JERMYN,aframax_lr2,109999,unmatched,,,
+STNG,STI Jermyn,STI JERMYN,aframax_lr2,109999,matched,538006357.0,9722596.0,256.0
 STNG,STI Sanctity,STI SANCTITY,aframax_lr2,109999,matched,538006078.0,9719707.0,250.0
 STNG,STI Solace,STI SOLACE,aframax_lr2,109999,unmatched,,,
 STNG,STI Stability,STI STABILITY,aframax_lr2,109999,unmatched,,,
@@ -696,7 +696,7 @@ ASC,Ardmore Cheyenne,ARDMORE CHEYENNE,handy_tanker,25217,unmatched,,,
 ASC,Ardmore Chinook,ARDMORE CHINOOK,handy_tanker,25217,matched,538005867.0,9707869.0,159.0
 ASC,Ardmore Chippewa,ARDMORE CHIPPEWA,handy_tanker,25217,unmatched,,,
 TRMD,TORM GABRIELLA,TORM GABRIELLA,aframax_lr2,119456,matched,563216400.0,9428994.0,250.0
-TRMD,TORM GANGA,TORM GANGA,aframax_lr2,119456,unmatched,,,
+TRMD,TORM GANGA,TORM GANGA,aframax_lr2,119456,matched,563215900.0,9461831.0,250.0
 TRMD,TORM GAURI,TORM GAURI,aframax_lr2,119456,unmatched,,,
 TRMD,TORM GEMMA,TORM GEMMA,aframax_lr2,119456,unmatched,,,
 TRMD,TORM GENESIS,TORM GENESIS,aframax_lr2,119456,unmatched,,,
@@ -771,7 +771,7 @@ TRMD,TORM THUNDER,TORM THUNDER,mr,49842,unmatched,,,
 TRMD,TORM TIMOTHY,TORM TIMOTHY,mr,49842,matched,338607000.0,9726487.0,183.0
 TRMD,TORM TITAN,TORM TITAN,mr,49842,matched,219351000.0,9712319.0,183.0
 TRMD,TORM TORINO,TORM TORINO,mr,49842,unmatched,,,
-TRMD,TORM TROILUS,TORM TROILUS,mr,49842,unmatched,,,
+TRMD,TORM TROILUS,TORM TROILUS,mr,49842,matched,565497000.0,9726475.0,183.0
 TRMD,TORM DANICA,TORM DANICA,mr,49999,unmatched,,,
 TRMD,TORM DENISE,TORM DENISE,mr,49999,matched,563214100.0,9702211.0,183.0
 TRMD,TORM DAGMAR,TORM DAGMAR,mr,49999,matched,563214200.0,9702209.0,183.0
