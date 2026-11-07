@@ -68,7 +68,7 @@ SBLK,Mercurial Virgo,MERCURIAL VIRGO,kamsarmax_panamax,81545,matched,538005453.0
 SBLK,Stardust,STARDUST,kamsarmax_panamax,81502,unmatched,,,
 SBLK,Star Sky,STAR SKY,kamsarmax_panamax,81466,matched,636024128.0,9399105.0,225.0
 SBLK,Star Lambada,STAR LAMBADA,kamsarmax_panamax,81272,unmatched,,,
-SBLK,Star Carioca,STAR CARIOCA,kamsarmax_panamax,81262,unmatched,,,
+SBLK,Star Carioca,STAR CARIOCA,kamsarmax_panamax,81262,matched,538006268.0,9719549.0,229.0
 SBLK,Star Capoeira,STAR CAPOEIRA,kamsarmax_panamax,81253,matched,255915945.0,9719537.0,229.0
 SBLK,Star Macarena,STAR MACARENA,kamsarmax_panamax,81198,unmatched,,,
 SBLK,Star Lydia,STAR LYDIA,kamsarmax_panamax,81187,unmatched,,,
@@ -338,7 +338,7 @@ CMDB,SHANDONG RENAISSANCE (i),SHANDONG RENAISSANCE,newcastlemax,210800,unmatched
 CMDB,CAPE PROTEUS (ii),CAPE PROTEUS,capesize,180585,unmatched,,,
 CMDB,MILDRED,MILDRED,capesize,179678,unmatched,,,
 CMDB,MILESTONE,MILESTONE,capesize,176354,unmatched,,,
-CMDB,GRAMPUS CHARM,GRAMPUS CHARM,kamsarmax_panamax,82937,unmatched,,,
+CMDB,GRAMPUS CHARM,GRAMPUS CHARM,kamsarmax_panamax,82937,matched,311002226.0,9665932.0,229.0
 CMDB,GRAND OCEAN,GRAND OCEAN,kamsarmax_panamax,82698,matched,538010206.0,9949651.0,229.0
 CMDB,APJ PRITI 2,APJ PRITI 2,kamsarmax_panamax,82574,unmatched,,,
 CMDB,IKAN KEMBUNG,IKAN KEMBUNG,kamsarmax_panamax,82023,matched,563107600.0,9881378.0,229.0
@@ -368,7 +368,7 @@ FRO,Front Tana,FRONT TANA,vlcc,300000,unmatched,,,
 FRO,Front Gaula,FRONT GAULA,vlcc,300000,unmatched,,,
 FRO,Front Orkla,FRONT ORKLA,vlcc,300000,unmatched,,,
 FRO,Front Tyne,FRONT TYNE,vlcc,300000,unmatched,,,
-FRO,Front Maine,FRONT MAINE,vlcc,299600,unmatched,,,
+FRO,Front Maine,FRONT MAINE,vlcc,299600,matched,538010896.0,9898553.0,336.0
 FRO,Front Vosso,FRONT VOSSO,vlcc,297400,unmatched,,,
 FRO,Front Rauma,FRONT RAUMA,vlcc,300000,unmatched,,,
 FRO,Front Osen,FRONT OSEN,vlcc,299000,unmatched,,,
@@ -478,7 +478,7 @@ TNK,Atlanta Spirit,ATLANTA SPIRIT,suezmax,158700,unmatched,,,
 TNK,Baker Spirit,BAKER SPIRIT,suezmax,156900,unmatched,,,
 TNK,Barcelona Spirit,BARCELONA SPIRIT,suezmax,158500,unmatched,,,
 TNK,Beijing Spirit,BEIJING SPIRIT,suezmax,156500,matched,311000444.0,9418597.0,274.0
-TNK,Copper Spirit,COPPER SPIRIT,suezmax,156800,unmatched,,,
+TNK,Copper Spirit,COPPER SPIRIT,suezmax,156800,matched,311000336.0,9427639.0,275.0
 TNK,Dilong Spirit,DILONG SPIRIT,suezmax,159000,unmatched,,,
 TNK,London Spirit,LONDON SPIRIT,suezmax,158700,unmatched,,,
 TNK,Moscow Spirit,MOSCOW SPIRIT,suezmax,156500,matched,311000449.0,9418602.0,275.0
@@ -560,7 +560,7 @@ TEN,Sunray,SUNRAY,lr1_panamax,74039,unmatched,,,
 TEN,Sunrise,SUNRISE,lr1_panamax,74043,unmatched,,,
 TEN,World Harmony,WORLD HARMONY,lr1_panamax,74200,unmatched,,,
 TEN,Chantal,CHANTAL,lr1_panamax,74329,unmatched,,,
-TEN,Selini,SELINI,lr1_panamax,74296,unmatched,,,
+TEN,Selini,SELINI,lr1_panamax,74296,matched,636014121.0,9382956.0,226.0
 TEN,Salamina,SALAMINA,lr1_panamax,74251,matched,636014128.0,9382968.0,228.0
 TEN,Selecao,SELECAO,lr1_panamax,74296,matched,636013614.0,9388297.0,228.0
 TEN,Socrates,SOCRATES,lr1_panamax,74327,matched,636013615.0,9390692.0,227.0
