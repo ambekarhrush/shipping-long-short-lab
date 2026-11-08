@@ -54,7 +54,7 @@ SBLK,Star Sophia,STAR SOPHIA,kamsarmax_panamax,82269,matched,538002641.0,9361201
 SBLK,Star Mariella,STAR MARIELLA,kamsarmax_panamax,82266,unmatched,,,
 SBLK,Star Moira,STAR MOIRA,kamsarmax_panamax,82257,unmatched,,,
 SBLK,Star Nina,STAR NINA,kamsarmax_panamax,82224,unmatched,,,
-SBLK,Star Renee,STAR RENEE,kamsarmax_panamax,82221,unmatched,,,
+SBLK,Star Renee,STAR RENEE,kamsarmax_panamax,82221,matched,538002636.0,9328948.0,229.0
 SBLK,Star Nasia,STAR NASIA,kamsarmax_panamax,82220,unmatched,,,
 SBLK,Star Laura,STAR LAURA,kamsarmax_panamax,82209,unmatched,,,
 SBLK,Star Mona,STAR MONA,kamsarmax_panamax,82188,unmatched,,,
@@ -515,7 +515,7 @@ TEN,Artemis Voyager,ARTEMIS VOYAGER,suezmax,157877,matched,311000903.0,9878905.0
 TEN,Eurovision,EUROVISION,suezmax,157803,matched,311076800.0,9567697.0,275.0
 TEN,Euro,EURO,suezmax,157539,matched,311073800.0,9567702.0,274.0
 TEN,Decathlon,DECATHLON,suezmax,158475,unmatched,,,
-TEN,Spyros K,SPYROS K,suezmax,157648,unmatched,,,
+TEN,Spyros K,SPYROS K,suezmax,157648,matched,636015119.0,9565948.0,274.0
 TEN,Dimitris P,DIMITRIS P,suezmax,157740,unmatched,,,
 TEN,Arctic,ARCTIC,suezmax,163216,matched,366826000.0,9131371.0,182.0
 TEN,Antarctic,ANTARCTIC,suezmax,163216,matched,636015560.0,9315185.0,274.0
