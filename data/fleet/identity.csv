@@ -310,7 +310,7 @@ CMDB,MAGNES,MAGNES,capesize,179546,unmatched,,,
 CMDB,IMPERATOR (ii),IMPERATOR,capesize,176387,matched,257141000.0,9014690.0,88.0
 CMDB,ENNA (ii),ENNA,capesize,175975,matched,636018477.0,9453743.0,292.0
 CMDB,AEOLIAN (ii),AEOLIAN,kamsarmax_panamax,83478,unmatched,,,
-CMDB,GRENETA (ii),GRENETA,kamsarmax_panamax,82166,unmatched,,,
+CMDB,GRENETA (ii),GRENETA,kamsarmax_panamax,82166,matched,636021220.0,9461104.0,229.0
 CMDB,HYDRUS (ii),HYDRUS,kamsarmax_panamax,81601,unmatched,,,
 CMDB,PHOENIX (ii),PHOENIX,kamsarmax_panamax,81569,unmatched,,,
 CMDB,BUILDER,BUILDER,kamsarmax_panamax,81541,unmatched,,,
@@ -422,7 +422,7 @@ FRO,Front Jaguar,FRONT JAGUAR,aframax_lr2,110000,matched,538006772.0,9703332.0,2
 FRO,Front Altair,FRONT ALTAIR,aframax_lr2,110000,unmatched,,,
 FRO,Front Antares,FRONT ANTARES,aframax_lr2,110000,matched,538007133.0,9745926.0,251.0
 FRO,Front Vega,FRONT VEGA,aframax_lr2,110000,matched,538007216.0,9767338.0,252.0
-FRO,Front Sirius,FRONT SIRIUS,aframax_lr2,110000,unmatched,,,
+FRO,Front Sirius,FRONT SIRIUS,aframax_lr2,110000,matched,538007337.0,9767340.0,252.0
 FRO,Front Castor,FRONT CASTOR,aframax_lr2,110000,unmatched,,,
 FRO,Front Pollux,FRONT POLLUX,aframax_lr2,110000,unmatched,,,
 FRO,Front Capella,FRONT CAPELLA,aframax_lr2,110000,matched,538007462.0,9790995.0,252.0
@@ -688,7 +688,7 @@ ASC,Ardmore Encounter,ARDMORE ENCOUNTER,mr,49478,unmatched,,,
 ASC,Ardmore Explorer,ARDMORE EXPLORER,mr,49494,unmatched,,,
 ASC,Ardmore Exporter,ARDMORE EXPORTER,mr,49466,matched,538005089.0,9654775.0,183.0
 ASC,Ardmore Engineer,ARDMORE ENGINEER,mr,49420,unmatched,,,
-ASC,T Matterhorn,T MATTERHORN,mr,47981,unmatched,,,
+ASC,T Matterhorn,T MATTERHORN,mr,47981,matched,538012418.0,9555292.0,180.0
 ASC,Ardmore Dauntless,ARDMORE DAUNTLESS,handy_tanker,37764,matched,538006053.0,9707388.0,184.0
 ASC,Ardmore Defender,ARDMORE DEFENDER,handy_tanker,37791,matched,538005869.0,9707390.0,184.0
 ASC,Ardmore Cherokee,ARDMORE CHEROKEE,handy_tanker,25215,matched,538005865.0,9707845.0,159.0
