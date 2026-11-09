@@ -109,3 +109,4 @@ utc,status,detail
 2026-11-08T16:11Z,ok,"{""messages"": 34925, ""static_kept"": 69, ""position_kept"": 91, ""tracked_mmsi"": 347}"
 2026-11-08T20:42Z,ok,"{""messages"": 34636, ""static_kept"": 62, ""position_kept"": 60, ""tracked_mmsi"": 349}"
 2026-11-09T01:06Z,ok,"{""messages"": 34921, ""static_kept"": 68, ""position_kept"": 76, ""tracked_mmsi"": 350}"
+2026-11-09T08:10Z,error,ConnectionClosedError: no close frame received or sent

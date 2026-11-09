@@ -304,7 +304,7 @@ CTRM,Magic Ariel,MAGIC ARIEL,kamsarmax_panamax,81845,matched,538011341.0,9855599
 CTRM,Magic Celeste,MAGIC CELESTE,ultramax_supramax,63310,unmatched,,,
 CMDB,FRONTIER,FRONTIER,capesize,181415,unmatched,,,
 CMDB,MIRACLE (i),MIRACLE,capesize,180643,unmatched,,,
-CMDB,PROSPER,PROSPER,capesize,179895,unmatched,,,
+CMDB,PROSPER,PROSPER,capesize,179895,matched,636024205.0,9586813.0,292.0
 CMDB,DORADO,DORADO,capesize,179842,unmatched,,,
 CMDB,MAGNES,MAGNES,capesize,179546,unmatched,,,
 CMDB,IMPERATOR (ii),IMPERATOR,capesize,176387,matched,257141000.0,9014690.0,88.0
@@ -915,7 +915,7 @@ DSX,MAERA,MAERA,kamsarmax_panamax,75403,matched,538006862.0,9563677.0,225.0
 DSX,ISMENE,ISMENE,kamsarmax_panamax,77901,matched,538006861.0,9493535.0,225.0
 DSX,CRYSTALIA,CRYSTALIA,kamsarmax_panamax,77525,unmatched,,,
 DSX,ATALANDI,ATALANDI,kamsarmax_panamax,77529,matched,241317000.0,9658886.0,225.0
-DSX,MAIA,MAIA,kamsarmax_panamax,82193,unmatched,,,
+DSX,MAIA,MAIA,kamsarmax_panamax,82193,matched,538005041.0,9422938.0,229.0
 DSX,MYRSINI,MYRSINI,kamsarmax_panamax,82117,unmatched,,,
 DSX,MEDUSA,MEDUSA,kamsarmax_panamax,82194,unmatched,,,
 DSX,MYRTO,MYRTO,kamsarmax_panamax,82131,matched,538004996.0,9518086.0,229.0
