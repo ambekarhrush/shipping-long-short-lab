@@ -67,7 +67,7 @@ SBLK,Star Charis,STAR CHARIS,kamsarmax_panamax,81711,unmatched,,,
 SBLK,Mercurial Virgo,MERCURIAL VIRGO,kamsarmax_panamax,81545,matched,538005453.0,9651553.0,230.0
 SBLK,Stardust,STARDUST,kamsarmax_panamax,81502,unmatched,,,
 SBLK,Star Sky,STAR SKY,kamsarmax_panamax,81466,matched,636024128.0,9399105.0,225.0
-SBLK,Star Lambada,STAR LAMBADA,kamsarmax_panamax,81272,unmatched,,,
+SBLK,Star Lambada,STAR LAMBADA,kamsarmax_panamax,81272,matched,636017386.0,9719551.0,229.0
 SBLK,Star Carioca,STAR CARIOCA,kamsarmax_panamax,81262,matched,538006268.0,9719549.0,229.0
 SBLK,Star Capoeira,STAR CAPOEIRA,kamsarmax_panamax,81253,matched,255915945.0,9719537.0,229.0
 SBLK,Star Macarena,STAR MACARENA,kamsarmax_panamax,81198,unmatched,,,
@@ -717,7 +717,7 @@ TRMD,TORM KIRSTEN,TORM KIRSTEN,aframax_lr2,114445,unmatched,,,
 TRMD,TORM KRISTINA,TORM KRISTINA,aframax_lr2,114323,unmatched,,,
 TRMD,TORM MAREN²⁾,TORM MAREN,aframax_lr2,109672,unmatched,,,
 TRMD,TORM VENTURE,TORM VENTURE,lr1_panamax,73700,unmatched,,,
-TRMD,TORM ELISE,TORM ELISE,lr1_panamax,75000,unmatched,,,
+TRMD,TORM ELISE,TORM ELISE,lr1_panamax,75000,matched,219270000.0,9849992.0,228.0
 TRMD,TORM ELIZABETH,TORM ELIZABETH,lr1_panamax,75000,matched,219295000.0,9850006.0,228.0
 TRMD,TORM EVELYN,TORM EVELYN,lr1_panamax,74606,unmatched,,,
 TRMD,TORM EVOLVE,TORM EVOLVE,lr1_panamax,74554,unmatched,,,
