@@ -487,7 +487,7 @@ TNK,Rio Spirit,RIO SPIRIT,suezmax,158400,matched,311000450.0,9419565.0,272.0
 TNK,Summit Spirit,SUMMIT SPIRIT,suezmax,160500,matched,309022000.0,9404833.0,274.0
 TNK,Sydney Spirit,SYDNEY SPIRIT,suezmax,158500,matched,311000451.0,9594781.0,274.0
 TNK,Tahoe Spirit,TAHOE SPIRIT,suezmax,156900,matched,311000337.0,9427641.0,274.0
-TNK,Ulsan Spirit,ULSAN SPIRIT,suezmax,157400,unmatched,,,
+TNK,Ulsan Spirit,ULSAN SPIRIT,suezmax,157400,matched,538007379.0,9797228.0,277.0
 TNK,Zenith Spirit,ZENITH SPIRIT,suezmax,160500,unmatched,,,
 TNK,Blackcomb Spirit,BLACKCOMB SPIRIT,aframax_lr2,109000,matched,311000223.0,9417335.0,243.0
 TNK,Emerald Spirit,EMERALD SPIRIT,aframax_lr2,109000,unmatched,,,
@@ -799,7 +799,7 @@ HAFNI,Hafnia Neso,HAFNIA NESO,aframax_lr2,109990,matched,563068700.0,9800312.0,2
 HAFNI,Hafnia Thalassa,HAFNIA THALASSA,aframax_lr2,109990,unmatched,,,
 HAFNI,Hafnia Triton,HAFNIA TRITON,aframax_lr2,109990,unmatched,,,
 HAFNI,Hafnia Africa,HAFNIA AFRICA,lr1_panamax,74539,unmatched,,,
-HAFNI,Hafnia Asia,HAFNIA ASIA,lr1_panamax,74490,unmatched,,,
+HAFNI,Hafnia Asia,HAFNIA ASIA,lr1_panamax,74490,matched,248949000.0,9467809.0,228.0
 HAFNI,Hafnia Australia,HAFNIA AUSTRALIA,lr1_panamax,74539,unmatched,,,
 HAFNI,Hafnia Beijing,HAFNIA BEIJING,lr1_panamax,74999,unmatched,,,
 HAFNI,Hafnia Exceed,HAFNIA EXCEED,lr1_panamax,74664,matched,563153300.0,9735608.0,219.0
