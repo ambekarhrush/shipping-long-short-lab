@@ -8,7 +8,7 @@ SBLK,Star Laetitia,STAR LAETITIA,newcastlemax,207896,unmatched,,,
 SBLK,Star Ariadne,STAR ARIADNE,newcastlemax,207812,unmatched,,,
 SBLK,Star Virgo,STAR VIRGO,newcastlemax,207810,unmatched,,,
 SBLK,Star Libra,STAR LIBRA,newcastlemax,207765,unmatched,,,
-SBLK,Star Sienna,STAR SIENNA,newcastlemax,207721,unmatched,,,
+SBLK,Star Sienna,STAR SIENNA,newcastlemax,207721,matched,636021265.0,9756224.0,300.0
 SBLK,Star Marisa,STAR MARISA,newcastlemax,207709,unmatched,,,
 SBLK,Star Karlie,STAR KARLIE,newcastlemax,207566,unmatched,,,
 SBLK,Star Eleni,STAR ELENI,newcastlemax,207555,matched,636018077.0,9712668.0,300.0
@@ -838,7 +838,7 @@ HAFNI,BW Wren,BW WREN,mr,49999,unmatched,,,
 HAFNI,Ecomar Garonne,ECOMAR GARONNE,mr,49696,unmatched,,,
 HAFNI,Ecomar Gascogne,ECOMAR GASCOGNE,mr,49776,matched,228475700.0,1029261.0,183.0
 HAFNI,Ecomar Guyenne,ECOMAR GUYENNE,mr,49763,matched,228475800.0,1029273.0,183.0
-HAFNI,Hafnia Andrea,HAFNIA ANDREA,mr,49999,unmatched,,,
+HAFNI,Hafnia Andrea,HAFNIA ANDREA,mr,49999,matched,563096600.0,9688415.0,183.0
 HAFNI,Hafnia Ane,HAFNIA ANE,mr,49999,unmatched,,,
 HAFNI,Hafnia Atlantic,HAFNIA ATLANTIC,mr,49641,matched,563191400.0,9810214.0,183.0
 HAFNI,Hafnia Bobcat,HAFNIA BOBCAT,mr,49999,matched,564970000.0,9694476.0,183.0
