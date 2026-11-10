@@ -46,7 +46,7 @@ SBLK,Star Kamila,STAR KAMILA,kamsarmax_panamax,82769,unmatched,,,
 SBLK,Star Luna,STAR LUNA,kamsarmax_panamax,82687,unmatched,,,
 SBLK,Star Bianca,STAR BIANCA,kamsarmax_panamax,82672,unmatched,,,
 SBLK,Pendulum,PENDULUM,kamsarmax_panamax,82619,unmatched,,,
-SBLK,Star Maria,STAR MARIA,kamsarmax_panamax,82598,unmatched,,,
+SBLK,Star Maria,STAR MARIA,kamsarmax_panamax,82598,matched,538002639.0,9401489.0,229.0
 SBLK,Star Markella,STAR MARKELLA,kamsarmax_panamax,82594,unmatched,,,
 SBLK,Star Jeannette,STAR JEANNETTE,kamsarmax_panamax,82566,matched,636020418.0,9619804.0,229.0
 SBLK,Star Elizabeth,STAR ELIZABETH,kamsarmax_panamax,82403,unmatched,,,
@@ -543,7 +543,7 @@ TEN,Leontios H,LEONTIOS H,aframax_lr2,113611,matched,241454000.0,9724336.0,250.0
 TEN,Parthenon TS,PARTHENON TS,aframax_lr2,113554,matched,249948000.0,9724348.0,250.0
 TEN,Sapporo Princess,SAPPORO PRINCESS,aframax_lr2,105354,matched,636017817.0,9439199.0,228.0
 TEN,Uraga Princess,URAGA PRINCESS,aframax_lr2,105344,unmatched,,,
-TEN,Asahi Princess,ASAHI PRINCESS,aframax_lr2,105372,unmatched,,,
+TEN,Asahi Princess,ASAHI PRINCESS,aframax_lr2,105372,matched,240944000.0,9411197.0,229.0
 TEN,Maria Princess,MARIA PRINCESS,aframax_lr2,105346,unmatched,,,
 TEN,Sakura Princess,SAKURA PRINCESS,aframax_lr2,105365,matched,636015526.0,9358541.0,228.0
 TEN,Alpes,ALPES,aframax_lr2,112505,unmatched,,,
@@ -557,7 +557,7 @@ TEN,Ithaki DF,ITHAKI DF,aframax_lr2,114598,matched,241875000.0,9953494.0,250.0
 TEN,DF Montmartre,DF MONTMARTRE,aframax_lr2,109999,matched,636021310.0,9941714.0,250.0
 TEN,DF Mystras,DF MYSTRAS,aframax_lr2,109999,matched,636021311.0,9941702.0,250.0
 TEN,Sunray,SUNRAY,lr1_panamax,74039,unmatched,,,
-TEN,Sunrise,SUNRISE,lr1_panamax,74043,unmatched,,,
+TEN,Sunrise,SUNRISE,lr1_panamax,74043,matched,311001925.0,9410935.0,96.0
 TEN,World Harmony,WORLD HARMONY,lr1_panamax,74200,unmatched,,,
 TEN,Chantal,CHANTAL,lr1_panamax,74329,unmatched,,,
 TEN,Selini,SELINI,lr1_panamax,74296,matched,636014121.0,9382956.0,226.0
@@ -785,7 +785,7 @@ TRMD,TORM DAPHNE,TORM DAPHNE,mr,49746,matched,219642000.0,9692313.0,183.0
 TRMD,TORM DULCE,TORM DULCE,mr,49680,unmatched,,,
 TRMD,TORM DAVAO,TORM DAVAO,mr,49990,matched,563315400.0,9688350.0,183.0
 TRMD,TORM DELHI,TORM DELHI,mr,49990,unmatched,,,
-TRMD,TORM DOVER,TORM DOVER,mr,49990,unmatched,,,
+TRMD,TORM DOVER,TORM DOVER,mr,49990,matched,219759000.0,9688362.0,183.0
 TRMD,TORM DUBAI,TORM DUBAI,mr,49990,matched,563315300.0,9681390.0,183.0
 TRMD,TORM FREEDOM,TORM FREEDOM,mr,49683,matched,219761000.0,9797395.0,183.0
 HAFNI,Hafnia Despina,HAFNIA DESPINA,aframax_lr2,109990,matched,563068400.0,9796494.0,250.0
@@ -811,7 +811,7 @@ HAFNI,Hafnia Expedite,HAFNIA EXPEDITE,lr1_panamax,74634,matched,563153700.0,9735
 HAFNI,Hafnia Experience,HAFNIA EXPERIENCE,lr1_panamax,74669,matched,563153800.0,9735610.0,219.0
 HAFNI,Hafnia Express,HAFNIA EXPRESS,lr1_panamax,74663,matched,563153900.0,9735634.0,219.0
 HAFNI,Hafnia Guangzhou,HAFNIA GUANGZHOU,lr1_panamax,74999,unmatched,,,
-HAFNI,Hafnia Hong Kong,HAFNIA HONG KONG,lr1_panamax,74999,unmatched,,,
+HAFNI,Hafnia Hong Kong,HAFNIA HONG KONG,lr1_panamax,74999,matched,563343100.0,9830288.0,228.0
 HAFNI,Hafnia Kallang,HAFNIA KALLANG,lr1_panamax,74189,matched,563010700.0,9766190.0,228.0
 HAFNI,Hafnia Nanjing,HAFNIA NANJING,lr1_panamax,74999,matched,563108500.0,9863235.0,228.0
 HAFNI,Hafnia Shannon,HAFNIA SHANNON,lr1_panamax,74189,matched,563016200.0,9766217.0,228.0
@@ -836,7 +836,7 @@ HAFNI,Boxer,BOXER,mr,49852,unmatched,,,
 HAFNI,Bulldog,BULLDOG,mr,49856,matched,563093600.0,9858072.0,183.0
 HAFNI,BW Wren,BW WREN,mr,49999,unmatched,,,
 HAFNI,Ecomar Garonne,ECOMAR GARONNE,mr,49696,unmatched,,,
-HAFNI,Ecomar Gascogne,ECOMAR GASCOGNE,mr,49776,unmatched,,,
+HAFNI,Ecomar Gascogne,ECOMAR GASCOGNE,mr,49776,matched,228475700.0,1029261.0,183.0
 HAFNI,Ecomar Guyenne,ECOMAR GUYENNE,mr,49763,matched,228475800.0,1029273.0,183.0
 HAFNI,Hafnia Andrea,HAFNIA ANDREA,mr,49999,unmatched,,,
 HAFNI,Hafnia Ane,HAFNIA ANE,mr,49999,unmatched,,,
@@ -971,7 +971,7 @@ INSW,SEAWAYS SAMAR,SEAWAYS SAMAR,lr1_panamax,73920,unmatched,,,
 INSW,SEAWAYS ALACRAN,SEAWAYS ALACRAN,lr1_panamax,73600,matched,538011464.0,1042342.0,228.0
 INSW,SEAWAYS BALBOA,SEAWAYS BALBOA,lr1_panamax,73600,unmatched,,,
 INSW,SEAWAYS BONITA,SEAWAYS BONITA,lr1_panamax,73600,unmatched,,,
-INSW,SEAWAYS CRISTOBAL,SEAWAYS CRISTOBAL,lr1_panamax,73600,unmatched,,,
+INSW,SEAWAYS CRISTOBAL,SEAWAYS CRISTOBAL,lr1_panamax,73600,matched,538011467.0,1049558.0,228.0
 INSW,SEAWAYS DELGADA,SEAWAYS DELGADA,lr1_panamax,73600,unmatched,,,
 INSW,SEAWAYS MAGELLAN,SEAWAYS MAGELLAN,lr1_panamax,73600,unmatched,,,
 INSW,SEAWAYS WAVE,SEAWAYS WAVE,mr,51549,unmatched,,,
