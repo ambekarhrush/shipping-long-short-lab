@@ -128,7 +128,7 @@ SBLK,Egret Bulker,EGRET BULKER,ultramax_supramax,57809,matched,538003818.0,94412
 SBLK,Gannet Bulker,GANNET BULKER,ultramax_supramax,57809,unmatched,,,
 SBLK,Grebe Bulker,GREBE BULKER,ultramax_supramax,57809,unmatched,,,
 SBLK,Ibis Bulker,IBIS BULKER,ultramax_supramax,57809,unmatched,,,
-SBLK,Jay,JAY,ultramax_supramax,57809,unmatched,,,
+SBLK,Jay,JAY,ultramax_supramax,57809,matched,538003972.0,9441336.0,190.0
 SBLK,Kingfisher,KINGFISHER,ultramax_supramax,57809,unmatched,,,
 SBLK,Martin,MARTIN,ultramax_supramax,57809,matched,538003973.0,9441350.0,190.0
 SBLK,Star Cleo,STAR CLEO,ultramax_supramax,56582,unmatched,,,
@@ -530,7 +530,7 @@ TEN,Brasil 2014,BRASIL 2014,suezmax,155721,unmatched,,,
 TEN,Porto,PORTO,suezmax,154500,matched,229682000.0,9915791.0,279.0
 TEN,Athens 04,ATHENS 04,suezmax,154350,matched,256881000.0,9988164.0,279.0
 TEN,Paris 24,PARIS 24,suezmax,154350,matched,256880000.0,9988176.0,279.0
-TEN,Caribbean Voyager,CARIBBEAN VOYAGER,aframax_lr2,115000,unmatched,,,
+TEN,Caribbean Voyager,CARIBBEAN VOYAGER,aframax_lr2,115000,matched,311000864.0,9857860.0,250.0
 TEN,Mediterranean Voyager,MEDITERRANEAN VOYAGER,aframax_lr2,115000,unmatched,,,
 TEN,Bergen TS,BERGEN TS,aframax_lr2,112108,matched,248024000.0,9737400.0,250.0
 TEN,Stavanger TS,STAVANGER TS,aframax_lr2,113004,unmatched,,,
@@ -713,7 +713,7 @@ TRMD,TORM HERDIS,TORM HERDIS,aframax_lr2,114000,unmatched,,,
 TRMD,TORM HILDE,TORM HILDE,aframax_lr2,114000,unmatched,,,
 TRMD,TORM HOUSTON,TORM HOUSTON,aframax_lr2,114000,unmatched,,,
 TRMD,TORM KIARA,TORM KIARA,aframax_lr2,114445,unmatched,,,
-TRMD,TORM KIRSTEN,TORM KIRSTEN,aframax_lr2,114445,unmatched,,,
+TRMD,TORM KIRSTEN,TORM KIRSTEN,aframax_lr2,114445,matched,219029080.0,970156600.0,254.0
 TRMD,TORM KRISTINA,TORM KRISTINA,aframax_lr2,114323,unmatched,,,
 TRMD,TORM MAREN²⁾,TORM MAREN,aframax_lr2,109672,unmatched,,,
 TRMD,TORM VENTURE,TORM VENTURE,lr1_panamax,73700,unmatched,,,
