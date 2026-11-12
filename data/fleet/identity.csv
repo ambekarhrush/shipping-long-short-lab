@@ -410,7 +410,7 @@ FRO,Front Seoul,FRONT SEOUL,suezmax,157000,unmatched,,,
 FRO,Front Santiago,FRONT SANTIAGO,suezmax,157000,unmatched,,,
 FRO,Front Savannah,FRONT SAVANNAH,suezmax,157000,unmatched,,,
 FRO,Front Suez,FRONT SUEZ,suezmax,157000,unmatched,,,
-FRO,Front Shanghai,FRONT SHANGHAI,suezmax,157000,unmatched,,,
+FRO,Front Shanghai,FRONT SHANGHAI,suezmax,157000,matched,477539300.0,9832262.0,275.0
 FRO,Front Silkeborg,FRONT SILKEBORG,suezmax,157000,matched,477538800.0,9832274.0,275.0
 FRO,Front Cruiser,FRONT CRUISER,suezmax,157000,matched,538008911.0,9797230.0,277.0
 FRO,Front Ocelot,FRONT OCELOT,aframax_lr2,110000,unmatched,,,
@@ -538,7 +538,7 @@ TEN,Oslo TS,OSLO TS,aframax_lr2,112949,matched,248006000.0,9737383.0,250.0
 TEN,Marathon TS,MARATHON TS,aframax_lr2,113651,matched,249987000.0,9737371.0,250.0
 TEN,Sola TS,SOLA TS,aframax_lr2,112939,matched,248020000.0,9724350.0,250.0
 TEN,Elias Tsakos,ELIAS TSAKOS,aframax_lr2,113737,unmatched,,,
-TEN,Thomas Zafiras,THOMAS ZAFIRAS,aframax_lr2,113691,unmatched,,,
+TEN,Thomas Zafiras,THOMAS ZAFIRAS,aframax_lr2,113691,matched,241456000.0,9724087.0,250.0
 TEN,Leontios H,LEONTIOS H,aframax_lr2,113611,matched,241454000.0,9724336.0,250.0
 TEN,Parthenon TS,PARTHENON TS,aframax_lr2,113554,matched,249948000.0,9724348.0,250.0
 TEN,Sapporo Princess,SAPPORO PRINCESS,aframax_lr2,105354,matched,636017817.0,9439199.0,228.0
@@ -800,7 +800,7 @@ HAFNI,Hafnia Thalassa,HAFNIA THALASSA,aframax_lr2,109990,unmatched,,,
 HAFNI,Hafnia Triton,HAFNIA TRITON,aframax_lr2,109990,unmatched,,,
 HAFNI,Hafnia Africa,HAFNIA AFRICA,lr1_panamax,74539,unmatched,,,
 HAFNI,Hafnia Asia,HAFNIA ASIA,lr1_panamax,74490,matched,248949000.0,9467809.0,228.0
-HAFNI,Hafnia Australia,HAFNIA AUSTRALIA,lr1_panamax,74539,unmatched,,,
+HAFNI,Hafnia Australia,HAFNIA AUSTRALIA,lr1_panamax,74539,matched,566245000.0,9467794.0,228.0
 HAFNI,Hafnia Beijing,HAFNIA BEIJING,lr1_panamax,74999,unmatched,,,
 HAFNI,Hafnia Exceed,HAFNIA EXCEED,lr1_panamax,74664,matched,563153300.0,9735608.0,219.0
 HAFNI,Hafnia Excel,HAFNIA EXCEL,lr1_panamax,74547,unmatched,,,
