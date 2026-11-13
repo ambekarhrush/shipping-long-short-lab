@@ -100,7 +100,7 @@ SBLK,Star Hamburg,STAR HAMBURG,ultramax_supramax,63334,unmatched,,,
 SBLK,Star Fairfield,STAR FAIRFIELD,ultramax_supramax,63301,matched,636024334.0,9575230.0,200.0
 SBLK,Star Greenwich,STAR GREENWICH,ultramax_supramax,63301,unmatched,,,
 SBLK,Star Groton,STAR GROTON,ultramax_supramax,63301,unmatched,,,
-SBLK,Star Madison,STAR MADISON,ultramax_supramax,63301,unmatched,,,
+SBLK,Star Madison,STAR MADISON,ultramax_supramax,63301,matched,636025396.0,9575278.0,200.0
 SBLK,Star Mystic,STAR MYSTIC,ultramax_supramax,63301,unmatched,,,
 SBLK,Star Rowayton,STAR ROWAYTON,ultramax_supramax,63301,unmatched,,,
 SBLK,Star Southport,STAR SOUTHPORT,ultramax_supramax,63301,matched,636025034.0,9575228.0,199.0
@@ -656,7 +656,7 @@ STNG,STI Lombard,STI LOMBARD,aframax_lr2,109999,matched,538006344.0,9708150.0,25
 STNG,STI Grace,STI GRACE,aframax_lr2,109999,matched,538006356.0,9722584.0,256.0
 STNG,STI Jermyn,STI JERMYN,aframax_lr2,109999,matched,538006357.0,9722596.0,256.0
 STNG,STI Sanctity,STI SANCTITY,aframax_lr2,109999,matched,538006078.0,9719707.0,250.0
-STNG,STI Solace,STI SOLACE,aframax_lr2,109999,unmatched,,,
+STNG,STI Solace,STI SOLACE,aframax_lr2,109999,matched,538006077.0,9708588.0,250.0
 STNG,STI Stability,STI STABILITY,aframax_lr2,109999,unmatched,,,
 STNG,STI Steadfast,STI STEADFAST,aframax_lr2,109999,unmatched,,,
 STNG,STI Supreme,STI SUPREME,aframax_lr2,109999,unmatched,,,
