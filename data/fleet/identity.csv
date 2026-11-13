@@ -163,7 +163,7 @@ GNK,Genco Constellation,GENCO CONSTELLATION,ultramax_supramax,63310,matched,5380
 GNK,Genco Mayflower,GENCO MAYFLOWER,ultramax_supramax,63304,unmatched,,,
 GNK,Genco Madeleine,GENCO MADELEINE,ultramax_supramax,63163,matched,538007722.0,9705976.0,200.0
 GNK,Genco Weatherly,GENCO WEATHERLY,ultramax_supramax,61556,matched,636016497.0,9689172.0,200.0
-GNK,Genco Mary,GENCO MARY,ultramax_supramax,61304,unmatched,,,
+GNK,Genco Mary,GENCO MARY,ultramax_supramax,61304,matched,538009752.0,9923205.0,200.0
 GNK,Genco Laddey,GENCO LADDEY,ultramax_supramax,61303,unmatched,,,
 GNK,Genco Columbia,GENCO COLUMBIA,ultramax_supramax,60294,unmatched,,,
 GNK,Genco Hunter,GENCO HUNTER,ultramax_supramax,58729,matched,538002980.0,9368871.0,190.0
@@ -725,7 +725,7 @@ TRMD,TORM EVA,TORM EVA,lr1_panamax,74552,unmatched,,,
 TRMD,TORM EMMA,TORM EMMA,lr1_panamax,75000,matched,219495000.0,9592680.0,228.0
 TRMD,TORM EMILIE,TORM EMILIE,lr1_panamax,75013,unmatched,,,
 TRMD,TORM INTEGRITY,TORM INTEGRITY,lr1_panamax,73800,matched,219496000.0,9602710.0,229.0
-TRMD,TORM INNOVATION,TORM INNOVATION,lr1_panamax,73847,unmatched,,,
+TRMD,TORM INNOVATION,TORM INNOVATION,lr1_panamax,73847,matched,219497000.0,9602722.0,229.0
 TRMD,TORM AGNES,TORM AGNES,mr,49999,matched,219412000.0,9465992.0,188.0
 TRMD,TORM AGNETE,TORM AGNETE,mr,49999,matched,219413000.0,9466013.0,183.0
 TRMD,TORM ALEXANDRA,TORM ALEXANDRA,mr,49999,unmatched,,,
@@ -875,7 +875,7 @@ HAFNI,Hafnia Puma,HAFNIA PUMA,mr,49999,unmatched,,,
 HAFNI,Hafnia Raven,HAFNIA RAVEN,mr,49999,unmatched,,,
 HAFNI,Hafnia Swift,HAFNIA SWIFT,mr,49999,unmatched,,,
 HAFNI,Hafnia Tanzanite,HAFNIA TANZANITE,mr,49478,matched,538006764.0,9753703.0,183.0
-HAFNI,Hafnia Tiger,HAFNIA TIGER,mr,49999,unmatched,,,
+HAFNI,Hafnia Tiger,HAFNIA TIGER,mr,49999,matched,564230000.0,9635846.0,183.0
 HAFNI,Hafnia Topaz,HAFNIA TOPAZ,mr,49561,matched,538006762.0,9753686.0,183.0
 HAFNI,Hafnia Tourmaline,HAFNIA TOURMALINE,mr,49513,unmatched,,,
 HAFNI,Hafnia Turquoise,HAFNIA TURQUOISE,mr,49516,unmatched,,,
