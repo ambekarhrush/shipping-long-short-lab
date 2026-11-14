@@ -586,7 +586,7 @@ STNG,STI Hackney,STI HACKNEY,handy_tanker,38734,matched,538005401.0,9686883.0,18
 STNG,STI Acton,STI ACTON,handy_tanker,38734,matched,538005405.0,9696553.0,184.0
 STNG,STI Fulham,STI FULHAM,handy_tanker,38734,matched,538005400.0,9688374.0,184.0
 STNG,STI Camden,STI CAMDEN,handy_tanker,38734,unmatched,,,
-STNG,STI Battersea,STI BATTERSEA,handy_tanker,38734,unmatched,,,
+STNG,STI Battersea,STI BATTERSEA,handy_tanker,38734,matched,538005403.0,9691723.0,184.0
 STNG,STI Wembley,STI WEMBLEY,handy_tanker,38734,matched,538005404.0,9691735.0,183.0
 STNG,STI Finchley,STI FINCHLEY,handy_tanker,38734,matched,538005406.0,9696565.0,184.0
 STNG,STI Clapham,STI CLAPHAM,handy_tanker,38734,matched,538005407.0,9696577.0,184.0
