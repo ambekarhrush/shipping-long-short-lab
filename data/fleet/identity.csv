@@ -14,7 +14,7 @@ SBLK,Star Karlie,STAR KARLIE,newcastlemax,207566,unmatched,,,
 SBLK,Star Eleni,STAR ELENI,newcastlemax,207555,matched,636018077.0,9712668.0,300.0
 SBLK,Star Magnanimus,STAR MAGNANIMUS,newcastlemax,207526,unmatched,,,
 SBLK,Debbie H,DEBBIE H,newcastlemax,206861,matched,636019092.0,9796303.0,300.0
-SBLK,Star Ayesha,STAR AYESHA,newcastlemax,206852,unmatched,,,
+SBLK,Star Ayesha,STAR AYESHA,newcastlemax,206852,matched,636019359.0,9796315.0,299.0
 SBLK,Katie K,KATIE K,newcastlemax,206839,unmatched,,,
 SBLK,Leviathan,LEVIATHAN,capesize,182511,unmatched,,,
 SBLK,Peloreus,PELOREUS,capesize,182496,unmatched,,,
@@ -703,7 +703,7 @@ TRMD,TORM GENESIS,TORM GENESIS,aframax_lr2,119456,unmatched,,,
 TRMD,TORM GITTE,TORM GITTE,aframax_lr2,119456,unmatched,,,
 TRMD,TORM GLORIA,TORM GLORIA,aframax_lr2,119456,unmatched,,,
 TRMD,TORM GRACE,TORM GRACE,aframax_lr2,119456,unmatched,,,
-TRMD,TORM GWENDOLYN,TORM GWENDOLYN,aframax_lr2,119456,unmatched,,,
+TRMD,TORM GWENDOLYN,TORM GWENDOLYN,aframax_lr2,119456,matched,563216100.0,9428982.0,250.0
 TRMD,TORM GWYNETH,TORM GWYNETH,aframax_lr2,119456,matched,563216200.0,9429003.0,250.0
 TRMD,TORM HANNAH,TORM HANNAH,aframax_lr2,109999,unmatched,,,
 TRMD,TORM HELLERUP,TORM HELLERUP,aframax_lr2,114000,unmatched,,,
