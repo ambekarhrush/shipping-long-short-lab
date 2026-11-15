@@ -231,7 +231,7 @@ SHIP,Paroship,PAROSHIP,capesize,181415,unmatched,,,
 SHIP,Kaizenship,KAIZENSHIP,capesize,181396,unmatched,,,
 SHIP,Iconship,ICONSHIP,capesize,181392,unmatched,,,
 SHIP,Hellasship,HELLASSHIP,capesize,181325,unmatched,,,
-SHIP,Honorship,HONORSHIP,capesize,180242,unmatched,,,
+SHIP,Honorship,HONORSHIP,capesize,180242,matched,538010071.0,9489845.0,289.0
 SHIP,Fellowship,FELLOWSHIP,capesize,179701,unmatched,,,
 SHIP,Championship,CHAMPIONSHIP,capesize,179238,unmatched,,,
 SHIP,Partnership,PARTNERSHIP,capesize,179213,matched,538007497.0,9597848.0,292.0
@@ -930,7 +930,7 @@ DSX,NEW YORK,NEW YORK,capesize,177773,unmatched,,,
 DSX,SEATTLE,SEATTLE,capesize,179362,unmatched,,,
 DSX,,,capesize,179134,unmatched,,,
 DSX,G. P. ZAFIRAKIS,G P ZAFIRAKIS,capesize,179492,unmatched,,,
-DSX,SANTA BARBARA,SANTA BARBARA,capesize,179426,matched,219068000.0,9430399.0,300.0
+DSX,SANTA BARBARA,SANTA BARBARA,capesize,179426,ambiguous,219068000.0,9430399.0,300.0
 DSX,NEW ORLEANS,NEW ORLEANS,capesize,180960,matched,538006242.0,9743265.0,292.0
 DSX,FLORIDA,FLORIDA,capesize,182063,unmatched,,,
 DSX,LOS ANGELES,LOS ANGELES,newcastlemax,206104,unmatched,,,
