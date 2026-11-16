@@ -126,7 +126,7 @@ SBLK,Star Pisces,STAR PISCES,ultramax_supramax,60916,matched,636024670.0,9715854
 SBLK,Crane,CRANE,ultramax_supramax,57809,unmatched,,,
 SBLK,Egret Bulker,EGRET BULKER,ultramax_supramax,57809,matched,538003818.0,9441295.0,190.0
 SBLK,Gannet Bulker,GANNET BULKER,ultramax_supramax,57809,unmatched,,,
-SBLK,Grebe Bulker,GREBE BULKER,ultramax_supramax,57809,unmatched,,,
+SBLK,Grebe Bulker,GREBE BULKER,ultramax_supramax,57809,matched,538003905.0,9441312.0,190.0
 SBLK,Ibis Bulker,IBIS BULKER,ultramax_supramax,57809,unmatched,,,
 SBLK,Jay,JAY,ultramax_supramax,57809,matched,538003972.0,9441336.0,190.0
 SBLK,Kingfisher,KINGFISHER,ultramax_supramax,57809,unmatched,,,
@@ -213,7 +213,7 @@ SB,Troodos Air,TROODOS AIR,post_panamax,85000,unmatched,,,
 SB,Troodos Oak,TROODOS OAK,post_panamax,85000,matched,209877000.0,9875135.0,228.0
 SB,Climate Respect,CLIMATE RESPECT,post_panamax,87000,unmatched,,,
 SB,Climate Ethics,CLIMATE ETHICS,post_panamax,87000,matched,210526000.0,9942225.0,229.0
-SB,Climate Justice,CLIMATE JUSTICE,post_panamax,87000,unmatched,,,
+SB,Climate Justice,CLIMATE JUSTICE,post_panamax,87000,matched,209271000.0,9942237.0,229.0
 SB,Mount Troodos,MOUNT TROODOS,capesize,181400,unmatched,,,
 SB,Kanaris,KANARIS,capesize,178100,unmatched,,,
 SB,Pelopidas,PELOPIDAS,capesize,176000,unmatched,,,
@@ -367,7 +367,7 @@ FRO,Front Tweed,FRONT TWEED,vlcc,300000,unmatched,,,
 FRO,Front Tana,FRONT TANA,vlcc,300000,unmatched,,,
 FRO,Front Gaula,FRONT GAULA,vlcc,300000,unmatched,,,
 FRO,Front Orkla,FRONT ORKLA,vlcc,300000,unmatched,,,
-FRO,Front Tyne,FRONT TYNE,vlcc,300000,unmatched,,,
+FRO,Front Tyne,FRONT TYNE,vlcc,300000,matched,538010238.0,9933676.0,330.0
 FRO,Front Maine,FRONT MAINE,vlcc,299600,matched,538010896.0,9898553.0,336.0
 FRO,Front Vosso,FRONT VOSSO,vlcc,297400,unmatched,,,
 FRO,Front Rauma,FRONT RAUMA,vlcc,300000,unmatched,,,
