@@ -828,7 +828,7 @@ HAFNI,Hafnia Tagus,HAFNIA TAGUS,lr1_panamax,74151,unmatched,,,
 HAFNI,Hafnia Yangtze,HAFNIA YANGTZE,lr1_panamax,74996,unmatched,,,
 HAFNI,Hafnia Yarra,HAFNIA YARRA,lr1_panamax,74189,matched,563016300.0,9766229.0,228.0
 HAFNI,Hafnia Zambesi,HAFNIA ZAMBESI,lr1_panamax,74995,unmatched,,,
-HAFNI,Karimata,KARIMATA,lr1_panamax,79885,unmatched,,,
+HAFNI,Karimata,KARIMATA,lr1_panamax,79885,matched,354658000.0,9806158.0,218.0
 HAFNI,Sunda,SUNDA,lr1_panamax,79902,unmatched,,,
 HAFNI,Basset,BASSET,mr,49875,matched,563090700.0,9858060.0,183.0
 HAFNI,Beagle,BEAGLE,mr,49850,matched,352802000.0,9814181.0,183.0
@@ -839,7 +839,7 @@ HAFNI,Ecomar Garonne,ECOMAR GARONNE,mr,49696,unmatched,,,
 HAFNI,Ecomar Gascogne,ECOMAR GASCOGNE,mr,49776,matched,228475700.0,1029261.0,183.0
 HAFNI,Ecomar Guyenne,ECOMAR GUYENNE,mr,49763,matched,228475800.0,1029273.0,183.0
 HAFNI,Hafnia Andrea,HAFNIA ANDREA,mr,49999,matched,563096600.0,9688415.0,183.0
-HAFNI,Hafnia Ane,HAFNIA ANE,mr,49999,unmatched,,,
+HAFNI,Hafnia Ane,HAFNIA ANE,mr,49999,matched,256465000.0,9709776.0,183.0
 HAFNI,Hafnia Atlantic,HAFNIA ATLANTIC,mr,49641,matched,563191400.0,9810214.0,183.0
 HAFNI,Hafnia Bobcat,HAFNIA BOBCAT,mr,49999,matched,564970000.0,9694476.0,183.0
 HAFNI,Hafnia Caterina,HAFNIA CATERINA,mr,49999,matched,563099900.0,9688427.0,183.0
@@ -887,7 +887,7 @@ HAFNI,Orient Challenge,ORIENT CHALLENGE,mr,49972,matched,563022700.0,9793375.0,1
 HAFNI,Orient Innovation,ORIENT INNOVATION,mr,49997,unmatched,,,
 HAFNI,PS Stars,PS STARS,mr,49999,unmatched,,,
 HAFNI,Yellow Stars,YELLOW STARS,mr,49999,matched,538009099.0,9913626.0,183.0
-OET,Milos,MILOS,suezmax,157525,unmatched,,,
+OET,Milos,MILOS,suezmax,157525,matched,241468000.0,9746619.0,277.0
 OET,Poliegos,POLIEGOS,suezmax,157525,unmatched,,,
 OET,Kimolos,KIMOLOS,suezmax,159159,matched,538007774.0,9791145.0,274.0
 OET,Folegandros,FOLEGANDROS,suezmax,159221,unmatched,,,
