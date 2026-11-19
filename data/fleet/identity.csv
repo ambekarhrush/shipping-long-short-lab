@@ -111,7 +111,7 @@ SBLK,Mackenzie,MACKENZIE,ultramax_supramax,63226,matched,255915687.0,9973688.0,2
 SBLK,Star New London,STAR NEW LONDON,ultramax_supramax,63140,unmatched,,,
 SBLK,Star Apus,STAR APUS,ultramax_supramax,63123,unmatched,,,
 SBLK,Star Subaru,STAR SUBARU,ultramax_supramax,61571,matched,636024955.0,9705160.0,200.0
-SBLK,Star Stamford,STAR STAMFORD,ultramax_supramax,61530,unmatched,,,
+SBLK,Star Stamford,STAR STAMFORD,ultramax_supramax,61530,matched,636025591.0,9735127.0,200.0
 SBLK,Star Wave,STAR WAVE,ultramax_supramax,61491,matched,636019448.0,9746009.0,200.0
 SBLK,Star Challenger,STAR CHALLENGER,ultramax_supramax,61462,matched,440401000.0,9754783.0,141.0
 SBLK,Star Fighter,STAR FIGHTER,ultramax_supramax,61455,unmatched,,,
@@ -119,7 +119,7 @@ SBLK,Star Lutas,STAR LUTAS,ultramax_supramax,61347,matched,636024691.0,9712709.0
 SBLK,Honey Badger,HONEY BADGER,ultramax_supramax,61320,matched,636025120.0,9711315.0,200.0
 SBLK,Wolverine,WOLVERINE,ultramax_supramax,61292,matched,636024841.0,9711327.0,200.0
 SBLK,Star Antares,STAR ANTARES,ultramax_supramax,61258,unmatched,,,
-SBLK,Star Tokyo,STAR TOKYO,ultramax_supramax,61225,unmatched,,,
+SBLK,Star Tokyo,STAR TOKYO,ultramax_supramax,61225,matched,636024942.0,9748069.0,200.0
 SBLK,Star Monica,STAR MONICA,ultramax_supramax,60935,matched,636020177.0,9715842.0,198.0
 SBLK,Star Aquarius,STAR AQUARIUS,ultramax_supramax,60916,matched,636024902.0,9715828.0,198.0
 SBLK,Star Pisces,STAR PISCES,ultramax_supramax,60916,matched,636024670.0,9715854.0,198.0
@@ -137,7 +137,7 @@ SBLK,Star Bright,STAR BRIGHT,ultramax_supramax,55569,unmatched,,,
 GNK,Genco Courageous,GENCO COURAGEOUS,capesize,182868,matched,538011919.0,9875111.0,292.0
 GNK,Genco Reliance,GENCO RELIANCE,capesize,181146,unmatched,,,
 GNK,Genco Resolute,GENCO RESOLUTE,capesize,181060,matched,538008119.0,9698977.0,292.0
-GNK,Genco Endeavour,GENCO ENDEAVOUR,capesize,181057,unmatched,,,
+GNK,Genco Endeavour,GENCO ENDEAVOUR,capesize,181057,matched,538008118.0,9698965.0,292.0
 GNK,Genco Ranger,GENCO RANGER,capesize,180882,unmatched,,,
 GNK,Genco Constantine,GENCO CONSTANTINE,capesize,180183,unmatched,,,
 GNK,Genco Augustus,GENCO AUGUSTUS,capesize,180151,unmatched,,,
@@ -899,7 +899,7 @@ OET,Nissos Donoussa,NISSOS DONOUSSA,vlcc,318953,unmatched,,,
 OET,Nissos Kythnos,NISSOS KYTHNOS,vlcc,318953,unmatched,,,
 OET,Nissos Keros,NISSOS KEROS,vlcc,318953,unmatched,,,
 OET,Nissos Anafi,NISSOS ANAFI,vlcc,318953,unmatched,,,
-OET,Nissos Kea,NISSOS KEA,vlcc,300323,unmatched,,,
+OET,Nissos Kea,NISSOS KEA,vlcc,300323,matched,538009321.0,9920758.0,330.0
 OET,Nissos Nikouria,NISSOS NIKOURIA,vlcc,300323,unmatched,,,
 DSX,DSI Phoenix,DSI PHOENIX,ultramax_supramax,60456,matched,538009164.0,9738337.0,200.0
 DSX,DSI Pollux,DSI POLLUX,ultramax_supramax,60446,unmatched,,,
