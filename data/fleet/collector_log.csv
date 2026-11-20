@@ -144,3 +144,4 @@ utc,status,detail
 2026-11-19T13:26Z,error,TimeoutError: timed out during opening handshake
 2026-11-19T22:15Z,error,TimeoutError: timed out during opening handshake
 2026-11-20T03:32Z,error,TimeoutError: timed out during opening handshake
+2026-11-20T13:07Z,error,TimeoutError: timed out during opening handshake
