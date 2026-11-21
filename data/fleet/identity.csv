@@ -490,7 +490,7 @@ TNK,Tahoe Spirit,TAHOE SPIRIT,suezmax,156900,matched,311000337.0,9427641.0,274.0
 TNK,Ulsan Spirit,ULSAN SPIRIT,suezmax,157400,matched,538007379.0,9797228.0,277.0
 TNK,Zenith Spirit,ZENITH SPIRIT,suezmax,160500,unmatched,,,
 TNK,Blackcomb Spirit,BLACKCOMB SPIRIT,aframax_lr2,109000,matched,311000223.0,9417335.0,243.0
-TNK,Emerald Spirit,EMERALD SPIRIT,aframax_lr2,109000,unmatched,,,
+TNK,Emerald Spirit,EMERALD SPIRIT,aframax_lr2,109000,matched,311000222.0,9422005.0,243.0
 TNK,Garibaldi Spirit,GARIBALDI SPIRIT,aframax_lr2,109000,unmatched,,,
 TNK,Kmarin Reliance,KMARIN RELIANCE,aframax_lr2,109500,unmatched,,,
 TNK,Kmarin Renown,KMARIN RENOWN,aframax_lr2,109700,unmatched,,,
@@ -907,7 +907,7 @@ DSX,DSI Pyxis,DSI PYXIS,ultramax_supramax,60362,matched,538009163.0,9800635.0,20
 DSX,DSI Polaris,DSI POLARIS,ultramax_supramax,60404,matched,538008060.0,9738349.0,200.0
 DSX,DSI Pegasus,DSI PEGASUS,ultramax_supramax,60508,unmatched,,,
 DSX,DSI Aquarius,DSI AQUARIUS,ultramax_supramax,60309,unmatched,,,
-DSX,DSI Aquila,DSI AQUILA,ultramax_supramax,60309,unmatched,,,
+DSX,DSI Aquila,DSI AQUILA,ultramax_supramax,60309,matched,538006475.0,9729362.0,198.0
 DSX,DSI Altair,DSI ALTAIR,ultramax_supramax,60309,unmatched,,,
 DSX,DSI Andromeda,DSI ANDROMEDA,ultramax_supramax,60309,unmatched,,,
 DSX,LETO,LETO,kamsarmax_panamax,81297,matched,538005599.0,9397731.0,225.0
@@ -960,7 +960,7 @@ INSW,SEAWAYS HATTERAS,SEAWAYS HATTERAS,suezmax,158432,matched,538007597.0,973041
 INSW,SEAWAYS MONTAUK,SEAWAYS MONTAUK,suezmax,158432,unmatched,,,
 INSW,LOIRE,LOIRE,suezmax,157463,unmatched,,,
 INSW,SEAWAYS REYES,SEAWAYS REYES,aframax_lr2,113689,matched,538007126.0,9779939.0,250.0
-INSW,SEAWAYS YELLOWSTONE,SEAWAYS YELLOWSTONE,aframax_lr2,112989,unmatched,,,
+INSW,SEAWAYS YELLOWSTONE,SEAWAYS YELLOWSTONE,aframax_lr2,112989,matched,538003322.0,9394947.0,250.0
 INSW,SEAWAYS YOSEMITE,SEAWAYS YOSEMITE,aframax_lr2,112905,matched,538003450.0,9394959.0,250.0
 INSW,SEAWAYS REDWOOD,SEAWAYS REDWOOD,aframax_lr2,112792,unmatched,,,
 INSW,SEAWAYS SHENANDOAH,SEAWAYS SHENANDOAH,aframax_lr2,112691,unmatched,,,
