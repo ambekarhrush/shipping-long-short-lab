@@ -318,7 +318,7 @@ CMDB,FARMER,FARMER,kamsarmax_panamax,81541,matched,636020874.0,9589267.0,229.0
 CMDB,SAUVAN,SAUVAN,kamsarmax_panamax,79700,unmatched,,,
 CMDB,MERCHIA,MERCHIA,ultramax_supramax,63585,unmatched,,,
 CMDB,DAWN,DAWN,ultramax_supramax,63561,matched,636021018.0,9750440.0,200.0
-CMDB,SEABIRD (ii),SEABIRD,ultramax_supramax,63553,unmatched,,,
+CMDB,SEABIRD (ii),SEABIRD,ultramax_supramax,63553,matched,636020973.0,9707687.0,199.0
 CMDB,ORION (ii),ORION,ultramax_supramax,63473,unmatched,,,
 CMDB,DAMON (ii),DAMON,ultramax_supramax,63301,unmatched,,,
 CMDB,ARYA (ii),ARYA,ultramax_supramax,61424,matched,636023373.0,9667435.0,200.0
@@ -390,7 +390,7 @@ FRO,Front Forth,FRONT FORTH,vlcc,299300,unmatched,,,
 FRO,Front Spey,FRONT SPEY,vlcc,299500,matched,538012443.0,1087500.0,333.0
 FRO,Front Otra,FRONT OTRA,vlcc,300000,unmatched,,,
 FRO,Front Tay,FRONT TAY,vlcc,300000,unmatched,,,
-FRO,Front Dee,FRONT DEE,vlcc,300000,unmatched,,,
+FRO,Front Dee,FRONT DEE,vlcc,300000,matched,538012494.0,1133531.0,333.0
 FRO,Front Vefsna,FRONT VEFSNA,vlcc,297400,unmatched,,,
 FRO,Front Ull,FRONT ULL,suezmax,157000,unmatched,,,
 FRO,Front Idun,FRONT IDUN,suezmax,157000,unmatched,,,
@@ -408,7 +408,7 @@ FRO,Front Siena,FRONT SIENA,suezmax,157000,matched,477539900.0,9832250.0,275.0
 FRO,Front Singapore,FRONT SINGAPORE,suezmax,157000,matched,477539200.0,9832248.0,275.0
 FRO,Front Seoul,FRONT SEOUL,suezmax,157000,unmatched,,,
 FRO,Front Santiago,FRONT SANTIAGO,suezmax,157000,unmatched,,,
-FRO,Front Savannah,FRONT SAVANNAH,suezmax,157000,unmatched,,,
+FRO,Front Savannah,FRONT SAVANNAH,suezmax,157000,matched,477591400.0,9831828.0,275.0
 FRO,Front Suez,FRONT SUEZ,suezmax,157000,unmatched,,,
 FRO,Front Shanghai,FRONT SHANGHAI,suezmax,157000,matched,477539300.0,9832262.0,275.0
 FRO,Front Silkeborg,FRONT SILKEBORG,suezmax,157000,matched,477538800.0,9832274.0,275.0
@@ -797,7 +797,7 @@ HAFNI,Hafnia Lillesand,HAFNIA LILLESAND,aframax_lr2,109999,unmatched,,,
 HAFNI,Hafnia Loire,HAFNIA LOIRE,aframax_lr2,109999,unmatched,,,
 HAFNI,Hafnia Neso,HAFNIA NESO,aframax_lr2,109990,matched,563068700.0,9800312.0,250.0
 HAFNI,Hafnia Thalassa,HAFNIA THALASSA,aframax_lr2,109990,unmatched,,,
-HAFNI,Hafnia Triton,HAFNIA TRITON,aframax_lr2,109990,unmatched,,,
+HAFNI,Hafnia Triton,HAFNIA TRITON,aframax_lr2,109990,matched,563069300.0,9800336.0,250.0
 HAFNI,Hafnia Africa,HAFNIA AFRICA,lr1_panamax,74539,unmatched,,,
 HAFNI,Hafnia Asia,HAFNIA ASIA,lr1_panamax,74490,matched,248949000.0,9467809.0,228.0
 HAFNI,Hafnia Australia,HAFNIA AUSTRALIA,lr1_panamax,74539,matched,566245000.0,9467794.0,228.0
@@ -974,7 +974,7 @@ INSW,SEAWAYS BONITA,SEAWAYS BONITA,lr1_panamax,73600,unmatched,,,
 INSW,SEAWAYS CRISTOBAL,SEAWAYS CRISTOBAL,lr1_panamax,73600,matched,538011467.0,1049558.0,228.0
 INSW,SEAWAYS DELGADA,SEAWAYS DELGADA,lr1_panamax,73600,unmatched,,,
 INSW,SEAWAYS MAGELLAN,SEAWAYS MAGELLAN,lr1_panamax,73600,unmatched,,,
-INSW,SEAWAYS WAVE,SEAWAYS WAVE,mr,51549,unmatched,,,
+INSW,SEAWAYS WAVE,SEAWAYS WAVE,mr,51549,matched,538011487.0,9387918.0,183.0
 INSW,SEAWAYS CREST,SEAWAYS CREST,mr,51510,matched,538011237.0,9387920.0,183.0
 INSW,SEAWAYS MUSE,SEAWAYS MUSE,mr,51498,matched,538011488.0,9374301.0,183.0
 INSW,SEAWAYS MELINA,SEAWAYS MELINA,mr,51483,matched,538011713.0,9387944.0,183.0
