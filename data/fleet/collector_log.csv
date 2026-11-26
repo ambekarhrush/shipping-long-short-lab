@@ -160,3 +160,4 @@ utc,status,detail
 2026-11-25T08:48Z,error,TimeoutError: timed out during opening handshake
 2026-11-25T19:24Z,error,TimeoutError: timed out during opening handshake
 2026-11-26T03:02Z,ok,"{""messages"": 30965, ""static_kept"": 35, ""position_kept"": 39, ""tracked_mmsi"": 429}"
+2026-11-26T12:49Z,error,TimeoutError: timed out during opening handshake
