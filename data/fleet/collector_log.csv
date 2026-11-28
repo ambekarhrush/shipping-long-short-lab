@@ -166,3 +166,4 @@ utc,status,detail
 2026-11-27T15:13Z,error,TimeoutError: timed out during opening handshake
 2026-11-27T23:33Z,error,TimeoutError: timed out during opening handshake
 2026-11-28T08:00Z,error,TimeoutError: timed out during opening handshake
+2026-11-28T16:57Z,error,TimeoutError: timed out during opening handshake
